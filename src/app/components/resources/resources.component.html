@@ -1,0 +1,15 @@
+<div class="resources-container">
+  <h2>Wushu Resources</h2>
+  <p>Download official competition rules and judging methods:</p>
+
+  <div class="pdf-cards">
+    <div class="pdf-card" *ngFor="let pdf of pdfFiles">
+      <a [href]="pdf.path" download="{{pdf.name}}">
+        <div class="pdf-icon">
+          <img src="pdf.jpg" alt="PDF Icon">
+        </div>
+        <div class="pdf-name">{{pdf.name}}</div>
+      </a>
+    </div>
+  </div>
+</div>

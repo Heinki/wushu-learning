@@ -1,0 +1,47 @@
+@if (technique) {
+  <div class="technique-container">
+    <div class="back-button-container">
+      <button class="btn" (click)="navigateToJudgingCriteria()">Back to Judging Criteria</button>
+    </div>
+    <app-card [title]="technique.technique_name">
+      <div class="technique-content">
+        <div class="technique-category">
+          <h3>Category</h3>
+          <p>{{ technique.category }}</p>
+        </div>
+
+        <div class="technique-deductions">
+          <h3>Deduction Points</h3>
+          <ul>
+            @for (deduction of technique.deduction_content; track deduction) {
+              <li>{{ deduction }}</li>
+            }
+          </ul>
+        </div>
+
+        <div class="technique-code">
+          <p><strong>Technique Code:</strong> {{ technique.code }}</p>
+        </div>
+      </div>
+
+      <div card-footer>
+        <a routerLink="/practice" class="btn">Back to Practice</a>
+      </div>
+    </app-card>
+  </div>
+} @else if (loading) {
+  <div class="loading-container">
+    <app-card title="Loading...">
+      <p>Loading technique information...</p>
+    </app-card>
+  </div>
+} @else {
+  <div class="error-container">
+    <app-card title="Error">
+      <p>Could not find the requested technique. Please try again.</p>
+      <div card-footer>
+        <a routerLink="/practice" class="btn">Back to Practice</a>
+      </div>
+    </app-card>
+  </div>
+}

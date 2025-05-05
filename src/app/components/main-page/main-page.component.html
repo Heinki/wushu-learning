@@ -1,0 +1,38 @@
+<div class="main-container">
+  <header class="main-header">
+    <h1>Wushu Judges Learning Platform</h1>
+  </header>
+  <div class="content">
+    <div class="welcome-section">
+      <app-card title="Welcome to the Platform">
+        <p>This application is designed to help Wushu judges learn about different criteria, common mistakes, and how to properly deduct points during competitions.</p>
+        <p>Use the navigation menu to explore different sections of the application.</p>
+      </app-card>
+    </div>
+
+    <div class="features-section">
+      <div class="features-grid">
+        <app-card title="Judging Criteria" subtitle="Learn the official standards">
+          <p>Understand the detailed criteria used in Wushu competitions and how to apply them consistently.</p>
+          <div card-footer>
+            <a routerLink="/criteria" class="btn">Explore Criteria</a>
+          </div>
+        </app-card>
+
+        <app-card title="Practice Scenarios" subtitle="Test your knowledge">
+          <p>Practice your judging skills with real competition scenarios and get immediate feedback.</p>
+          <div card-footer>
+            <a routerLink="/practice" class="btn">Start Practice</a>
+          </div>
+        </app-card>
+
+        <app-card title="Common Mistakes" subtitle="Avoid judging errors">
+          <p>Learn about the most common mistakes made by judges and how to avoid them.</p>
+          <div card-footer>
+            <a routerLink="/mistakes" class="btn">View Mistakes</a>
+          </div>
+        </app-card>
+      </div>
+    </div>
+  </div>
+</div>

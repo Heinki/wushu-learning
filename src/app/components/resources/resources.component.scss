@@ -1,0 +1,58 @@
+.resources-container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 2rem;
+
+  h2 {
+    color: #2c3e50;
+    margin-bottom: 1rem;
+  }
+
+  p {
+    color: #7f8c8d;
+    margin-bottom: 2rem;
+  }
+
+  .pdf-cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 1.5rem;
+  }
+
+  .pdf-card {
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 1.5rem;
+    transition: transform 0.2s, box-shadow 0.2s;
+
+    &:hover {
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+    }
+
+    a {
+      display: flex;
+      align-items: center;
+      text-decoration: none;
+      color: #2c3e50;
+    }
+
+    .pdf-icon {
+      width: 48px;
+      height: 48px;
+      margin-right: 1rem;
+      color: #e74c3c;
+
+      img {
+        width: 100%;
+        height: 100%;
+        object-fit: contain;
+      }
+    }
+
+    .pdf-name {
+      flex: 1;
+      word-break: break-word;
+    }
+  }
+}

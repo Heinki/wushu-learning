@@ -1,8 +1,9 @@
 import { Component, OnInit } from '@angular/core';
 import { CommonModule } from '@angular/common';
-import { Router, RouterLink } from '@angular/router';
+import { Router } from '@angular/router';
 import { CardComponent } from '../card/card.component';
-import { TechniqueService, Technique } from '../../services/technique.service';
+import { TechniqueService } from '../../services/technique.service';
+import { TechniqueQuestionData } from '../../interfaces/question';
 
 @Component({
   selector: 'app-judging-criteria',
@@ -12,7 +13,7 @@ import { TechniqueService, Technique } from '../../services/technique.service';
   styleUrl: './judging-criteria.component.scss',
 })
 export class JudgingCriteriaComponent implements OnInit {
-  techniques: Technique[] = [];
+  techniques: TechniqueQuestionData[] = [];
   loading = true;
   error = false;
 
@@ -46,8 +47,8 @@ export class JudgingCriteriaComponent implements OnInit {
   /**
    * Group techniques by category
    */
-  get groupedTechniques(): { [category: string]: Technique[] } {
-    const grouped: { [category: string]: Technique[] } = {};
+  get groupedTechniques(): { [category: string]: TechniqueQuestionData[] } {
+    const grouped: { [category: string]: TechniqueQuestionData[] } = {};
 
     this.techniques.forEach((technique) => {
       if (!grouped[technique.category]) {

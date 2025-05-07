@@ -3,7 +3,8 @@ import { CommonModule } from '@angular/common';
 import { ActivatedRoute, Router, RouterLink } from '@angular/router';
 import { CardComponent } from '../card/card.component';
 import { switchMap } from 'rxjs';
-import { TechniqueService, Technique } from '../../services/technique.service';
+import { TechniqueService } from '../../services/technique.service';
+import { TechniqueQuestionData } from '../../interfaces/question';
 
 @Component({
   selector: 'app-technique-detail',
@@ -13,7 +14,7 @@ import { TechniqueService, Technique } from '../../services/technique.service';
   styleUrl: './technique-detail.component.scss',
 })
 export class TechniqueDetailComponent implements OnInit {
-  technique: Technique | null = null;
+  technique: TechniqueQuestionData | null = null;
   loading = true;
   error = false;
 

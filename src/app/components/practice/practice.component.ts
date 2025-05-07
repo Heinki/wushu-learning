@@ -4,6 +4,7 @@ import { FormsModule } from '@angular/forms';
 import { HttpClient } from '@angular/common/http';
 import { catchError, map } from 'rxjs/operators';
 import { forkJoin, of } from 'rxjs';
+import { TechniqueQuestionData } from '../../interfaces/question';
 
 @Component({
   selector: 'app-practice',
@@ -30,6 +31,7 @@ export class PracticeComponent {
   answerHistory: { question: string; correct: boolean; userAnswer: string }[] =
     [];
   showSummary: boolean = false;
+  currentTechniqueData: TechniqueQuestionData | null = null;
 
   constructor(private http: HttpClient) {}
 
@@ -97,6 +99,15 @@ export class PracticeComponent {
       next: (responses) => {
         responses.forEach((data) => {
           if (data && Array.isArray(data.questions)) {
+            // Keep reference to the full technique data
+            data.questions.forEach((q: any) => {
+              q.techniqueData = {
+                code: data.code,
+                technique_name: data.technique_name,
+                category: data.category,
+                deduction_points: data.deduction_content || [],
+              };
+            });
             this.questions = [...this.questions, ...data.questions];
           }
         });
@@ -155,6 +166,55 @@ export class PracticeComponent {
       correct: this.isCorrect,
       userAnswer: this.userAnswer,
     });
+
+    // If the answer is incorrect, record it as a mistake
+    if (!this.isCorrect && this.currentQuestion.techniqueData) {
+      this.saveMistake();
+    }
+  }
+
+  /**
+   * Save mistake to localStorage when a user answers incorrectly
+   */
+  saveMistake() {
+    if (!this.currentQuestion || !this.currentQuestion.techniqueData) return;
+
+    const techniqueData = this.currentQuestion.techniqueData;
+
+    // Create mistake object
+    const mistake = {
+      question: this.currentQuestion.question,
+      answer: this.currentQuestion.answer,
+      technique_code: techniqueData.code,
+      technique_name: techniqueData.technique_name,
+      category: techniqueData.category,
+      deduction_points: techniqueData.deduction_points,
+      count: 1,
+      original_technique_code: techniqueData.code,
+    };
+
+    // Get existing mistakes from localStorage
+    const mistakesJson = localStorage.getItem('wushu-mistakes');
+    let mistakes = mistakesJson ? JSON.parse(mistakesJson) : [];
+
+    // Check if this mistake already exists
+    const existingIndex = mistakes.findIndex(
+      (m: any) =>
+        m.technique_code === mistake.technique_code &&
+        m.question === mistake.question
+    );
+
+    if (existingIndex !== -1) {
+      // Increment count if mistake already exists
+      mistakes[existingIndex].count += 1;
+    } else {
+      // Add new mistake
+      mistakes.push(mistake);
+    }
+
+    // Save updated mistakes back to localStorage
+    localStorage.setItem('wushu-mistakes', JSON.stringify(mistakes));
+    console.log('Mistake saved:', mistake);
   }
 
   nextQuestion() {

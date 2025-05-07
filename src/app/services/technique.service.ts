@@ -1,20 +1,14 @@
 import { Injectable } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
 import { Observable, Subscriber, catchError, map, of } from 'rxjs';
-
-export interface Technique {
-  category: string;
-  technique_name: string;
-  deduction_content: string[];
-  code: string;
-}
+import { TechniqueQuestionData } from '../interfaces/question';
 
 @Injectable({
   providedIn: 'root',
 })
 export class TechniqueService {
   private directories = ['hand-forms', 'balance', 'leg-techniques'];
-  private techniqueCache = new Map<string, Technique>();
+  private techniqueCache = new Map<string, TechniqueQuestionData>();
 
   constructor(private http: HttpClient) {}
 
@@ -22,7 +16,7 @@ export class TechniqueService {
    * Get a technique by its code
    * @param code The technique code (e.g., '01', '02')
    */
-  getTechniqueByCode(code: string): Observable<Technique | null> {
+  getTechniqueByCode(code: string): Observable<TechniqueQuestionData | null> {
     // Check cache first
     if (this.techniqueCache.has(code)) {
       return of(this.techniqueCache.get(code) || null);
@@ -35,8 +29,8 @@ export class TechniqueService {
   /**
    * Get all available techniques
    */
-  getAllTechniques(): Observable<Technique[]> {
-    const allTechniques: Technique[] = [];
+  getAllTechniques(): Observable<TechniqueQuestionData[]> {
+    const allTechniques: TechniqueQuestionData[] = [];
 
     // Return cached techniques if we have them
     if (this.techniqueCache.size > 0) {
@@ -49,8 +43,8 @@ export class TechniqueService {
 
   private searchTechniqueInDirectories(
     code: string
-  ): Observable<Technique | null> {
-    return new Observable<Technique | null>((observer) => {
+  ): Observable<TechniqueQuestionData | null> {
+    return new Observable<TechniqueQuestionData | null>((observer) => {
       const filePaths: { dir: string; file: string }[] = [];
       let directoriesProcessed = 0;
 
@@ -78,7 +72,7 @@ export class TechniqueService {
   private processFiles(
     filePaths: { dir: string; file: string }[],
     code: string,
-    observer: Subscriber<Technique | null>
+    observer: Subscriber<TechniqueQuestionData | null>
   ) {
     if (filePaths.length === 0) {
       observer.next(null);
@@ -102,7 +96,7 @@ export class TechniqueService {
       )}`;
 
       this.http
-        .get<Technique>(url)
+        .get<TechniqueQuestionData>(url)
         .pipe(
           map((technique) => {
             if (technique && technique.code === code) {
@@ -126,9 +120,9 @@ export class TechniqueService {
     tryNextFile();
   }
 
-  private loadAllTechniques(): Observable<Technique[]> {
-    return new Observable<Technique[]>((observer) => {
-      const techniques: Technique[] = [];
+  private loadAllTechniques(): Observable<TechniqueQuestionData[]> {
+    return new Observable<TechniqueQuestionData[]>((observer) => {
+      const techniques: TechniqueQuestionData[] = [];
       const filePaths: { dir: string; file: string }[] = [];
       let directoriesProcessed = 0;
 
@@ -155,8 +149,8 @@ export class TechniqueService {
 
   private processAllFiles(
     filePaths: { dir: string; file: string }[],
-    techniques: Technique[],
-    observer: Subscriber<Technique[]>
+    techniques: TechniqueQuestionData[],
+    observer: Subscriber<TechniqueQuestionData[]>
   ) {
     if (filePaths.length === 0) {
       observer.next([]);
@@ -172,7 +166,7 @@ export class TechniqueService {
       )}`;
 
       this.http
-        .get<Technique>(url)
+        .get<TechniqueQuestionData>(url)
         .pipe(catchError(() => of(null)))
         .subscribe((technique) => {
           completedRequests++;

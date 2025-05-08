@@ -4,8 +4,8 @@ import { FormsModule } from '@angular/forms';
 import { HttpClient } from '@angular/common/http';
 import { catchError, map } from 'rxjs/operators';
 import { forkJoin, of } from 'rxjs';
-import { TechniqueQuestionData } from '../../interfaces/question';
-import { Question } from '../../interfaces/question';
+import { TechniqueQuestionData } from '../../interfaces/question.model';
+import { Question } from '../../interfaces/question.model';
 
 @Component({
   selector: 'app-practice',

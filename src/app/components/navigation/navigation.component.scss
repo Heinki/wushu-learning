@@ -35,6 +35,10 @@
         }
       }
     }
+
+    ~ .main-content {
+      margin-left: var(--sidenav-collapsed-margin, 70px);
+    }
   }
 
   &-header {

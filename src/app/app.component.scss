@@ -6,14 +6,9 @@
 }
 
 .main-content {
-  margin-left: 250px; /* Default width of the sidenav */
+  margin-left: 250px;
   flex: 1;
   overflow-y: auto;
   height: 100%;
   transition: margin-left var(--transition-speed);
-}
-
-/* Adjust main content when sidenav is collapsed */
-:host ::ng-deep .sidenav.collapsed ~ .main-content {
-  margin-left: 70px; /* Same as the collapsed width of sidenav */
 }

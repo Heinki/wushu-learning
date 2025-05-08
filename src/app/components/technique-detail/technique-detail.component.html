@@ -22,6 +22,18 @@
         <div class="technique-code">
           <p><strong>Technique Code:</strong> {{ technique.code }}</p>
         </div>
+
+        <div class="technique-questions">
+          <h3>Practice Questions</h3>
+          <ul>
+            @for (question of technique.questions; track question) {
+              <li>
+                <p class="question-text">{{ question.question }}</p>
+                <p class="answer-text">{{ question.answer }}</p>
+              </li>
+            }
+          </ul>
+        </div>
       </div>
 
       <div card-footer>

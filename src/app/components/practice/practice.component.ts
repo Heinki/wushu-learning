@@ -5,6 +5,7 @@ import { HttpClient } from '@angular/common/http';
 import { catchError, map } from 'rxjs/operators';
 import { forkJoin, of } from 'rxjs';
 import { TechniqueQuestionData } from '../../interfaces/question';
+import { Question } from '../../interfaces/question';
 
 @Component({
   selector: 'app-practice',
@@ -15,8 +16,8 @@ import { TechniqueQuestionData } from '../../interfaces/question';
 })
 export class PracticeComponent {
   categories = ['Balance', 'Hand Forms', 'Leg Techniques', 'All'];
-  questions: any[] = [];
-  currentQuestion: any;
+  questions: Question[] = [];
+  currentQuestion: Question | null = null;
   currentIndex = 0;
   totalQuestions = 0;
   userAnswer = '';
@@ -25,13 +26,14 @@ export class PracticeComponent {
   showOverview = true;
   answeredCount = 0;
   remainingCount = 0;
-  questionQueue: any[] = [];
+  questionQueue: Question[] = [];
   checkDisabled = false;
   showCorrectAnswer = false;
   answerHistory: { question: string; correct: boolean; userAnswer: string }[] =
     [];
   showSummary: boolean = false;
-  currentTechniqueData: TechniqueQuestionData | null = null;
+
+  private AMOUNT_OF_QUESTIONS: number = 15;
 
   constructor(private http: HttpClient) {}
 
@@ -41,7 +43,7 @@ export class PracticeComponent {
     this.currentQuestion = null;
     this.showOverview = false;
     this.answeredCount = 0;
-    this.remainingCount = 15;
+    this.remainingCount = this.AMOUNT_OF_QUESTIONS;
     this.questionQueue = [];
     this.checkDisabled = false;
     this.showCorrectAnswer = false;
@@ -86,21 +88,22 @@ export class PracticeComponent {
     this.questions = [];
     this.questionQueue = [];
     this.answeredCount = 0;
-    this.remainingCount = 15;
+    this.remainingCount = this.AMOUNT_OF_QUESTIONS;
     this.checkDisabled = false;
     this.showCorrectAnswer = false;
     this.answerHistory = [];
 
     const requests = files.map((file) =>
-      this.http.get<any>(file).pipe(catchError(() => of(null)))
+      this.http
+        .get<TechniqueQuestionData>(file)
+        .pipe(catchError(() => of(null)))
     );
 
     forkJoin(requests).subscribe({
       next: (responses) => {
         responses.forEach((data) => {
           if (data && Array.isArray(data.questions)) {
-            // Keep reference to the full technique data
-            data.questions.forEach((q: any) => {
+            data.questions.forEach((q: Question) => {
               q.techniqueData = {
                 code: data.code,
                 technique_name: data.technique_name,
@@ -111,8 +114,10 @@ export class PracticeComponent {
             this.questions = [...this.questions, ...data.questions];
           }
         });
-        // Shuffle and pick 15 random questions
-        this.questionQueue = this.shuffleArray(this.questions).slice(0, 15);
+        this.questionQueue = this.shuffleArray(this.questions).slice(
+          0,
+          this.AMOUNT_OF_QUESTIONS
+        );
         this.totalQuestions = this.questionQueue.length;
         this.answeredCount = 0;
         this.remainingCount = this.totalQuestions;
@@ -129,7 +134,7 @@ export class PracticeComponent {
 
   getNextQuestion() {
     if (this.questionQueue.length > 0) {
-      this.currentQuestion = this.questionQueue.shift();
+      this.currentQuestion = this.questionQueue.shift() ?? null;
       this.userAnswer = '';
       this.isCorrect = null;
       this.checkDisabled = false;
@@ -145,11 +150,8 @@ export class PracticeComponent {
     if (this.checkDisabled || !this.currentQuestion) return;
     const normalize = (str: string) => str.trim().toLowerCase();
     const tokenize = (str: string) => normalize(str).split(/\s+/);
-    const user = normalize(this.userAnswer);
-    const correct = normalize(this.currentQuestion.answer);
     const userTokens = tokenize(this.userAnswer);
     const correctTokens = tokenize(this.currentQuestion.answer);
-    // Token overlap: require at least 70% of correct tokens to be present in user answer
     let overlap = 0;
     correctTokens.forEach((token) => {
       if (userTokens.includes(token)) overlap++;
@@ -167,21 +169,16 @@ export class PracticeComponent {
       userAnswer: this.userAnswer,
     });
 
-    // If the answer is incorrect, record it as a mistake
     if (!this.isCorrect && this.currentQuestion.techniqueData) {
       this.saveMistake();
     }
   }
 
-  /**
-   * Save mistake to localStorage when a user answers incorrectly
-   */
   saveMistake() {
     if (!this.currentQuestion || !this.currentQuestion.techniqueData) return;
 
     const techniqueData = this.currentQuestion.techniqueData;
 
-    // Create mistake object
     const mistake = {
       question: this.currentQuestion.question,
       answer: this.currentQuestion.answer,
@@ -193,26 +190,21 @@ export class PracticeComponent {
       original_technique_code: techniqueData.code,
     };
 
-    // Get existing mistakes from localStorage
     const mistakesJson = localStorage.getItem('wushu-mistakes');
     let mistakes = mistakesJson ? JSON.parse(mistakesJson) : [];
 
-    // Check if this mistake already exists
     const existingIndex = mistakes.findIndex(
-      (m: any) =>
-        m.technique_code === mistake.technique_code &&
+      (m: Question) =>
+        m.techniqueData?.code === mistake.technique_code &&
         m.question === mistake.question
     );
 
     if (existingIndex !== -1) {
-      // Increment count if mistake already exists
       mistakes[existingIndex].count += 1;
     } else {
-      // Add new mistake
       mistakes.push(mistake);
     }
 
-    // Save updated mistakes back to localStorage
     localStorage.setItem('wushu-mistakes', JSON.stringify(mistakes));
     console.log('Mistake saved:', mistake);
   }
@@ -221,8 +213,7 @@ export class PracticeComponent {
     this.getNextQuestion();
   }
 
-  shuffleArray(array: any[]) {
-    // Fisher-Yates shuffle
+  shuffleArray(array: Question[]) {
     const arr = [...array];
     for (let i = arr.length - 1; i > 0; i--) {
       const j = Math.floor(Math.random() * (i + 1));

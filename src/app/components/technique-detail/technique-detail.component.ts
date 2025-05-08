@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { CommonModule } from '@angular/common';
-import { ActivatedRoute, Router, RouterLink } from '@angular/router';
+import { ActivatedRoute, Router } from '@angular/router';
 import { CardComponent } from '../card/card.component';
 import { switchMap } from 'rxjs';
 import { TechniqueService } from '../../services/technique.service';
@@ -9,7 +9,7 @@ import { TechniqueQuestionData } from '../../interfaces/question';
 @Component({
   selector: 'app-technique-detail',
   standalone: true,
-  imports: [CommonModule, CardComponent, RouterLink],
+  imports: [CommonModule, CardComponent],
   templateUrl: './technique-detail.component.html',
   styleUrl: './technique-detail.component.scss',
 })

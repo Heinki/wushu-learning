@@ -12,32 +12,19 @@ export class TechniqueService {
 
   constructor(private http: HttpClient) {}
 
-  /**
-   * Get a technique by its code
-   * @param code The technique code (e.g., '01', '02')
-   */
   getTechniqueByCode(code: string): Observable<TechniqueQuestionData | null> {
-    // Check cache first
     if (this.techniqueCache.has(code)) {
       return of(this.techniqueCache.get(code) || null);
     }
 
-    // Try to load from each directory
     return this.searchTechniqueInDirectories(code);
   }
 
-  /**
-   * Get all available techniques
-   */
   getAllTechniques(): Observable<TechniqueQuestionData[]> {
-    const allTechniques: TechniqueQuestionData[] = [];
-
-    // Return cached techniques if we have them
     if (this.techniqueCache.size > 0) {
       return of(Array.from(this.techniqueCache.values()));
     }
 
-    // Otherwise load from all directories
     return this.loadAllTechniques();
   }
 

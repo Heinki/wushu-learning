@@ -23,7 +23,6 @@ export class JudgingCriteriaComponent implements OnInit {
   ) {}
 
   ngOnInit(): void {
-    // Load all techniques
     this.techniqueService.getAllTechniques().subscribe({
       next: (techniques) => {
         this.techniques = techniques;
@@ -36,17 +35,10 @@ export class JudgingCriteriaComponent implements OnInit {
     });
   }
 
-  /**
-   * Navigate to a specific technique by code
-   * @param code The technique code
-   */
   navigateToTechnique(code: string): void {
     this.router.navigate(['/judging-criteria', code]);
   }
 
-  /**
-   * Group techniques by category
-   */
   get groupedTechniques(): { [category: string]: TechniqueQuestionData[] } {
     const grouped: { [category: string]: TechniqueQuestionData[] } = {};
 
@@ -60,9 +52,6 @@ export class JudgingCriteriaComponent implements OnInit {
     return grouped;
   }
 
-  /**
-   * Helper method to get object keys for use in template
-   */
   objectKeys(obj: any): string[] {
     return Object.keys(obj);
   }

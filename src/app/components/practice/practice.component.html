@@ -1,78 +1,99 @@
 <div class="practice-container">
-  <ng-container *ngIf="showOverview; else questionBlock">
+  @if (showOverview) {
     <h2>What would you like to practice?</h2>
     <div class="category-buttons">
-      <button
-        *ngFor="let category of categories"
-        (click)="selectCategory(category)"
-        class="category-button"
-      >
-        {{ category }}
-      </button>
+      @for (category of categories; track category) {
+        <button
+          (click)="selectCategory(category)"
+          class="category-button"
+        >
+          {{ category }}
+        </button>
+      }
     </div>
-  </ng-container>
+  } @else {
+    @if (isLoading) {
+      <div class="loading-indicator">
+        Loading questions...
+      </div>
+    }
+    @if (!isLoading && currentQuestion && !showSummary) {
+      <div class="question-container" [ngClass]="{ 'box-correct': isCorrect === true, 'box-incorrect': isCorrect === false }">
+        <div class="progress-indicator">
+          Question {{ currentIndex }} / {{ totalQuestions }}
+        </div>
 
-  <ng-template #questionBlock>
-    <div *ngIf="isLoading" class="loading-indicator">
-      Loading questions...
-    </div>
-    <div *ngIf="!isLoading && currentQuestion && !showSummary" class="question-container" [ngClass]="{ 'box-correct': isCorrect === true, 'box-incorrect': isCorrect === false }">
-      <div class="progress-indicator">
-        Question {{ currentIndex }} / {{ totalQuestions }}
-      </div>
+        <div class="question">
+          {{ currentQuestion.question }}
+        </div>
 
-      <div class="question">
-        {{ currentQuestion.question }}
-      </div>
+        <div class="answer-input" [class.correct]="isCorrect === true" [class.incorrect]="isCorrect === false">
+          <input
+            type="text"
+            [(ngModel)]="userAnswer"
+            placeholder="Your answer"
+            (keyup.enter)="checkAnswer()"
+            [disabled]="checkDisabled"
+          />
+          @if (!checkDisabled) {
+            <button (click)="checkAnswer()">Check</button>
+          }
+        </div>
+        @if (showCorrectAnswer && !isCorrect) {
+          <div class="correct-answer">
+            Correct answer: {{ currentQuestion.answer }}
+          </div>
+        }
 
-      <div class="answer-input" [class.correct]="isCorrect === true" [class.incorrect]="isCorrect === false">
-        <input
-          type="text"
-          [(ngModel)]="userAnswer"
-          placeholder="Your answer"
-          (keyup.enter)="checkAnswer()"
-          [disabled]="checkDisabled"
-        />
-        <button (click)="checkAnswer()" *ngIf="!checkDisabled">Check</button>
-      </div>
-      <div *ngIf="showCorrectAnswer && !isCorrect" class="correct-answer">
-        Correct answer: {{ currentQuestion.answer }}
-      </div>
 
-      <div *ngIf="isCorrect !== null" class="feedback">
-        <span *ngIf="isCorrect">Correct!</span>
-        <span *ngIf="!isCorrect">Incorrect. Try again!</span>
-        <button (click)="nextQuestion()">Next Question</button>
+      @if (isCorrect !== null) {
+        <div class="feedback">
+          @if (isCorrect) {
+            <span>Correct!</span>
+          } @else {
+            <span>Incorrect. Try again!</span>
+          }
+          <button (click)="nextQuestion()">Next Question</button>
+        </div>
+      }
+    </div>
+    } @if (!isLoading && !currentQuestion && totalQuestions === 0) {
+      <div class="no-questions-message">
+        <span>No questions available for this category.</span>
+        <button class="back-to-categories-btn" (click)="showOverview = true">Back to Categories</button>
       </div>
-    </div>
-    <div *ngIf="!isLoading && !currentQuestion && totalQuestions === 0" class="no-questions-message">
-      <span>No questions available for this category.</span>
-      <button class="back-to-categories-btn" (click)="showOverview = true">Back to Categories</button>
-    </div>
-    <div *ngIf="showSummary" class="summary-container">
-      <h3>Practice Summary</h3>
-      <table class="summary-table">
-        <thead>
-          <tr>
-            <th>#</th>
-            <th>Question</th>
-            <th>Your Answer</th>
-            <th>Result</th>
-          </tr>
-        </thead>
-        <tbody>
-          <tr *ngFor="let item of answerHistory; let i = index" [ngClass]="{ 'row-correct': item.correct, 'row-incorrect': !item.correct }">
-            <td>{{ i + 1 }}</td>
-            <td>{{ item.question }}</td>
-            <td>{{ item.userAnswer }}</td>
-            <td>
-              <span *ngIf="item.correct">Correct</span>
-              <span *ngIf="!item.correct">Incorrect</span>
-            </td>
-          </tr>
-        </tbody>
-      </table>
-      <button class="back-to-categories-btn" (click)="resetPractice()">Back to Categories</button>
-    </div>
-  </ng-template>
+    }
+    @if (showSummary) {
+      <div class="summary-container">
+        <h3>Practice Summary</h3>
+        <table class="summary-table">
+          <thead>
+            <tr>
+              <th>#</th>
+              <th>Question</th>
+              <th>Your Answer</th>
+              <th>Result</th>
+            </tr>
+          </thead>
+          <tbody>
+            @for (item of answerHistory; track item; let i = $index) {
+              <tr [ngClass]="{ 'row-correct': item.correct, 'row-incorrect': !item.correct }">
+                <td>{{ i + 1 }}</td>
+                <td>{{ item.question }}</td>
+                <td>{{ item.userAnswer }}</td>
+                <td>
+                  @if (item.correct) {
+                    <span>Correct</span>
+                  } @else {
+                    <span>Incorrect</span>
+                  }
+                </td>
+              </tr>
+            }
+          </tbody>
+        </table>
+        <button class="back-to-categories-btn" (click)="resetPractice()">Back to Categories</button>
+      </div>
+    }
+  }
 </div>

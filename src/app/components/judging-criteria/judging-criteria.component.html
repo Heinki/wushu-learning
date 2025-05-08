@@ -1,37 +1,42 @@
 <div class="practice-container card-container">
 
-  <div class="error-container" *ngIf="error">
-    <app-card title="Error">
-      <p>Could not load techniques. Please try again later.</p>
-    </app-card>
-  </div>
-
-  <div class="techniques-container" *ngIf="!loading && !error">
-    <ng-container *ngIf="techniques.length === 0">
-      <app-card title="No Techniques Found">
-        <p>No techniques are available at this time.</p>
+  @if (error) {
+    <div class="error-container">
+      <app-card title="Error">
+        <p>Could not load techniques. Please try again later.</p>
       </app-card>
-    </ng-container>
+    </div>
+  }
 
-    <ng-container *ngFor="let category of objectKeys(groupedTechniques)">
-      <div class="category-section">
-        <h2 class="category-title">{{ category }}</h2>
-        <div class="techniques-grid card-grid">
-          <app-card
-            *ngFor="let technique of groupedTechniques[category]"
-            [title]="technique.technique_name"
-            [subtitle]="'Code: ' + technique.code"
-            [hasFooter]="true"
-          >
-            <div class="technique-info">
-              <p class="deduction-points">{{ technique.deduction_content.length }} deduction point(s)</p>
-            </div>
-            <div card-footer>
-              <button class="btn" (click)="navigateToTechnique(technique.code)">View Details</button>
-            </div>
-          </app-card>
+  @if (!loading && !error) {
+    <div class="techniques-container">
+      @if (techniques.length === 0) {
+        <app-card title="No Techniques Found">
+          <p>No techniques are available at this time.</p>
+        </app-card>
+      }
+
+      @for (category of objectKeys(groupedTechniques); track category) {
+        <div class="category-section">
+          <h2 class="category-title">{{ category }}</h2>
+          <div class="techniques-grid card-grid">
+            @for (technique of groupedTechniques[category]; track technique.code) {
+              <app-card
+                [title]="technique.technique_name"
+                [subtitle]="'Code: ' + technique.code"
+                [hasFooter]="true"
+              >
+                <div class="technique-info">
+                  <p class="deduction-points">{{ technique.deduction_content }} deduction point(s)</p>
+                </div>
+                <div card-footer>
+                  <button class="btn" (click)="navigateToTechnique(technique.code)">View Details</button>
+                </div>
+              </app-card>
+            }
+          </div>
         </div>
-      </div>
-    </ng-container>
-  </div>
+      }
+    </div>
+  }
 </div>

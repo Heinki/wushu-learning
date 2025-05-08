@@ -1,40 +1,55 @@
 <div class="sidenav" [class.collapsed]="isCollapsed">
-  <div class="sidenav-header">
-    <h2 *ngIf="!isCollapsed">Wushu Learning</h2>
-    <h2 *ngIf="isCollapsed" class="collapsed-title">WL</h2>
+  <div class="sidenav-heade">
+    @if (!isCollapsed) {
+      <h2>Wushu Learning</h2>
+    } @else {
+      <h2 class="collapsed-title">WL</h2>
+    }
   </div>
   <div class="sidenav-content">
     <ul>
       <li>
         <a routerLink="/" routerLinkActive="active" [routerLinkActiveOptions]="{exact: true}">
-          <span *ngIf="!isCollapsed">Home</span>
+          @if (!isCollapsed) {
+            <span>Home</span>
+          }
         </a>
       </li>
-
       <li>
         <a routerLink="/judging-criteria" routerLinkActive="active">
-          <span *ngIf="!isCollapsed">Judging Criteria</span>
+          @if (!isCollapsed) {
+            <span>Judging Criteria</span>
+          }
         </a>
       </li>
       <li>
         <a routerLink="/mistakes" routerLinkActive="active">
-          <span *ngIf="!isCollapsed">Common Mistakes</span>
+          @if (!isCollapsed) {
+            <span>Common Mistakes</span>
+          }
         </a>
       </li>
       <li>
         <a routerLink="/practice" routerLinkActive="active">
-          <span *ngIf="!isCollapsed">Practice</span>
+          @if (!isCollapsed) {
+            <span>Practice</span>
+          }
         </a>
       </li>
       <li>
         <a routerLink="/resources" routerLinkActive="active">
-          <span *ngIf="!isCollapsed">Resources</span>
+          @if (!isCollapsed) {
+            <span>Resources</span>
+          }
         </a>
       </li>
     </ul>
   </div>
-  <div class="toggle-btn" (click)="toggleNavigation()">
-    <i *ngIf="isCollapsed" class="toggle-icon">➡️</i>
-    <i *ngIf="!isCollapsed" class="toggle-icon">⬅️</i>
-  </div>
+    <button class="toggle-btn" (click)="toggleNavigation()">
+      @if (isCollapsed) {
+        <i class="toggle-icon">➡️</i>
+      } @else {
+        <i class="toggle-icon">⬅️</i>
+      }
+    </button>
 </div>

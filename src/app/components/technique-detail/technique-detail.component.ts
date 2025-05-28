@@ -17,6 +17,7 @@ export class TechniqueDetailComponent implements OnInit {
   technique: TechniqueQuestionData | null = null;
   loading = true;
   error = false;
+  activeIndex: number | null = null;
 
   constructor(
     private route: ActivatedRoute,
@@ -24,11 +25,12 @@ export class TechniqueDetailComponent implements OnInit {
     private techniqueService: TechniqueService
   ) {}
 
-  /**
-   * Navigate back to judging criteria
-   */
   navigateToJudgingCriteria(): void {
     this.router.navigate(['/judging-criteria']);
+  }
+
+  toggleAccordion(index: number): void {
+    this.activeIndex = this.activeIndex === index ? null : index;
   }
 
   ngOnInit(): void {

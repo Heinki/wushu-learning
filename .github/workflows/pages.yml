@@ -17,11 +17,14 @@ jobs:
         with:
           node-version: "20"
 
+      - name: Install pnpm
+        run: npm install -g pnpm
+
       - name: Install dependencies
-        run: npm ci
+        run: pnpm install
 
       - name: Build Angular app
-        run: npx ng build --output-path docs --base-href /wushu-learning/
+        run: pnpm ng build --output-path docs --base-href /wushu-learning/
 
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v4

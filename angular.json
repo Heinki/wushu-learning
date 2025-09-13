@@ -28,12 +28,13 @@
             "assets": [
               {
                 "glob": "**/*",
-                "input": "public"
+                "input": "public",
+                "output": "/"
               },
               {
-                "glob": "**/*.json",
-                "input": "src/assets/data",
-                "output": "assets/data"
+                "glob": "**/*",
+                "input": "src/assets",
+                "output": "/assets"
               }
             ],
             "styles": [
@@ -55,7 +56,8 @@
                   "maximumError": "8kB"
                 }
               ],
-              "outputHashing": "all"
+              "outputHashing": "all",
+              "outputPath": "docs"
             },
             "development": {
               "optimization": false,
@@ -92,12 +94,13 @@
             "assets": [
               {
                 "glob": "**/*",
-                "input": "public"
+                "input": "public",
+                "output": "/"
               },
               {
-                "glob": "**/*.json",
-                "input": "src/assets/data",
-                "output": "assets/data"
+                "glob": "**/*",
+                "input": "src/assets",
+                "output": "/assets"
               }
             ],
             "styles": [

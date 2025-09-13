@@ -1,0 +1,26 @@
+{
+  "category": "腿法 Leg Techniques",
+  "technique_name": "弹腿 Tán Tuí (Snap/Spring Kick)",
+  "deduction_content": [
+    "弹（蹬、蹬）腿由腰到伸摆动小于45° - The kicking leg does not transit from obvious bent (45° or more) to completely straight"
+  ],
+  "code": "23",
+  "questions": [
+    {
+      "question": "What is the error code for Tán Tuí (Snap/Spring Kick)?",
+      "answer": "23"
+    },
+    {
+      "question": "What is the main deduction point for Tán Tuí?",
+      "answer": "A deduction is applied when the kicking leg does not transit from obvious bent (45° or more) to completely straight."
+    },
+    {
+      "question": "What is the minimum angle requirement for the kicking leg in Tán Tuí?",
+      "answer": "The kicking leg must bend at least 45° before transitioning to completely straight."
+    },
+    {
+      "question": "What is the correct execution of Tán Tuí?",
+      "answer": "The kicking leg should transition from an obviously bent position (45° or more) to completely straight in a snapping motion."
+    }
+  ]
+}

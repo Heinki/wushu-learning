@@ -73,11 +73,16 @@ export class PracticeComponent {
 
     if (originalCategory === 'All') {
       const subCategories = ['balance', 'hand-forms', 'leg-techniques'];
+      const currentLang = this.translate.currentLang || 'en';
       const requests = subCategories.map((cat) =>
-        this.http.get<string[]>(`assets/data/${cat}/index.json`).pipe(
-          map((files) => files.map((file) => `assets/data/${cat}/${file}`)),
-          catchError(() => of([]))
-        )
+        this.http
+          .get<string[]>(`assets/data/${currentLang}/${cat}/index.json`)
+          .pipe(
+            map((files) =>
+              files.map((file) => `assets/data/${currentLang}/${cat}/${file}`)
+            ),
+            catchError(() => of([]))
+          )
       );
 
       forkJoin(requests).subscribe((responses) => {
@@ -85,7 +90,8 @@ export class PracticeComponent {
         this.loadQuestions(allFiles);
       });
     } else {
-      const path = `assets/data/${originalCategory
+      const currentLang = this.translate.currentLang || 'en';
+      const path = `assets/data/${currentLang}/${originalCategory
         .toLowerCase()
         .replace(' ', '-')}/index.json`;
       this.http
@@ -94,7 +100,7 @@ export class PracticeComponent {
           map((files) =>
             files.map(
               (file) =>
-                `assets/data/${originalCategory
+                `assets/data/${currentLang}/${originalCategory
                   .toLowerCase()
                   .replace(' ', '-')}/${file}`
             )

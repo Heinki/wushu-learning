@@ -1,0 +1,23 @@
+{
+  "category": "手型",
+  "technique_name": "勾手",
+  "deduction_content": [
+    "五指未捏拢",
+    "腕末屈"
+  ],
+  "code": "03",
+  "questions": [
+    {
+      "question": "勾手的错误代码是什么？",
+      "answer": "03"
+    },
+    {
+      "question": "勾手的主要扣分点是什么？",
+      "answer": "扣分适用于：1) 五指未捏拢，2) 腕末屈。"
+    },
+    {
+      "question": "在正确的勾手中，手指和手腕应该如何定位？",
+      "answer": "五指应该捏拢，手腕应该完全弯曲。"
+    }
+  ]
+}

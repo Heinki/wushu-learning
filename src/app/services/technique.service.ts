@@ -1,7 +1,8 @@
-import { Injectable } from '@angular/core';
+import { Injectable, inject } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
 import { Observable, forkJoin, map, of, switchMap } from 'rxjs';
 import { TechniqueQuestionData } from '../interfaces/question';
+import { TranslateService } from '@ngx-translate/core';
 
 @Injectable({
   providedIn: 'root',
@@ -9,6 +10,7 @@ import { TechniqueQuestionData } from '../interfaces/question';
 export class TechniqueService {
   private readonly directories = ['hand-forms', 'balance', 'leg-techniques'];
   private techniqueCache = new Map<string, TechniqueQuestionData>();
+  private translate = inject(TranslateService);
 
   constructor(private http: HttpClient) {}
 
@@ -24,6 +26,10 @@ export class TechniqueService {
       return of(Array.from(this.techniqueCache.values()));
     }
     return this.fetchAllTechniques();
+  }
+
+  clearCache(): void {
+    this.techniqueCache.clear();
   }
 
   private fetchTechniqueByCode(
@@ -75,17 +81,21 @@ export class TechniqueService {
   }
 
   private getDirectoryFiles(dir: string): Observable<string[]> {
-    const url = `assets/data/${encodeURIComponent(dir)}/index.json`;
+    const currentLang = this.translate.currentLang || 'en';
+    const url = `assets/data/${currentLang}/${encodeURIComponent(
+      dir
+    )}/index.json`;
     return this.http.get<string[]>(url).pipe(map((files) => files || []));
   }
 
   private createTechniqueRequests(
     filePaths: Array<{ dir: string; file: string }>
   ): Observable<TechniqueQuestionData | null>[] {
+    const currentLang = this.translate.currentLang || 'en';
     return filePaths.map(({ dir, file }) => {
-      const url = `assets/data/${encodeURIComponent(dir)}/${encodeURIComponent(
-        file
-      )}`;
+      const url = `assets/data/${currentLang}/${encodeURIComponent(
+        dir
+      )}/${encodeURIComponent(file)}`;
       return this.http
         .get<TechniqueQuestionData>(url)
         .pipe(map((technique) => technique || null));

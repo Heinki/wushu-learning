@@ -4,11 +4,12 @@ import { Router } from '@angular/router';
 import { CardComponent } from '../card/card.component';
 import { TechniqueService } from '../../services/technique.service';
 import { TechniqueQuestionData } from '../../interfaces/question';
+import { TranslateModule } from '@ngx-translate/core';
 
 @Component({
   selector: 'app-judging-criteria',
   standalone: true,
-  imports: [CommonModule, CardComponent],
+  imports: [CommonModule, CardComponent, TranslateModule],
   templateUrl: './judging-criteria.component.html',
   styleUrl: './judging-criteria.component.scss',
 })

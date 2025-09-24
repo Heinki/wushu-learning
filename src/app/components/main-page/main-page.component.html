@@ -1,35 +1,35 @@
 <div class="main-container">
   <header class="main-header">
-    <h1>Wushu Judges Learning Platform</h1>
+    <h1>{{ 'mainPage.title' | translate }}</h1>
   </header>
   <div class="content">
     <div class="welcome-section">
-      <app-card title="Welcome to the Platform">
-        <p>This application is designed to help Wushu judges learn about different criteria, common mistakes, and how to properly deduct points during competitions.</p>
-        <p>Use the navigation menu to explore different sections of the application.</p>
+      <app-card [title]="'mainPage.welcome.title' | translate">
+        <p>{{ 'mainPage.welcome.description1' | translate }}</p>
+        <p>{{ 'mainPage.welcome.description2' | translate }}</p>
       </app-card>
     </div>
 
     <div class="features-section">
       <div class="features-grid">
-        <app-card title="Judging Criteria" subtitle="Learn the official standards">
-          <p>Understand the detailed criteria used in Wushu competitions and how to apply them consistently.</p>
+        <app-card [title]="'mainPage.features.judgingCriteria.title' | translate" [subtitle]="'mainPage.features.judgingCriteria.subtitle' | translate">
+          <p>{{ 'mainPage.features.judgingCriteria.description' | translate }}</p>
           <div card-footer>
-            <a routerLink="/criteria" class="btn">Explore Criteria</a>
+            <a routerLink="/criteria" class="btn">{{ 'mainPage.features.judgingCriteria.button' | translate }}</a>
           </div>
         </app-card>
 
-        <app-card title="Practice Scenarios" subtitle="Test your knowledge">
-          <p>Practice your judging skills with real competition scenarios and get immediate feedback.</p>
+        <app-card [title]="'mainPage.features.practice.title' | translate" [subtitle]="'mainPage.features.practice.subtitle' | translate">
+          <p>{{ 'mainPage.features.practice.description' | translate }}</p>
           <div card-footer>
-            <a routerLink="/practice" class="btn">Start Practice</a>
+            <a routerLink="/practice" class="btn">{{ 'mainPage.features.practice.button' | translate }}</a>
           </div>
         </app-card>
 
-        <app-card title="Common Mistakes" subtitle="Avoid judging errors">
-          <p>Look up your current mistakes during practice</p>
+        <app-card [title]="'mainPage.features.mistakes.title' | translate" [subtitle]="'mainPage.features.mistakes.subtitle' | translate">
+          <p>{{ 'mainPage.features.mistakes.description' | translate }}</p>
           <div card-footer>
-            <a routerLink="/mistakes" class="btn">View Mistakes</a>
+            <a routerLink="/mistakes" class="btn">{{ 'mainPage.features.mistakes.button' | translate }}</a>
           </div>
         </app-card>
       </div>

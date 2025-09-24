@@ -1,17 +1,17 @@
 @if (technique) {
   <div class="technique-container">
     <div class="back-button-container">
-      <button class="btn" (click)="navigateToJudgingCriteria()">Back to Judging Criteria</button>
+      <button class="btn" (click)="navigateToJudgingCriteria()">{{ 'techniqueDetail.backToCriteria' | translate }}</button>
     </div>
     <app-card [title]="technique.technique_name">
       <div class="technique-content">
         <div class="technique-category">
-          <h3>Category</h3>
+          <h3>{{ 'techniqueDetail.category' | translate }}</h3>
           <p>{{ technique.category }}</p>
         </div>
 
         <div class="technique-deductions">
-          <h3>Deduction Points</h3>
+          <h3>{{ 'techniqueDetail.deductionPoints' | translate }}</h3>
           <ul>
             @for (deduction of technique.deduction_content; track deduction) {
               <li>{{ deduction }}</li>
@@ -20,11 +20,11 @@
         </div>
 
         <div class="technique-code">
-          <p><strong>Technique Code:</strong> {{ technique.code }}</p>
+          <p><strong>{{ 'techniqueDetail.techniqueCode' | translate }}</strong> {{ technique.code }}</p>
         </div>
 
         <div class="technique-questions">
-          <h3>Practice Questions</h3>
+          <h3>{{ 'techniqueDetail.practiceQuestions' | translate }}</h3>
           <div class="accordion">
             @for (question of technique.questions; track question; let i = $index) {
               <div class="accordion-item" [ngClass]="{'active': activeIndex === i}">
@@ -42,22 +42,22 @@
       </div>
 
       <div card-footer>
-        <a routerLink="/practice" class="btn">Back to Practice</a>
+        <a routerLink="/practice" class="btn">{{ 'techniqueDetail.backToPractice' | translate }}</a>
       </div>
     </app-card>
   </div>
 } @else if (loading) {
   <div class="loading-container">
-    <app-card title="Loading...">
-      <p>Loading technique information...</p>
+    <app-card [title]="'techniqueDetail.loading' | translate">
+      <p>{{ 'techniqueDetail.loadingMessage' | translate }}</p>
     </app-card>
   </div>
 } @else {
   <div class="error-container">
-    <app-card title="Error">
-      <p>Could not find the requested technique. Please try again.</p>
+    <app-card [title]="'techniqueDetail.error' | translate">
+      <p>{{ 'techniqueDetail.errorMessage' | translate }}</p>
       <div card-footer>
-        <a routerLink="/practice" class="btn">Back to Practice</a>
+        <a routerLink="/practice" class="btn">{{ 'techniqueDetail.backToPractice' | translate }}</a>
       </div>
     </app-card>
   </div>

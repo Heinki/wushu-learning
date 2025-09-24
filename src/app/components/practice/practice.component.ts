@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, inject } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { FormsModule } from '@angular/forms';
 import { HttpClient } from '@angular/common/http';
@@ -6,16 +6,37 @@ import { catchError, map } from 'rxjs/operators';
 import { forkJoin, of } from 'rxjs';
 import { TechniqueQuestionData } from '../../interfaces/question.model';
 import { Question } from '../../interfaces/question.model';
+import { TranslateModule, TranslateService } from '@ngx-translate/core';
 
 @Component({
   selector: 'app-practice',
   standalone: true,
-  imports: [CommonModule, FormsModule],
+  imports: [CommonModule, FormsModule, TranslateModule],
   templateUrl: './practice.component.html',
   styleUrl: './practice.component.scss',
 })
 export class PracticeComponent {
-  categories = ['Balance', 'Hand Forms', 'Leg Techniques', 'All'];
+  private translate = inject(TranslateService);
+
+  private categoryKeys = ['Balance', 'Hand Forms', 'Leg Techniques', 'All'];
+
+  get categories(): string[] {
+    return this.categoryKeys.map((key) => {
+      switch (key) {
+        case 'Balance':
+          return this.translate.instant('practice.categories.balance');
+        case 'Hand Forms':
+          return this.translate.instant('practice.categories.handForms');
+        case 'Leg Techniques':
+          return this.translate.instant('practice.categories.legTechniques');
+        case 'All':
+          return this.translate.instant('practice.categories.all');
+        default:
+          return key;
+      }
+    });
+  }
+
   questions: Question[] = [];
   currentQuestion: Question | null = null;
   currentIndex = 0;
@@ -37,7 +58,9 @@ export class PracticeComponent {
 
   constructor(private http: HttpClient) {}
 
-  selectCategory(category: string) {
+  selectCategory(translatedCategory: string) {
+    const originalCategory = this.getOriginalCategoryKey(translatedCategory);
+
     this.isLoading = true;
     this.questions = [];
     this.currentQuestion = null;
@@ -48,7 +71,7 @@ export class PracticeComponent {
     this.checkDisabled = false;
     this.showCorrectAnswer = false;
 
-    if (category === 'All') {
+    if (originalCategory === 'All') {
       const subCategories = ['balance', 'hand-forms', 'leg-techniques'];
       const requests = subCategories.map((cat) =>
         this.http.get<string[]>(`assets/data/${cat}/index.json`).pipe(
@@ -62,7 +85,7 @@ export class PracticeComponent {
         this.loadQuestions(allFiles);
       });
     } else {
-      const path = `assets/data/${category
+      const path = `assets/data/${originalCategory
         .toLowerCase()
         .replace(' ', '-')}/index.json`;
       this.http
@@ -71,7 +94,7 @@ export class PracticeComponent {
           map((files) =>
             files.map(
               (file) =>
-                `assets/data/${category
+                `assets/data/${originalCategory
                   .toLowerCase()
                   .replace(' ', '-')}/${file}`
             )
@@ -81,6 +104,21 @@ export class PracticeComponent {
         .subscribe((files) => {
           this.loadQuestions(files);
         });
+    }
+  }
+
+  private getOriginalCategoryKey(translatedCategory: string): string {
+    switch (translatedCategory) {
+      case this.translate.instant('practice.categories.balance'):
+        return 'Balance';
+      case this.translate.instant('practice.categories.handForms'):
+        return 'Hand Forms';
+      case this.translate.instant('practice.categories.legTechniques'):
+        return 'Leg Techniques';
+      case this.translate.instant('practice.categories.all'):
+        return 'All';
+      default:
+        return translatedCategory;
     }
   }
 

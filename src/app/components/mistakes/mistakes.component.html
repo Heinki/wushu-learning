@@ -1,22 +1,22 @@
 <div class="mistakes-container card-container">
   <div class="header">
-    <h2>Common Mistakes</h2>
+    <h2>{{ 'mistakes.title' | translate }}</h2>
     @if (mistakes.length > 0) {
-      <button class="clear-btn" (click)="clearAllMistakes()">Clear All</button>
+      <button class="clear-btn" (click)="clearAllMistakes()">{{ 'mistakes.clearAll' | translate }}</button>
     }
   </div>
 
   @if (loading) {
     <div class="loading-indicator">
-      Loading mistakes...
+      {{ 'mistakes.loading' | translate }}
     </div>
   }
 
   @if (!loading && mistakes.length === 0) {
     <div class="no-mistakes">
-      <app-card title="No Mistakes Tracked">
-        <p>You haven't made any mistakes during practice yet, or they have been cleared.</p>
-        <p class="storage-notice"><i>Note: Mistake data is stored locally in your browser. If you clear your browser data or cookies, this information will also be deleted.</i></p>
+      <app-card [title]="'mistakes.noMistakes.title' | translate">
+        <p>{{ 'mistakes.noMistakes.description1' | translate }}</p>
+        <p class="storage-notice"><i>{{ 'mistakes.noMistakes.description2' | translate }}</i></p>
       </app-card>
     </div>
   }
@@ -30,15 +30,15 @@
             @for (mistake of groupedMistakes[category]; track mistake.technique_code) {
               <app-card
                 [title]="mistake.technique_name"
-                [subtitle]="'Code: ' + mistake.technique_code + ' | Mistakes: ' + mistake.count"
+                [subtitle]="('mistakes.mistakeInfo.code' | translate) + ' ' + mistake.technique_code + ' | ' + ('mistakes.mistakeInfo.mistakes' | translate) + ' ' + mistake.count"
                 [hasFooter]="true"
               >
                 <div class="mistake-info">
-                  <p class="question"><strong>Question:</strong> {{ mistake.question }}</p>
-                  <p class="answer"><strong>Answer:</strong> {{ mistake.answer }}</p>
+                  <p class="question"><strong>{{ 'mistakes.mistakeInfo.question' | translate }}</strong> {{ mistake.question }}</p>
+                  <p class="answer"><strong>{{ 'mistakes.mistakeInfo.answer' | translate }}</strong> {{ mistake.answer }}</p>
                 </div>
                 <div card-footer class="card-footer-buttons">
-                  <button class="btn primary-btn" (click)="navigateToTechnique(mistake.technique_code)">View Details</button>
+                  <button class="btn primary-btn" (click)="navigateToTechnique(mistake.technique_code)">{{ 'mistakes.mistakeInfo.viewDetails' | translate }}</button>
                 </div>
               </app-card>
             }

@@ -2,8 +2,8 @@
 
   @if (error) {
     <div class="error-container">
-      <app-card title="Error">
-        <p>Could not load techniques. Please try again later.</p>
+      <app-card [title]="'judgingCriteria.error' | translate">
+        <p>{{ 'judgingCriteria.errorMessage' | translate }}</p>
       </app-card>
     </div>
   }
@@ -11,8 +11,8 @@
   @if (!loading && !error) {
     <div class="techniques-container">
       @if (techniques.length === 0) {
-        <app-card title="No Techniques Found">
-          <p>No techniques are available at this time.</p>
+        <app-card [title]="'judgingCriteria.noTechniques' | translate">
+          <p>{{ 'judgingCriteria.noTechniquesMessage' | translate }}</p>
         </app-card>
       }
 
@@ -23,14 +23,14 @@
             @for (technique of groupedTechniques[category]; track technique.code) {
               <app-card
                 [title]="technique.technique_name"
-                [subtitle]="'Code: ' + technique.code"
+                [subtitle]="('judgingCriteria.code' | translate) + ' ' + technique.code"
                 [hasFooter]="true"
               >
                 <div class="technique-info">
-                  <p class="deduction-points">{{ technique.deduction_content }} deduction point(s)</p>
+                  <p class="deduction-points">{{ technique.deduction_content }} {{ 'judgingCriteria.deductionPoints' | translate }}</p>
                 </div>
                 <div card-footer>
-                  <button class="btn" (click)="navigateToTechnique(technique.code)">View Details</button>
+                  <button class="btn" (click)="navigateToTechnique(technique.code)">{{ 'judgingCriteria.viewDetails' | translate }}</button>
                 </div>
               </app-card>
             }

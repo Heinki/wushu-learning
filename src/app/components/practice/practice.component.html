@@ -1,6 +1,6 @@
 <div class="practice-container">
   @if (showOverview) {
-    <h2>What would you like to practice?</h2>
+    <h2>{{ 'practice.title' | translate }}</h2>
     <div class="category-buttons">
       @for (category of categories; track category) {
         <button
@@ -14,13 +14,13 @@
   } @else {
     @if (isLoading) {
       <div class="loading-indicator">
-        Loading questions...
+        {{ 'practice.loading' | translate }}
       </div>
     }
     @if (!isLoading && currentQuestion && !showSummary) {
       <div class="question-container" [ngClass]="{ 'box-correct': isCorrect === true, 'box-incorrect': isCorrect === false }">
         <div class="progress-indicator">
-          Question {{ currentIndex }} / {{ totalQuestions }}
+          {{ 'practice.progress' | translate }} {{ currentIndex }} {{ 'practice.of' | translate }} {{ totalQuestions }}
         </div>
 
         <div class="question">
@@ -31,17 +31,17 @@
           <input
             type="text"
             [(ngModel)]="userAnswer"
-            placeholder="Your answer"
+            [placeholder]="'practice.yourAnswer' | translate"
             (keyup.enter)="checkAnswer()"
             [disabled]="checkDisabled"
           />
           @if (!checkDisabled) {
-            <button (click)="checkAnswer()">Check</button>
+            <button (click)="checkAnswer()">{{ 'practice.check' | translate }}</button>
           }
         </div>
         @if (showCorrectAnswer && !isCorrect) {
           <div class="correct-answer">
-            Correct answer: {{ currentQuestion.answer }}
+            {{ 'practice.correctAnswer' | translate }} {{ currentQuestion.answer }}
           </div>
         }
 
@@ -49,30 +49,30 @@
       @if (isCorrect !== null) {
         <div class="feedback">
           @if (isCorrect) {
-            <span>Correct!</span>
+            <span>{{ 'practice.correct' | translate }}</span>
           } @else {
-            <span>Incorrect. Try again!</span>
+            <span>{{ 'practice.incorrect' | translate }}</span>
           }
-          <button (click)="nextQuestion()">Next Question</button>
+          <button (click)="nextQuestion()">{{ 'practice.nextQuestion' | translate }}</button>
         </div>
       }
     </div>
     } @if (!isLoading && !currentQuestion && totalQuestions === 0) {
       <div class="no-questions-message">
-        <span>No questions available for this category.</span>
-        <button class="back-to-categories-btn" (click)="showOverview = true">Back to Categories</button>
+        <span>{{ 'practice.noQuestions' | translate }}</span>
+        <button class="back-to-categories-btn" (click)="showOverview = true">{{ 'practice.backToCategories' | translate }}</button>
       </div>
     }
     @if (showSummary) {
       <div class="summary-container">
-        <h3>Practice Summary</h3>
+        <h3>{{ 'practice.summary.title' | translate }}</h3>
         <table class="summary-table">
           <thead>
             <tr>
               <th>#</th>
-              <th>Question</th>
-              <th>Your Answer</th>
-              <th>Result</th>
+              <th>{{ 'practice.summary.question' | translate }}</th>
+              <th>{{ 'practice.summary.yourAnswer' | translate }}</th>
+              <th>{{ 'practice.summary.result' | translate }}</th>
             </tr>
           </thead>
           <tbody>
@@ -83,16 +83,16 @@
                 <td>{{ item.userAnswer }}</td>
                 <td>
                   @if (item.correct) {
-                    <span>Correct</span>
+                    <span>{{ 'practice.summary.correct' | translate }}</span>
                   } @else {
-                    <span>Incorrect</span>
+                    <span>{{ 'practice.summary.incorrect' | translate }}</span>
                   }
                 </td>
               </tr>
             }
           </tbody>
         </table>
-        <button class="back-to-categories-btn" (click)="resetPractice()">Back to Categories</button>
+        <button class="back-to-categories-btn" (click)="resetPractice()">{{ 'practice.backToCategories' | translate }}</button>
       </div>
     }
   }

@@ -6,7 +6,18 @@
 <div class="sidenav" [class.collapsed]="isCollapsed">
   <div class="sidenav-header">
     @if (!isCollapsed) {
-      <h2>Wushu Learning</h2>
+      <h2>
+        {{ 'app.title' | translate }}
+        <span class="lang-switch">
+          <button [attr.aria-label]="'lang.select' | translate" (click)="showStances = !showStances">{{ currentLang.toUpperCase() }}</button>
+          @if (showStances) {
+            <ul class="lang-dropdown">
+              <li><button (click)="changeLang('en'); showStances = false">{{ 'lang.english' | translate }}</button></li>
+              <li><button (click)="changeLang('zh'); showStances = false">{{ 'lang.chinese' | translate }}</button></li>
+            </ul>
+          }
+        </span>
+      </h2>
     } @else {
       <h2 class="collapsed-title">WL</h2>
     }
@@ -16,35 +27,35 @@
       <li>
         <a routerLink="/" routerLinkActive="active" [routerLinkActiveOptions]="{exact: true}">
           @if (!isCollapsed) {
-            <span>Home</span>
+            <span>{{ 'nav.home' | translate }}</span>
           }
         </a>
       </li>
       <li>
         <a routerLink="/judging-criteria" routerLinkActive="active">
           @if (!isCollapsed) {
-            <span>Judging Criteria</span>
+            <span>{{ 'nav.judgingCriteria' | translate }}</span>
           }
         </a>
       </li>
       <li>
         <a routerLink="/mistakes" routerLinkActive="active">
           @if (!isCollapsed) {
-            <span>Common Mistakes</span>
+            <span>{{ 'nav.commonMistakes' | translate }}</span>
           }
         </a>
       </li>
       <li>
         <a routerLink="/practice" routerLinkActive="active">
           @if (!isCollapsed) {
-            <span>Practice</span>
+            <span>{{ 'nav.practice' | translate }}</span>
           }
         </a>
       </li>
       <li>
         <a routerLink="/resources" routerLinkActive="active">
           @if (!isCollapsed) {
-            <span>Resources</span>
+            <span>{{ 'nav.resources' | translate }}</span>
           }
         </a>
       </li>

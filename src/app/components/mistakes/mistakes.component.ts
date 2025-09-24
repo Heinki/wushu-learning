@@ -3,11 +3,12 @@ import { CommonModule } from '@angular/common';
 import { Router } from '@angular/router';
 import { CardComponent } from '../card/card.component';
 import { MistakeItem } from '../../interfaces/question';
+import { TranslateModule } from '@ngx-translate/core';
 
 @Component({
   selector: 'app-mistakes',
   standalone: true,
-  imports: [CommonModule, CardComponent],
+  imports: [CommonModule, CardComponent, TranslateModule],
   templateUrl: './mistakes.component.html',
   styleUrl: './mistakes.component.scss',
 })

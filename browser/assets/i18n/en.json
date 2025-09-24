@@ -1,0 +1,121 @@
+{
+  "app": {
+    "title": "Wushu Learning"
+  },
+  "nav": {
+    "home": "Home",
+    "judgingCriteria": "Judging Criteria",
+    "commonMistakes": "Common Mistakes",
+    "practice": "Practice",
+    "resources": "Resources"
+  },
+  "lang": {
+    "english": "English",
+    "chinese": "中文",
+    "select": "Language"
+  },
+  "mainPage": {
+    "title": "Wushu Judges Learning Platform",
+    "welcome": {
+      "title": "Welcome to the Platform",
+      "description1": "This application is designed to help Wushu judges learn about different criteria, common mistakes, and how to properly deduct points during competitions.",
+      "description2": "Use the navigation menu to explore different sections of the application."
+    },
+    "features": {
+      "judgingCriteria": {
+        "title": "Judging Criteria",
+        "subtitle": "Learn the official standards",
+        "description": "Understand the detailed criteria used in Wushu competitions and how to apply them consistently.",
+        "button": "Explore Criteria"
+      },
+      "practice": {
+        "title": "Practice Scenarios",
+        "subtitle": "Test your knowledge",
+        "description": "Practice your judging skills with real competition scenarios and get immediate feedback.",
+        "button": "Start Practice"
+      },
+      "mistakes": {
+        "title": "Common Mistakes",
+        "subtitle": "Avoid judging errors",
+        "description": "Look up your current mistakes during practice",
+        "button": "View Mistakes"
+      }
+    }
+  },
+  "mistakes": {
+    "title": "Common Mistakes",
+    "clearAll": "Clear All",
+    "loading": "Loading mistakes...",
+    "noMistakes": {
+      "title": "No Mistakes Tracked",
+      "description1": "You haven't made any mistakes during practice yet, or they have been cleared.",
+      "description2": "Note: Mistake data is stored locally in your browser. If you clear your browser data or cookies, this information will also be deleted."
+    },
+    "mistakeInfo": {
+      "code": "Code:",
+      "mistakes": "Mistakes:",
+      "question": "Question:",
+      "answer": "Answer:",
+      "viewDetails": "View Details"
+    }
+  },
+  "practice": {
+    "title": "What would you like to practice?",
+    "loading": "Loading questions...",
+    "progress": "Question",
+    "of": "/",
+    "yourAnswer": "Your answer",
+    "check": "Check",
+    "correctAnswer": "Correct answer:",
+    "correct": "Correct!",
+    "incorrect": "Incorrect. Try again!",
+    "nextQuestion": "Next Question",
+    "noQuestions": "No questions available for this category.",
+    "backToCategories": "Back to Categories",
+    "categories": {
+      "balance": "Balance",
+      "handForms": "Hand Forms",
+      "legTechniques": "Leg Techniques",
+      "all": "All"
+    },
+    "summary": {
+      "title": "Practice Summary",
+      "question": "Question",
+      "yourAnswer": "Your Answer",
+      "result": "Result",
+      "correct": "Correct",
+      "incorrect": "Incorrect"
+    }
+  },
+  "judgingCriteria": {
+    "error": "Error",
+    "errorMessage": "Could not load techniques. Please try again later.",
+    "noTechniques": "No Techniques Found",
+    "noTechniquesMessage": "No techniques are available at this time.",
+    "code": "Code:",
+    "deductionPoints": "deduction point(s)",
+    "viewDetails": "View Details"
+  },
+  "techniqueDetail": {
+    "backToCriteria": "Back to Judging Criteria",
+    "category": "Category",
+    "deductionPoints": "Deduction Points",
+    "techniqueCode": "Technique Code:",
+    "practiceQuestions": "Practice Questions",
+    "backToPractice": "Back to Practice",
+    "loading": "Loading...",
+    "loadingMessage": "Loading technique information...",
+    "error": "Error",
+    "errorMessage": "Could not find the requested technique. Please try again."
+  },
+  "resources": {
+    "title": "Wushu Resources",
+    "description": "Download official competition rules and judging methods:"
+  },
+  "common": {
+    "loading": "Loading...",
+    "error": "Error",
+    "back": "Back"
+  }
+}
+

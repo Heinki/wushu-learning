@@ -1,0 +1,121 @@
+{
+  "app": {
+    "title": "武术学习"
+  },
+  "nav": {
+    "home": "首页",
+    "judgingCriteria": "评判标准",
+    "commonMistakes": "常见错误",
+    "practice": "练习",
+    "resources": "资源"
+  },
+  "lang": {
+    "english": "English",
+    "chinese": "中文",
+    "select": "语言"
+  },
+  "mainPage": {
+    "title": "武术裁判学习平台",
+    "welcome": {
+      "title": "欢迎来到平台",
+      "description1": "此应用程序旨在帮助武术裁判学习不同的评判标准、常见错误，以及如何在比赛中正确扣分。",
+      "description2": "使用导航菜单探索应用程序的不同部分。"
+    },
+    "features": {
+      "judgingCriteria": {
+        "title": "评判标准",
+        "subtitle": "学习官方标准",
+        "description": "了解武术比赛中使用的详细标准以及如何一致地应用它们。",
+        "button": "探索标准"
+      },
+      "practice": {
+        "title": "练习场景",
+        "subtitle": "测试你的知识",
+        "description": "通过真实的比赛场景练习你的评判技能并获得即时反馈。",
+        "button": "开始练习"
+      },
+      "mistakes": {
+        "title": "常见错误",
+        "subtitle": "避免评判错误",
+        "description": "查看你在练习中的当前错误",
+        "button": "查看错误"
+      }
+    }
+  },
+  "mistakes": {
+    "title": "常见错误",
+    "clearAll": "清除全部",
+    "loading": "正在加载错误...",
+    "noMistakes": {
+      "title": "没有跟踪到错误",
+      "description1": "你在练习中还没有犯任何错误，或者它们已被清除。",
+      "description2": "注意：错误数据存储在您的浏览器本地。如果您清除浏览器数据或Cookie，此信息也将被删除。"
+    },
+    "mistakeInfo": {
+      "code": "代码：",
+      "mistakes": "错误：",
+      "question": "问题：",
+      "answer": "答案：",
+      "viewDetails": "查看详情"
+    }
+  },
+  "practice": {
+    "title": "你想练习什么？",
+    "loading": "正在加载问题...",
+    "progress": "问题",
+    "of": "/",
+    "yourAnswer": "你的答案",
+    "check": "检查",
+    "correctAnswer": "正确答案：",
+    "correct": "正确！",
+    "incorrect": "不正确。再试一次！",
+    "nextQuestion": "下一题",
+    "noQuestions": "此类别没有可用的问题。",
+    "backToCategories": "返回类别",
+    "categories": {
+      "balance": "平衡",
+      "handForms": "手型",
+      "legTechniques": "腿法",
+      "all": "全部"
+    },
+    "summary": {
+      "title": "练习总结",
+      "question": "问题",
+      "yourAnswer": "你的答案",
+      "result": "结果",
+      "correct": "正确",
+      "incorrect": "不正确"
+    }
+  },
+  "judgingCriteria": {
+    "error": "错误",
+    "errorMessage": "无法加载技术。请稍后再试。",
+    "noTechniques": "未找到技术",
+    "noTechniquesMessage": "目前没有可用的技术。",
+    "code": "代码：",
+    "deductionPoints": "扣分点",
+    "viewDetails": "查看详情"
+  },
+  "techniqueDetail": {
+    "backToCriteria": "返回评判标准",
+    "category": "类别",
+    "deductionPoints": "扣分点",
+    "techniqueCode": "技术代码：",
+    "practiceQuestions": "练习问题",
+    "backToPractice": "返回练习",
+    "loading": "正在加载...",
+    "loadingMessage": "正在加载技术信息...",
+    "error": "错误",
+    "errorMessage": "找不到请求的技术。请重试。"
+  },
+  "resources": {
+    "title": "武术资源",
+    "description": "下载官方比赛规则和评判方法："
+  },
+  "common": {
+    "loading": "正在加载...",
+    "error": "错误",
+    "back": "返回"
+  }
+}
+

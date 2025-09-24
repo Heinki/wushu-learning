@@ -1,0 +1,28 @@
+{
+  "category": "Leg Techniques",
+  "technique_name": "Qian Sao Tui (Front Sweep)",
+  "deduction_content": [
+    "The thigh of supporting leg is above horizontal level",
+    "The sole of sweeping foot leaves the ground after making contact for the sweeping action",
+    "Sweeping leg bent 45° or more"
+  ],
+  "code": "20",
+  "questions": [
+    {
+      "question": "What is the error code for Qian Sao Tui (Front Sweep)?",
+      "answer": "20"
+    },
+    {
+      "question": "What deduction occurs if the supporting leg's thigh is above horizontal level?",
+      "answer": "A deduction is applied when the thigh of supporting leg is above horizontal level."
+    },
+    {
+      "question": "How much bend in the sweeping leg results in a deduction?",
+      "answer": "A deduction is applied when the sweeping leg is bent 45° or more."
+    },
+    {
+      "question": "What is the proper foot position during the sweep?",
+      "answer": "The sole of the sweeping foot should maintain contact with the ground throughout the sweeping action without leaving the ground after making contact."
+    }
+  ]
+}

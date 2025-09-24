@@ -1,0 +1,22 @@
+{
+  "category": "Leg Techniques",
+  "technique_name": "Chuài Tuí (Side Kick)",
+  "deduction_content": [
+    "The kicking leg does not transit from obvious bent (45° or more) to completely straight"
+  ],
+  "code": "23",
+  "questions": [
+    {
+      "question": "What is the error code for Chuài Tuí (Side Kick)?",
+      "answer": "23"
+    },
+    {
+      "question": "What is the main deduction point for Chuài Tuí (Side Kick)?",
+      "answer": "Deduction is applied when the kicking leg does not transit from obvious bent (45° or more) to completely straight."
+    },
+    {
+      "question": "What is the minimum angle requirement for the bent leg before extending in Chuài Tuí?",
+      "answer": "The kicking leg must be bent at least 45° or more before transitioning to completely straight."
+    }
+  ]
+}

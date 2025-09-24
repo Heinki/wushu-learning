@@ -1,0 +1,22 @@
+{
+  "category": "平衡",
+  "technique_name": "扣腰平衡",
+  "deduction_content": [
+    "支撑腿大腿未达水平"
+  ],
+  "code": "14",
+  "questions": [
+    {
+      "question": "扣腰平衡的错误代码是什么？",
+      "answer": "14"
+    },
+    {
+      "question": "扣腰平衡的主要扣分点是什么？",
+      "answer": "当支撑腿大腿未达水平时扣分。"
+    },
+    {
+      "question": "在扣腰平衡中，支撑腿的大腿应该如何定位？",
+      "answer": "支撑腿的大腿必须达到水平位置。"
+    }
+  ]
+}

@@ -1,3 +1,8 @@
+<!-- Mobile hamburger button - always visible -->
+<button class="mobile-toggle-btn" (click)="toggleNavigation()" aria-label="Toggle navigation">
+  <span class="hamburger">☰</span>
+</button>
+
 <div class="sidenav" [class.collapsed]="isCollapsed">
   <div class="sidenav-header">
     @if (!isCollapsed) {
@@ -45,11 +50,4 @@
       </li>
     </ul>
   </div>
-    <button class="toggle-btn" (click)="toggleNavigation()">
-      @if (isCollapsed) {
-        <i class="toggle-icon">➡️</i>
-      } @else {
-        <i class="toggle-icon">⬅️</i>
-      }
-    </button>
 </div>

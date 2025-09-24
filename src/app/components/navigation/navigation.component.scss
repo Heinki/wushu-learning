@@ -97,21 +97,77 @@
     top: 15px;
     right: 10px;
     color: white;
-    width: 30px;
-    height: 30px;
-    border-radius: 50%;
-    display: flex;
+    width: 36px;
+    height: 36px;
+    border: none;
+    background: transparent;
+    display: none;
     align-items: center;
     justify-content: center;
     cursor: pointer;
     font-style: normal;
+    padding: 0;
 
-    i {
-      font-style: normal;
+    .hamburger {
+      font-size: 20px;
+      line-height: 1;
     }
   }
 
   &.collapsed .toggle-btn {
     right: 20px;
+  }
+}
+
+/* Mobile hamburger button - always visible */
+.mobile-toggle-btn {
+  position: fixed;
+  top: 12px;
+  left: 12px;
+  z-index: 1100;
+  color: white;
+  width: 40px;
+  height: 40px;
+  border: none;
+  background: rgba(0, 0, 0, 0.7);
+  border-radius: 4px;
+  display: none;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  font-style: normal;
+  padding: 0;
+
+  .hamburger {
+    font-size: 20px;
+    line-height: 1;
+  }
+}
+
+/* Mobile adjustments */
+@media (max-width: 768px) {
+  .mobile-toggle-btn {
+    display: flex;
+  }
+
+  .sidenav {
+    width: 100vw;
+    transform: translateX(-100%);
+    transition: transform var(--transition-speed);
+    z-index: 1000;
+
+    &.collapsed {
+      transform: translateX(-100%);
+      width: 100vw; /* fullscreen hidden */
+
+      ~ .main-content {
+        margin-left: 0;
+      }
+    }
+
+    &:not(.collapsed) {
+      transform: translateX(0);
+      width: 100vw; /* fullscreen visible */
+    }
   }
 }

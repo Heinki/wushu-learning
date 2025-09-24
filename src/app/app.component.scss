@@ -6,9 +6,19 @@
 }
 
 .main-content {
-  margin-left: 80px;
+  margin-left: 250px;
   flex: 1;
   overflow-y: auto;
   height: 100%;
   transition: margin-left var(--transition-speed);
+}
+
+@media (max-width: 768px) {
+  .app-container {
+    overflow: hidden;
+  }
+
+  .main-content {
+    margin-left: 0;
+  }
 }

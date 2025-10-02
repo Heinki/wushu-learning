@@ -1,0 +1,33 @@
+{
+  "category": "Stances",
+  "technique_name": "Xiē Bù (Cross Stance)",
+  "deduction_content": [
+    "Thighs not crossed with one in front of the other",
+    "Knees not bent at approximately 90 degrees",
+    "Weight not evenly distributed between both legs",
+    "Feet not positioned at right angles to each other"
+  ],
+  "code": "33",
+  "questions": [
+    {
+      "question": "What is the error code for Xiē Bù (Cross Stance)?",
+      "answer": "33"
+    },
+    {
+      "question": "What are the main deduction points for Xiē Bù?",
+      "answer": "Deductions are applied when: 1) Thighs are not crossed with one in front of the other, 2) Knees are not bent at approximately 90 degrees, 3) Weight is not evenly distributed between both legs, 4) Feet are not positioned at right angles to each other."
+    },
+    {
+      "question": "How should the thighs be positioned in Xiē Bù?",
+      "answer": "The thighs should be crossed with one in front of the other."
+    },
+    {
+      "question": "What is the correct knee position in Xiē Bù?",
+      "answer": "Both knees should be bent at approximately 90 degrees."
+    },
+    {
+      "question": "How should the weight be distributed in Xiē Bù?",
+      "answer": "The weight should be evenly distributed between both legs."
+    }
+  ]
+}

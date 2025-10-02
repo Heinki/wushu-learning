@@ -1,0 +1,33 @@
+{
+  "category": "Stances",
+  "technique_name": "Mǎ Bù (Horse Stance)",
+  "deduction_content": [
+    "Knees not bent to form a 90-degree angle",
+    "Knees not aligned with toes",
+    "Feet not parallel and shoulder-width apart",
+    "Back not straight"
+  ],
+  "code": "31",
+  "questions": [
+    {
+      "question": "What is the error code for Mǎ Bù (Horse Stance)?",
+      "answer": "31"
+    },
+    {
+      "question": "What are the main deduction points for Mǎ Bù?",
+      "answer": "Deductions are applied when: 1) Knees are not bent to form a 90-degree angle, 2) Knees are not aligned with toes, 3) Feet are not parallel and shoulder-width apart, 4) Back is not straight."
+    },
+    {
+      "question": "What is the correct knee position in Mǎ Bù?",
+      "answer": "The knees should be bent to form a 90-degree angle and aligned with the toes."
+    },
+    {
+      "question": "How should the feet be positioned in Mǎ Bù?",
+      "answer": "The feet should be parallel and shoulder-width apart."
+    },
+    {
+      "question": "Why is this stance called 'Horse Stance'?",
+      "answer": "Because the position resembles sitting on a horse, with legs apart and knees bent."
+    }
+  ]
+}

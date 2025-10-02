@@ -8,7 +8,7 @@ import { TranslateService } from '@ngx-translate/core';
   providedIn: 'root',
 })
 export class TechniqueService {
-  private readonly directories = ['hand-forms', 'balance', 'leg-techniques'];
+  private readonly directories = ['hand-forms', 'balance', 'leg-techniques', 'stances'];
   private techniqueCache = new Map<string, TechniqueQuestionData>();
   private translate = inject(TranslateService);
 

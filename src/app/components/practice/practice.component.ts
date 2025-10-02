@@ -18,7 +18,7 @@ import { TranslateModule, TranslateService } from '@ngx-translate/core';
 export class PracticeComponent {
   private translate = inject(TranslateService);
 
-  private categoryKeys = ['Balance', 'Hand Forms', 'Leg Techniques', 'All'];
+  private categoryKeys = ['Balance', 'Hand Forms', 'Leg Techniques', 'Stances', 'All'];
 
   get categories(): string[] {
     return this.categoryKeys.map((key) => {
@@ -29,6 +29,8 @@ export class PracticeComponent {
           return this.translate.instant('practice.categories.handForms');
         case 'Leg Techniques':
           return this.translate.instant('practice.categories.legTechniques');
+        case 'Stances':
+          return this.translate.instant('practice.categories.stances');
         case 'All':
           return this.translate.instant('practice.categories.all');
         default:
@@ -121,6 +123,8 @@ export class PracticeComponent {
         return 'Hand Forms';
       case this.translate.instant('practice.categories.legTechniques'):
         return 'Leg Techniques';
+      case this.translate.instant('practice.categories.stances'):
+        return 'Stances';
       case this.translate.instant('practice.categories.all'):
         return 'All';
       default:

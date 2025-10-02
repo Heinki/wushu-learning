@@ -1,0 +1,32 @@
+{
+  "category": "Stances",
+  "technique_name": "Xū Bù (Empty Stance)",
+  "deduction_content": [
+    "Weight-bearing leg bent",
+    "Empty leg not bent with toes lightly touching the ground",
+    "Feet not positioned at a 45-degree angle to each other"
+  ],
+  "code": "32",
+  "questions": [
+    {
+      "question": "What is the error code for Xū Bù (Empty Stance)?",
+      "answer": "32"
+    },
+    {
+      "question": "What are the main deduction points for Xū Bù?",
+      "answer": "Deductions are applied when: 1) Weight-bearing leg is bent, 2) Empty leg is not bent with toes lightly touching the ground, 3) Feet are not positioned at a 45-degree angle to each other."
+    },
+    {
+      "question": "What is the correct position for the weight-bearing leg in Xū Bù?",
+      "answer": "The weight-bearing leg should be straight and support 100% of the body weight."
+    },
+    {
+      "question": "How should the empty leg be positioned in Xū Bù?",
+      "answer": "The empty leg should be bent with only the toes lightly touching the ground."
+    },
+    {
+      "question": "What is the correct angle between the feet in Xū Bù?",
+      "answer": "The feet should be positioned at a 45-degree angle to each other."
+    }
+  ]
+}

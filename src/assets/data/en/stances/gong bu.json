@@ -1,0 +1,34 @@
+{
+  "category": "Stances",
+  "technique_name": "Gōng Bù (Bow Stance)",
+  "deduction_content": [
+    "The knee of the front leg is not above the instep",
+    "The knee of the front leg extends beyond the toes",
+    "The thigh of the front leg is not parallel to the ground",
+    "The heel of the rear leg is off the ground",
+    "The toes of the rear foot are not pointing forward"
+  ],
+  "code": "30",
+  "questions": [
+    {
+      "question": "What is the error code for Gōng Bù (Bow Stance)?",
+      "answer": "30"
+    },
+    {
+      "question": "What are the main deduction points for Gōng Bù?",
+      "answer": "Deductions are applied when: 1) The knee of the front leg is not above the instep, 2) The knee extends beyond the toes, 3) The thigh is not parallel to the ground, 4) The heel of the rear leg is off the ground, 5) The toes of the rear foot are not pointing forward."
+    },
+    {
+      "question": "What is the correct position for the front leg in Gōng Bù?",
+      "answer": "The thigh should be parallel to the ground, and the knee should be directly above the instep but not extending beyond the toes."
+    },
+    {
+      "question": "How should the rear leg be positioned in Gōng Bù?",
+      "answer": "The heel of the rear leg should be on the ground, and the toes should be pointing forward."
+    },
+    {
+      "question": "Why is this stance called 'Bow Stance'?",
+      "answer": "Because the position resembles an archer drawing a bow, with one leg bent forward and the other extended back."
+    }
+  ]
+}

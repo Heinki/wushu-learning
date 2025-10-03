@@ -69,6 +69,11 @@
       padding: 0.5rem;
       border-radius: 4px;
       transition: background-color 0.3s;
+      
+      @media (max-width: 576px) {
+        flex-direction: column;
+        align-items: stretch;
+      }
 
       input {
         flex: 1;
@@ -76,6 +81,11 @@
         border: 1px solid #ddd;
         border-radius: 4px;
         font-size: 1rem;
+        
+        @media (max-width: 576px) {
+          margin-bottom: 0.5rem;
+          width: 100%;
+        }
       }
 
       button {
@@ -87,6 +97,10 @@
         font-size: 1rem;
         cursor: pointer;
         transition: background-color 0.3s;
+        
+        @media (max-width: 576px) {
+          width: 100%;
+        }
 
         &:hover {
           background-color: #303f9f;

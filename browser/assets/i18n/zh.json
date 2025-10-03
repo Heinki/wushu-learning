@@ -95,7 +95,9 @@
     "noTechniquesMessage": "目前没有可用的技术。",
     "code": "代码：",
     "deductionPoints": "扣分点",
-    "viewDetails": "查看详情"
+    "viewDetails": "查看详情",
+    "openAll": "全部展开",
+    "closeAll": "全部收起"
   },
   "techniqueDetail": {
     "backToCriteria": "返回评判标准",

@@ -95,7 +95,9 @@
     "noTechniquesMessage": "No techniques are available at this time.",
     "code": "Code:",
     "deductionPoints": "deduction point(s)",
-    "viewDetails": "View Details"
+    "viewDetails": "View Details",
+    "openAll": "Open All",
+    "closeAll": "Close All"
   },
   "techniqueDetail": {
     "backToCriteria": "Back to Judging Criteria",

@@ -10,6 +10,11 @@
 
   @if (!loading && !error) {
     <div class="techniques-container">
+      <div class="controls-container">
+        <button class="btn control-btn" (click)="openAllCategories()">{{ 'judgingCriteria.openAll' | translate }}</button>
+        <button class="btn control-btn" (click)="closeAllCategories()">{{ 'judgingCriteria.closeAll' | translate }}</button>
+      </div>
+      
       @if (techniques.length === 0) {
         <app-card [title]="'judgingCriteria.noTechniques' | translate">
           <p>{{ 'judgingCriteria.noTechniquesMessage' | translate }}</p>
@@ -18,8 +23,10 @@
 
       @for (category of objectKeys(groupedTechniques); track category) {
         <div class="category-section">
-          <h2 class="category-title">{{ category }}</h2>
-          <div class="techniques-grid card-grid">
+          <div class="category-header" (click)="toggleCategory(category)">
+            <h2 class="category-title">{{ category }} <span class="toggle-icon">{{ isCategoryOpen(category) ? '−' : '+' }}</span></h2>
+          </div>
+          <div class="techniques-grid card-grid" [class.expanded]="isCategoryOpen(category)" [class.collapsed]="!isCategoryOpen(category)">
             @for (technique of groupedTechniques[category]; track technique.code) {
               <app-card
                 [title]="technique.technique_name"

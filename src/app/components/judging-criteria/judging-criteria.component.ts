@@ -17,6 +17,7 @@ export class JudgingCriteriaComponent implements OnInit {
   techniques: TechniqueQuestionData[] = [];
   loading = true;
   error = false;
+  openCategories: Set<string> = new Set();
 
   constructor(
     private router: Router,
@@ -38,6 +39,29 @@ export class JudgingCriteriaComponent implements OnInit {
 
   navigateToTechnique(code: string): void {
     this.router.navigate(['/judging-criteria', code]);
+  }
+
+  openAllCategories(): void {
+    const categories = Object.keys(this.groupedTechniques);
+    categories.forEach(category => {
+      this.openCategories.add(category);
+    });
+  }
+
+  closeAllCategories(): void {
+    this.openCategories.clear();
+  }
+
+  toggleCategory(category: string): void {
+    if (this.openCategories.has(category)) {
+      this.openCategories.delete(category);
+    } else {
+      this.openCategories.add(category);
+    }
+  }
+
+  isCategoryOpen(category: string): boolean {
+    return this.openCategories.has(category);
   }
 
   get groupedTechniques(): { [category: string]: TechniqueQuestionData[] } {

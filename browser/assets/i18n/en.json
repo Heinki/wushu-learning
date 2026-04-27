@@ -7,6 +7,7 @@
     "judgingCriteria": "Judging Criteria",
     "commonMistakes": "Common Mistakes",
     "practice": "Practice",
+    "sanda": "Sanda",
     "resources": "Resources"
   },
   "lang": {
@@ -33,6 +34,12 @@
         "subtitle": "Test your knowledge",
         "description": "Practice your judging skills with real competition scenarios and get immediate feedback.",
         "button": "Start Practice"
+      },
+      "sanda": {
+        "title": "Sanda Rules",
+        "subtitle": "Combat judging reference",
+        "description": "Review bout structure, valid scoring areas, fouls, penalties, and scoring standards for Sanda.",
+        "button": "Open Sanda"
       },
       "mistakes": {
         "title": "Common Mistakes",
@@ -116,6 +123,58 @@
   "resources": {
     "title": "Wushu Resources",
     "description": "Download official competition rules and judging methods:"
+  },
+  "sanda": {
+    "eyebrow": "Sanda",
+    "title": "Wushu Sanda Rules and Judging",
+    "intro": "Sanda is the full-contact competition format of wushu. This section gives judges a quick reference for bout structure, scoring areas, prohibited areas, scoring standards, and penalties from the 2024 rules.",
+    "downloadRules": "Download Rules PDF",
+    "quickFacts": {
+      "title": "Quick Reference",
+      "rounds": {
+        "title": "Bout Format",
+        "description": "A bout has up to three rounds. The competitor who wins two rounds wins the bout."
+      },
+      "roundDuration": {
+        "title": "Round Length",
+        "description": "Each round lasts two minutes."
+      },
+      "rest": {
+        "title": "Rest Period",
+        "description": "There is a one-minute rest period between rounds."
+      },
+      "platform": {
+        "title": "Leitai",
+        "description": "Bouts take place on an elevated 8m by 8m platform."
+      },
+      "validAreas": {
+        "title": "Valid Scoring Areas",
+        "description": "The head, torso, and thighs are valid scoring areas."
+      },
+      "prohibitedAreas": {
+        "title": "Prohibited Areas",
+        "description": "The back of the head, neck, and crotch are prohibited striking areas."
+      }
+    },
+    "scoring": {
+      "title": "Judging Notes",
+      "twoPoints": {
+        "title": "Two-Point Situations",
+        "description": "Typical two-point awards include forcing the opponent off the platform or causing the opponent to fall while remaining standing."
+      },
+      "onePoint": {
+        "title": "One-Point Situations",
+        "description": "Typical one-point awards include clean effective hand or leg techniques to valid scoring areas, depending on the specific scoring case."
+      },
+      "noScore": {
+        "title": "No-Score Situations",
+        "description": "No points are awarded when techniques are unclear, mutually ineffective, simultaneous in a non-scoring way, or land on prohibited areas."
+      },
+      "fouls": {
+        "title": "Fouls and Penalties",
+        "description": "Technical and personal fouls can lead to warnings, penalty points, round loss, or disqualification according to severity."
+      }
+    }
   },
   "common": {
     "loading": "Loading...",

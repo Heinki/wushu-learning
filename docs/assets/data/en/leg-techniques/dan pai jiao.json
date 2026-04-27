@@ -2,22 +2,22 @@
   "category": "Leg Techniques",
   "technique_name": "Dān Pāi Jiǎo (Front Slap Kick)",
   "deduction_content": [
-    "Knee/s bent at the apex of the kick",
-    "Heel of supporting leg off the floor"
+    "Toes of slapped foot not above shoulder height",
+    "Slap missed and/or inaudible"
   ],
-  "code": "24",
+  "code": "25",
   "questions": [
     {
       "question": "What is the error code for Dān Pāi Jiǎo (Front Slap Kick)?",
-      "answer": "24"
+      "answer": "25"
     },
     {
-      "question": "What are the two main deduction points for Dān Pāi Jiǎo?",
-      "answer": "Deductions are applied when: 1) Knee/s are bent at the apex of the kick, and 2) Heel of supporting leg is off the floor."
+      "question": "What are the deduction points for Dān Pāi Jiǎo (Front Slap Kick)?",
+      "answer": "Deductions are applied when: 1) Toes of slapped foot not above shoulder height, 2) Slap missed and/or inaudible."
     },
     {
-      "question": "How should the supporting leg be positioned during a correct Dān Pāi Jiǎo (Front Slap Kick)?",
-      "answer": "The heel of the supporting leg should remain firmly on the floor throughout the kick."
+      "question": "Which technique category does Dān Pāi Jiǎo (Front Slap Kick) belong to?",
+      "answer": "Leg Techniques"
     }
   ]
 }

@@ -1,0 +1,22 @@
+{
+  "category": "Weapon Techniques",
+  "technique_name": "Shuāng Shǒu Tí Liāo Huā Gùn (Vertical Uppercutting Cudgel with Both Hands)",
+  "deduction_content": [
+    "The cudgel does not rotate in an obvious vertical plane"
+  ],
+  "code": "65",
+  "questions": [
+    {
+      "question": "What is the error code for Shuāng Shǒu Tí Liāo Huā Gùn (Vertical Uppercutting Cudgel with Both Hands)?",
+      "answer": "65"
+    },
+    {
+      "question": "What are the deduction points for Shuāng Shǒu Tí Liāo Huā Gùn (Vertical Uppercutting Cudgel with Both Hands)?",
+      "answer": "Deductions are applied when: 1) The cudgel does not rotate in an obvious vertical plane."
+    },
+    {
+      "question": "Which technique category does Shuāng Shǒu Tí Liāo Huā Gùn (Vertical Uppercutting Cudgel with Both Hands) belong to?",
+      "answer": "Weapon Techniques"
+    }
+  ]
+}

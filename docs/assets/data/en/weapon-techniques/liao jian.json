@@ -1,0 +1,23 @@
+{
+  "category": "Weapon Techniques",
+  "technique_name": "Liāo Jiàn (Straight Sword Uppercut)",
+  "deduction_content": [
+    "Straight sword and forearm or wrist are aligned",
+    "No obvious vertical circle formed"
+  ],
+  "code": "60",
+  "questions": [
+    {
+      "question": "What is the error code for Liāo Jiàn (Straight Sword Uppercut)?",
+      "answer": "60"
+    },
+    {
+      "question": "What are the deduction points for Liāo Jiàn (Straight Sword Uppercut)?",
+      "answer": "Deductions are applied when: 1) Straight sword and forearm or wrist are aligned, 2) No obvious vertical circle formed."
+    },
+    {
+      "question": "Which technique category does Liāo Jiàn (Straight Sword Uppercut) belong to?",
+      "answer": "Weapon Techniques"
+    }
+  ]
+}

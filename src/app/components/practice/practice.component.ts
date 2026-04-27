@@ -24,6 +24,7 @@ export class PracticeComponent {
     'Leg Techniques',
     'Stances',
     'Jumps',
+    'Weapon Techniques',
     'All',
   ];
 
@@ -40,6 +41,8 @@ export class PracticeComponent {
           return this.translate.instant('practice.categories.stances');
         case 'Jumps':
           return this.translate.instant('practice.categories.jumps');
+        case 'Weapon Techniques':
+          return this.translate.instant('practice.categories.weaponTechniques');
         case 'All':
           return this.translate.instant('practice.categories.all');
         default:
@@ -83,7 +86,14 @@ export class PracticeComponent {
     this.showCorrectAnswer = false;
 
     if (originalCategory === 'All') {
-      const subCategories = ['balance', 'hand-forms', 'leg-techniques'];
+      const subCategories = [
+        'balance',
+        'hand-forms',
+        'leg-techniques',
+        'stances',
+        'jumps',
+        'weapon-techniques',
+      ];
       const currentLang = this.translate.currentLang || 'en';
       const requests = subCategories.map((cat) =>
         this.http
@@ -136,6 +146,8 @@ export class PracticeComponent {
         return 'Stances';
       case this.translate.instant('practice.categories.jumps'):
         return 'Jumps';
+      case this.translate.instant('practice.categories.weaponTechniques'):
+        return 'Weapon Techniques';
       case this.translate.instant('practice.categories.all'):
         return 'All';
       default:

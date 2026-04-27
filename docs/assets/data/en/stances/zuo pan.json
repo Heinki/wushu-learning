@@ -1,0 +1,23 @@
+{
+  "category": "Stances",
+  "technique_name": "Zuò Pán (Cross-Legged Sitting)",
+  "deduction_content": [
+    "Neither one of the buttocks is in contact with the floor",
+    "Either one of the feet is not in contact with the floor"
+  ],
+  "code": "58",
+  "questions": [
+    {
+      "question": "What is the error code for Zuò Pán (Cross-Legged Sitting)?",
+      "answer": "58"
+    },
+    {
+      "question": "What are the deduction points for Zuò Pán (Cross-Legged Sitting)?",
+      "answer": "Deductions are applied when: 1) Neither one of the buttocks is in contact with the floor, 2) Either one of the feet is not in contact with the floor."
+    },
+    {
+      "question": "Which technique category does Zuò Pán (Cross-Legged Sitting) belong to?",
+      "answer": "Stances"
+    }
+  ]
+}

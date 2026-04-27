@@ -2,32 +2,25 @@
   "category": "Stances",
   "technique_name": "Mǎ Bù (Horse Stance)",
   "deduction_content": [
-    "Knees not bent to form a 90-degree angle",
-    "Knees not aligned with toes",
-    "Feet not parallel and shoulder-width apart",
-    "Back not straight"
+    "Thighs not horizontal",
+    "The distance between the inner portions of the two feet is narrower than the performer's shoulder width",
+    "Knee or knees buckling inwards",
+    "Heel or heels raised off the ground",
+    "Toes of foot or feet pointing outward 45 degrees or more"
   ],
-  "code": "31",
+  "code": "51",
   "questions": [
     {
       "question": "What is the error code for Mǎ Bù (Horse Stance)?",
-      "answer": "31"
+      "answer": "51"
     },
     {
-      "question": "What are the main deduction points for Mǎ Bù?",
-      "answer": "Deductions are applied when: 1) Knees are not bent to form a 90-degree angle, 2) Knees are not aligned with toes, 3) Feet are not parallel and shoulder-width apart, 4) Back is not straight."
+      "question": "What are the deduction points for Mǎ Bù (Horse Stance)?",
+      "answer": "Deductions are applied when: 1) Thighs not horizontal, 2) The distance between the inner portions of the two feet is narrower than the performer's shoulder width, 3) Knee or knees buckling inwards, 4) Heel or heels raised off the ground, 5) Toes of foot or feet pointing outward 45 degrees or more."
     },
     {
-      "question": "What is the correct knee position in Mǎ Bù?",
-      "answer": "The knees should be bent to form a 90-degree angle and aligned with the toes."
-    },
-    {
-      "question": "How should the feet be positioned in Mǎ Bù?",
-      "answer": "The feet should be parallel and shoulder-width apart."
-    },
-    {
-      "question": "Why is this stance called 'Horse Stance'?",
-      "answer": "Because the position resembles sitting on a horse, with legs apart and knees bent."
+      "question": "Which technique category does Mǎ Bù (Horse Stance) belong to?",
+      "answer": "Stances"
     }
   ]
 }

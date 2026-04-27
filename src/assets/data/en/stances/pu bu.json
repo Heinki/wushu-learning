@@ -2,32 +2,23 @@
   "category": "Stances",
   "technique_name": "Pū Bù (Crouching Stance)",
   "deduction_content": [
-    "Thigh of squatting leg not parallel to the ground",
-    "Heel of squatting leg raised",
-    "Extended leg not straight",
-    "Sole of extended leg's foot not flat on the ground"
+    "The back of the thigh of the squatting leg is not in contact with the calf",
+    "The extended leg is not completely straight",
+    "Extended leg's foot is not turned inwards with the sole completely flat on the ground"
   ],
-  "code": "34",
+  "code": "53",
   "questions": [
     {
       "question": "What is the error code for Pū Bù (Crouching Stance)?",
-      "answer": "34"
+      "answer": "53"
     },
     {
-      "question": "What are the main deduction points for Pū Bù?",
-      "answer": "Deductions are applied when: 1) Thigh of squatting leg is not parallel to the ground, 2) Heel of squatting leg is raised, 3) Extended leg is not straight, 4) Sole of extended leg's foot is not flat on the ground."
+      "question": "What are the deduction points for Pū Bù (Crouching Stance)?",
+      "answer": "Deductions are applied when: 1) The back of the thigh of the squatting leg is not in contact with the calf, 2) The extended leg is not completely straight, 3) Extended leg's foot is not turned inwards with the sole completely flat on the ground."
     },
     {
-      "question": "What is the correct position for the squatting leg in Pū Bù?",
-      "answer": "The thigh of the squatting leg should be parallel to the ground with the heel firmly on the ground."
-    },
-    {
-      "question": "How should the extended leg be positioned in Pū Bù?",
-      "answer": "The extended leg should be completely straight with the sole of the foot flat on the ground."
-    },
-    {
-      "question": "Why is this stance called 'Crouching Stance'?",
-      "answer": "Because the practitioner is in a low crouching position with one leg squatting and the other extended."
+      "question": "Which technique category does Pū Bù (Crouching Stance) belong to?",
+      "answer": "Stances"
     }
   ]
 }

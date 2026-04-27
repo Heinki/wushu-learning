@@ -1,23 +1,23 @@
 {
   "category": "Leg Techniques",
-  "technique_name": "Li Hé Pāi Jiǎo (Inward Slap Kick)",
+  "technique_name": "Lǐ Hé Pāi Jiǎo (Inward Slap Kick)",
   "deduction_content": [
-    "Knee/s bent at the apex of the kick",
-    "Heel of supporting leg off the floor"
+    "Toes of slapped foot not above shoulder height",
+    "Slap missed and/or inaudible"
   ],
-  "code": "24",
+  "code": "25",
   "questions": [
     {
-      "question": "What is the error code for Li Hé Pāi Jiǎo (Inward Slap Kick)?",
-      "answer": "24"
+      "question": "What is the error code for Lǐ Hé Pāi Jiǎo (Inward Slap Kick)?",
+      "answer": "25"
     },
     {
-      "question": "What are the two main deduction points for Li Hé Pāi Jiǎo?",
-      "answer": "Deductions are applied when: 1) Knee/s are bent at the apex of the kick, and 2) Heel of supporting leg is off the floor."
+      "question": "What are the deduction points for Lǐ Hé Pāi Jiǎo (Inward Slap Kick)?",
+      "answer": "Deductions are applied when: 1) Toes of slapped foot not above shoulder height, 2) Slap missed and/or inaudible."
     },
     {
-      "question": "What is the correct leg position at the apex of Li Hé Pāi Jiǎo?",
-      "answer": "The leg should be completely straight at the apex of the kick with no bend in the knee."
+      "question": "Which technique category does Lǐ Hé Pāi Jiǎo (Inward Slap Kick) belong to?",
+      "answer": "Leg Techniques"
     }
   ]
 }

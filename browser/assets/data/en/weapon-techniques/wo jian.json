@@ -1,0 +1,22 @@
+{
+  "category": "Weapon Techniques",
+  "technique_name": "Wò Jiàn (Gripping the Straight Sword)",
+  "deduction_content": [
+    "Any finger wraps around the top of the hand guard and touches the edge of the blade"
+  ],
+  "code": "61",
+  "questions": [
+    {
+      "question": "What is the error code for Wò Jiàn (Gripping the Straight Sword)?",
+      "answer": "61"
+    },
+    {
+      "question": "What are the deduction points for Wò Jiàn (Gripping the Straight Sword)?",
+      "answer": "Deductions are applied when: 1) Any finger wraps around the top of the hand guard and touches the edge of the blade."
+    },
+    {
+      "question": "Which technique category does Wò Jiàn (Gripping the Straight Sword) belong to?",
+      "answer": "Weapon Techniques"
+    }
+  ]
+}

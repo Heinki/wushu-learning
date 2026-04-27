@@ -1,0 +1,23 @@
+{
+  "category": "Weapon Techniques",
+  "technique_name": "Qì Xiè Pāo Jiē (Weapon Throwing and Catching Techniques)",
+  "deduction_content": [
+    "Weapon caught in a hugging manner",
+    "Failure to catch the straight sword or broadsword by the handle, or the cudgel or spear shaft with a single hand"
+  ],
+  "code": "66",
+  "questions": [
+    {
+      "question": "What is the error code for Qì Xiè Pāo Jiē (Weapon Throwing and Catching Techniques)?",
+      "answer": "66"
+    },
+    {
+      "question": "What are the deduction points for Qì Xiè Pāo Jiē (Weapon Throwing and Catching Techniques)?",
+      "answer": "Deductions are applied when: 1) Weapon caught in a hugging manner, 2) Failure to catch the straight sword or broadsword by the handle, or the cudgel or spear shaft with a single hand."
+    },
+    {
+      "question": "Which technique category does Qì Xiè Pāo Jiē (Weapon Throwing and Catching Techniques) belong to?",
+      "answer": "Weapon Techniques"
+    }
+  ]
+}

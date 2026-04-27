@@ -1,0 +1,22 @@
+{
+  "category": "Weapon Techniques",
+  "technique_name": "Guǒ Nǎo (Wrapping with the Broadsword)",
+  "deduction_content": [
+    "The back of the broadsword blade is not kept close to the body when wrapping or twining"
+  ],
+  "code": "62",
+  "questions": [
+    {
+      "question": "What is the error code for Guǒ Nǎo (Wrapping with the Broadsword)?",
+      "answer": "62"
+    },
+    {
+      "question": "What are the deduction points for Guǒ Nǎo (Wrapping with the Broadsword)?",
+      "answer": "Deductions are applied when: 1) The back of the broadsword blade is not kept close to the body when wrapping or twining."
+    },
+    {
+      "question": "Which technique category does Guǒ Nǎo (Wrapping with the Broadsword) belong to?",
+      "answer": "Weapon Techniques"
+    }
+  ]
+}

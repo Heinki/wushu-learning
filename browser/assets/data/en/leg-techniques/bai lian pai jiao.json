@@ -1,31 +1,23 @@
 {
   "category": "Leg Techniques",
-  "technique_name": "Bái Lián Pāi Jiǎo (Lotus Slap Kick)",
+  "technique_name": "Bǎi Lián Pāi Jiǎo (Lotus Slap Kick)",
   "deduction_content": [
-    "Knee/s bent at the apex of the kick",
-    "Heel of supporting leg off the floor"
+    "Toes of slapped foot not above shoulder height",
+    "Slap missed and/or inaudible"
   ],
-  "code": "24",
+  "code": "25",
   "questions": [
     {
-      "question": "What is the error code for Bái Lián Pāi Jiǎo (Lotus Slap Kick)?",
-      "answer": "24"
+      "question": "What is the error code for Bǎi Lián Pāi Jiǎo (Lotus Slap Kick)?",
+      "answer": "25"
     },
     {
-      "question": "What are the two main deduction points for Bái Lián Pāi Jiǎo?",
-      "answer": "Deductions are applied when: 1) Knee/s are bent at the apex of the kick, and 2) Heel of supporting leg is off the floor."
+      "question": "What are the deduction points for Bǎi Lián Pāi Jiǎo (Lotus Slap Kick)?",
+      "answer": "Deductions are applied when: 1) Toes of slapped foot not above shoulder height, 2) Slap missed and/or inaudible."
     },
     {
-      "question": "What is the correct leg position at the apex of Bái Lián Pāi Jiǎo?",
-      "answer": "The leg should be completely straight at the apex of the kick with no bend in the knee."
-    },
-    {
-      "question": "What is the correct foot position for the supporting leg during Bái Lián Pāi Jiǎo?",
-      "answer": "The heel of the supporting leg must remain in contact with the floor throughout the technique."
-    },
-    {
-      "question": "What makes the Lotus Slap Kick different from other kicks?",
-      "answer": "The Lotus Slap Kick involves a slapping motion where the foot slaps against the hand or arm, creating a distinctive lotus-like appearance during execution."
+      "question": "Which technique category does Bǎi Lián Pāi Jiǎo (Lotus Slap Kick) belong to?",
+      "answer": "Leg Techniques"
     }
   ]
 }

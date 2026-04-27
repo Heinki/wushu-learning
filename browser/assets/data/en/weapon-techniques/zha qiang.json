@@ -1,0 +1,24 @@
+{
+  "category": "Weapon Techniques",
+  "technique_name": "Zhā Qiāng (Spear Thrust)",
+  "deduction_content": [
+    "Spear head not travelling in a clearly defined arc",
+    "Rear handle of spear end protrudes from the grip",
+    "The thrusting arm and spear shaft do not form a horizontal straight line"
+  ],
+  "code": "63",
+  "questions": [
+    {
+      "question": "What is the error code for Zhā Qiāng (Spear Thrust)?",
+      "answer": "63"
+    },
+    {
+      "question": "What are the deduction points for Zhā Qiāng (Spear Thrust)?",
+      "answer": "Deductions are applied when: 1) Spear head not travelling in a clearly defined arc, 2) Rear handle of spear end protrudes from the grip, 3) The thrusting arm and spear shaft do not form a horizontal straight line."
+    },
+    {
+      "question": "Which technique category does Zhā Qiāng (Spear Thrust) belong to?",
+      "answer": "Weapon Techniques"
+    }
+  ]
+}

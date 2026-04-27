@@ -1,0 +1,23 @@
+{
+  "category": "Weapon Techniques",
+  "technique_name": "Guà Jiàn (Straight Sword Hooking Parry)",
+  "deduction_content": [
+    "Straight sword and forearm or wrist are aligned",
+    "No obvious vertical circle formed"
+  ],
+  "code": "60",
+  "questions": [
+    {
+      "question": "What is the error code for Guà Jiàn (Straight Sword Hooking Parry)?",
+      "answer": "60"
+    },
+    {
+      "question": "What are the deduction points for Guà Jiàn (Straight Sword Hooking Parry)?",
+      "answer": "Deductions are applied when: 1) Straight sword and forearm or wrist are aligned, 2) No obvious vertical circle formed."
+    },
+    {
+      "question": "Which technique category does Guà Jiàn (Straight Sword Hooking Parry) belong to?",
+      "answer": "Weapon Techniques"
+    }
+  ]
+}

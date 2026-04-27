@@ -1,0 +1,22 @@
+{
+  "category": "Weapon Techniques",
+  "technique_name": "Chán Tóu (Broadsword Twining)",
+  "deduction_content": [
+    "The back of the broadsword blade is not kept close to the body when wrapping or twining"
+  ],
+  "code": "62",
+  "questions": [
+    {
+      "question": "What is the error code for Chán Tóu (Broadsword Twining)?",
+      "answer": "62"
+    },
+    {
+      "question": "What are the deduction points for Chán Tóu (Broadsword Twining)?",
+      "answer": "Deductions are applied when: 1) The back of the broadsword blade is not kept close to the body when wrapping or twining."
+    },
+    {
+      "question": "Which technique category does Chán Tóu (Broadsword Twining) belong to?",
+      "answer": "Weapon Techniques"
+    }
+  ]
+}

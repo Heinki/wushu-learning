@@ -1,0 +1,24 @@
+{
+  "category": "Weapon Techniques",
+  "technique_name": "Ná Qiāng (Inward Blocking with the Spear)",
+  "deduction_content": [
+    "Spear head not travelling in a clearly defined arc",
+    "Rear handle of spear end protrudes from the grip",
+    "The thrusting arm and spear shaft do not form a horizontal straight line"
+  ],
+  "code": "63",
+  "questions": [
+    {
+      "question": "What is the error code for Ná Qiāng (Inward Blocking with the Spear)?",
+      "answer": "63"
+    },
+    {
+      "question": "What are the deduction points for Ná Qiāng (Inward Blocking with the Spear)?",
+      "answer": "Deductions are applied when: 1) Spear head not travelling in a clearly defined arc, 2) Rear handle of spear end protrudes from the grip, 3) The thrusting arm and spear shaft do not form a horizontal straight line."
+    },
+    {
+      "question": "Which technique category does Ná Qiāng (Inward Blocking with the Spear) belong to?",
+      "answer": "Weapon Techniques"
+    }
+  ]
+}

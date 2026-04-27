@@ -7,6 +7,7 @@
     "judgingCriteria": "评判标准",
     "commonMistakes": "常见错误",
     "practice": "练习",
+    "sanda": "散打",
     "resources": "资源"
   },
   "lang": {
@@ -33,6 +34,12 @@
         "subtitle": "测试你的知识",
         "description": "通过真实的比赛场景练习你的评判技能并获得即时反馈。",
         "button": "开始练习"
+      },
+      "sanda": {
+        "title": "散打规则",
+        "subtitle": "搏击裁判参考",
+        "description": "复习散打的比赛结构、得分部位、犯规、判罚和得分标准。",
+        "button": "打开散打"
       },
       "mistakes": {
         "title": "常见错误",
@@ -116,6 +123,58 @@
   "resources": {
     "title": "武术资源",
     "description": "下载官方比赛规则和评判方法："
+  },
+  "sanda": {
+    "eyebrow": "散打",
+    "title": "武术散打规则与裁判法",
+    "intro": "散打是武术的全接触对抗竞赛形式。本页面根据2024版规则，为裁判提供比赛结构、得分部位、禁击部位、得分标准和判罚的快速参考。",
+    "downloadRules": "下载规则PDF",
+    "quickFacts": {
+      "title": "快速参考",
+      "rounds": {
+        "title": "比赛形式",
+        "description": "每场比赛最多三局，先胜两局者获胜。"
+      },
+      "roundDuration": {
+        "title": "每局时间",
+        "description": "每局比赛时间为两分钟。"
+      },
+      "rest": {
+        "title": "局间休息",
+        "description": "每局之间休息一分钟。"
+      },
+      "platform": {
+        "title": "擂台",
+        "description": "比赛在8米乘8米的高台上进行。"
+      },
+      "validAreas": {
+        "title": "得分部位",
+        "description": "头部、躯干和大腿为有效得分部位。"
+      },
+      "prohibitedAreas": {
+        "title": "禁击部位",
+        "description": "后脑、颈部和裆部为禁击部位。"
+      }
+    },
+    "scoring": {
+      "title": "裁判要点",
+      "twoPoints": {
+        "title": "得2分情况",
+        "description": "常见得2分情况包括使对方下台，或在自身站立时使对方倒地。"
+      },
+      "onePoint": {
+        "title": "得1分情况",
+        "description": "常见得1分情况包括用清晰有效的拳法或腿法击中有效得分部位，具体以规则中的得分情形为准。"
+      },
+      "noScore": {
+        "title": "不得分情况",
+        "description": "动作不清楚、双方均无明显效果、无效同时动作或击中禁击部位时，不予得分。"
+      },
+      "fouls": {
+        "title": "犯规与判罚",
+        "description": "技术犯规和侵人犯规可根据严重程度给予劝告、警告、罚分、判负或取消比赛资格。"
+      }
+    }
   },
   "common": {
     "loading": "正在加载...",

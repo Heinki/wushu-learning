@@ -1,0 +1,36 @@
+<section class="sanda-container">
+  <header class="sanda-header">
+    <div>
+      <p class="eyebrow">{{ 'sanda.eyebrow' | translate }}</p>
+      <h1>{{ 'sanda.title' | translate }}</h1>
+      <p class="intro">{{ 'sanda.intro' | translate }}</p>
+    </div>
+    <a class="btn" [href]="pdfPath" download>
+      {{ 'sanda.downloadRules' | translate }}
+    </a>
+  </header>
+
+  <div class="section-band">
+    <h2>{{ 'sanda.quickFacts.title' | translate }}</h2>
+    <div class="info-grid">
+      @for (fact of quickFacts; track fact) {
+        <article class="info-card">
+          <h3>{{ 'sanda.quickFacts.' + fact + '.title' | translate }}</h3>
+          <p>{{ 'sanda.quickFacts.' + fact + '.description' | translate }}</p>
+        </article>
+      }
+    </div>
+  </div>
+
+  <div class="section-band">
+    <h2>{{ 'sanda.scoring.title' | translate }}</h2>
+    <div class="rules-list">
+      @for (rule of scoringRules; track rule) {
+        <article class="rule-row">
+          <h3>{{ 'sanda.scoring.' + rule + '.title' | translate }}</h3>
+          <p>{{ 'sanda.scoring.' + rule + '.description' | translate }}</p>
+        </article>
+      }
+    </div>
+  </div>
+</section>

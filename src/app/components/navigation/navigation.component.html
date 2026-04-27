@@ -53,6 +53,13 @@
         </a>
       </li>
       <li>
+        <a routerLink="/sanda" routerLinkActive="active">
+          @if (!isCollapsed) {
+            <span>{{ 'nav.sanda' | translate }}</span>
+          }
+        </a>
+      </li>
+      <li>
         <a routerLink="/resources" routerLinkActive="active">
           @if (!isCollapsed) {
             <span>{{ 'nav.resources' | translate }}</span>

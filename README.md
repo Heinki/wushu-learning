@@ -1,59 +1,59 @@
-# WushuLearning
+# Wushu Learning
 
-This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 19.2.5.
+Angular learning app for Wushu judges. It includes Taolu judging criteria, practice questions, mistake tracking, official rule PDFs, and a Sanda rules reference.
 
-## Development server
+## Requirements
 
-To start a local development server, run:
+- Node.js. Use an active LTS version when possible.
+- pnpm. The project enforces pnpm through the `preinstall` script.
 
-```bash
-ng serve
-```
-
-Once the server is running, open your browser and navigate to `http://localhost:4200/`. The application will automatically reload whenever you modify any of the source files.
-
-## Code scaffolding
-
-Angular CLI includes powerful code scaffolding tools. To generate a new component, run:
+Install dependencies:
 
 ```bash
-ng generate component component-name
+pnpm install
 ```
 
-For a complete list of available schematics (such as `components`, `directives`, or `pipes`), run:
+## Local Development
+
+Start the app locally:
 
 ```bash
-ng generate --help
+pnpm start
 ```
 
-## Building
+Open `http://localhost:4200/`. The development server reloads when source files change.
 
-To build the project run:
+## Build
+
+Create a production build for GitHub Pages:
 
 ```bash
-ng build
+pnpm build
 ```
 
-This will compile your project and store the build artifacts in the `dist/` directory. By default, the production build optimizes your application for performance and speed.
+The build writes to `docs/` because GitHub Pages serves this repository from that folder. Angular may create `docs/browser/`; `scripts/move-files.js` moves those files up into `docs/` and keeps the index base URL set to `/wushu-learning/` so the published page works correctly.
 
-## Running unit tests
+## Project Structure
 
-To execute unit tests with the [Karma](https://karma-runner.github.io) test runner, use the following command:
+- `src/app/components/` - application pages and UI components.
+- `src/assets/data/en/` and `src/assets/data/zh/` - Taolu technique JSON and practice questions.
+- `src/assets/data/pdf/` - official Taolu and Sanda rule PDFs.
+- `src/assets/i18n/` - English and Chinese UI translations.
+- `docs/` - generated GitHub Pages output.
+
+When adding a new Taolu technique category, add its JSON files under both language folders, update each category `index.json`, and include the category in the loader/practice arrays so it appears in judging criteria and practice.
+
+## Useful Commands
 
 ```bash
-ng test
+pnpm start
+pnpm build
+pnpm test
 ```
 
-## Running end-to-end tests
+## Official Rules
 
-For end-to-end (e2e) testing, run:
+The rule PDFs are included in the app under Resources:
 
-```bash
-ng e2e
-```
-
-Angular CLI does not come with an end-to-end testing framework by default. You can choose one that suits your needs.
-
-## Additional Resources
-
-For more information on using the Angular CLI, including detailed command references, visit the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+- WUSHU-TAOLU-COMPETITION-RULES-AND-JUDGING-METHODS-2024.pdf
+- WUSHU-SANDA-COMPETITION-RULES-JUDGING-METHODS-2024.pdf

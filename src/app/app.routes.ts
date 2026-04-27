@@ -5,10 +5,12 @@ import { JudgingCriteriaComponent } from './components/judging-criteria/judging-
 import { PracticeComponent } from './components/practice/practice.component';
 import { ResourcesComponent } from './components/resources/resources.component';
 import { MistakesComponent } from './components/mistakes/mistakes.component';
+import { SandaComponent } from './components/sanda/sanda.component';
 
 export const routes: Routes = [
   { path: '', component: MainPageComponent },
   { path: 'practice', component: PracticeComponent },
+  { path: 'sanda', component: SandaComponent },
   { path: 'judging-criteria', component: JudgingCriteriaComponent },
   {
     path: 'judging-criteria/:techniqueId',

@@ -3,6 +3,7 @@ const path = require('path');
 
 const srcDir = 'docs/browser';
 const destDir = 'docs';
+const githubPagesBaseHref = '/wushu-learning/';
 
 // Function to copy a directory recursively
 function copyDir(src, dest) {
@@ -22,6 +23,22 @@ function copyDir(src, dest) {
       fs.copyFileSync(srcPath, destPath);
     }
   });
+}
+
+function preserveGithubPagesBaseHref() {
+  const indexPath = path.join(destDir, 'index.html');
+
+  if (!fs.existsSync(indexPath)) {
+    return;
+  }
+
+  const indexHtml = fs.readFileSync(indexPath, 'utf8');
+  const updatedIndexHtml = indexHtml.replace(
+    /<base\s+href="[^"]*"\s*>/i,
+    `<base href="${githubPagesBaseHref}">`
+  );
+
+  fs.writeFileSync(indexPath, updatedIndexHtml, 'utf8');
 }
 
 // Check if browser directory exists
@@ -44,9 +61,11 @@ if (fs.existsSync(srcDir)) {
 
   // Remove the browser directory
   fs.rmSync(srcDir, { recursive: true, force: true });
+  preserveGithubPagesBaseHref();
 
   console.log('✅ Files successfully moved from docs/browser to docs');
   console.log('✅ Browser directory removed');
+  console.log(`✅ Base href set to ${githubPagesBaseHref}`);
 } else {
   console.log('❌ docs/browser directory not found');
 }

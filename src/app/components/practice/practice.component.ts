@@ -4,9 +4,17 @@ import { FormsModule } from '@angular/forms';
 import { HttpClient } from '@angular/common/http';
 import { catchError, map } from 'rxjs/operators';
 import { forkJoin, of } from 'rxjs';
-import { TechniqueQuestionData } from '../../interfaces/question.model';
-import { Question } from '../../interfaces/question.model';
+import {
+  MistakeItem,
+  Question,
+  TechniqueQuestionData,
+} from '../../interfaces/question';
 import { TranslateModule, TranslateService } from '@ngx-translate/core';
+import {
+  ALL_TECHNIQUES_CATEGORY,
+  TECHNIQUE_CATEGORIES,
+} from '../../constants/technique-categories';
+import { MistakeStorageService } from '../../services/mistake-storage.service';
 
 @Component({
   selector: 'app-practice',
@@ -18,37 +26,13 @@ import { TranslateModule, TranslateService } from '@ngx-translate/core';
 export class PracticeComponent {
   private translate = inject(TranslateService);
 
-  private categoryKeys = [
-    'Balance',
-    'Hand Forms',
-    'Leg Techniques',
-    'Stances',
-    'Jumps',
-    'Weapon Techniques',
-    'All',
-  ];
-
   get categories(): string[] {
-    return this.categoryKeys.map((key) => {
-      switch (key) {
-        case 'Balance':
-          return this.translate.instant('practice.categories.balance');
-        case 'Hand Forms':
-          return this.translate.instant('practice.categories.handForms');
-        case 'Leg Techniques':
-          return this.translate.instant('practice.categories.legTechniques');
-        case 'Stances':
-          return this.translate.instant('practice.categories.stances');
-        case 'Jumps':
-          return this.translate.instant('practice.categories.jumps');
-        case 'Weapon Techniques':
-          return this.translate.instant('practice.categories.weaponTechniques');
-        case 'All':
-          return this.translate.instant('practice.categories.all');
-        default:
-          return key;
-      }
-    });
+    return [
+      ...TECHNIQUE_CATEGORIES.map((category) =>
+        this.translate.instant(category.translationKey)
+      ),
+      this.translate.instant(ALL_TECHNIQUES_CATEGORY.translationKey),
+    ];
   }
 
   questions: Question[] = [];
@@ -66,13 +50,16 @@ export class PracticeComponent {
   showCorrectAnswer = false;
   answerHistory: { question: string; correct: boolean; userAnswer: string }[] =
     [];
-  showSummary: boolean = false;
+  showSummary = false;
 
-  private AMOUNT_OF_QUESTIONS: number = 15;
+  private readonly amountOfQuestions = 15;
 
-  constructor(private http: HttpClient) {}
+  constructor(
+    private http: HttpClient,
+    private mistakeStorage: MistakeStorageService
+  ) {}
 
-  selectCategory(translatedCategory: string) {
+  selectCategory(translatedCategory: string): void {
     const originalCategory = this.getOriginalCategoryKey(translatedCategory);
 
     this.isLoading = true;
@@ -80,20 +67,15 @@ export class PracticeComponent {
     this.currentQuestion = null;
     this.showOverview = false;
     this.answeredCount = 0;
-    this.remainingCount = this.AMOUNT_OF_QUESTIONS;
+    this.remainingCount = this.amountOfQuestions;
     this.questionQueue = [];
     this.checkDisabled = false;
     this.showCorrectAnswer = false;
 
     if (originalCategory === 'All') {
-      const subCategories = [
-        'balance',
-        'hand-forms',
-        'leg-techniques',
-        'stances',
-        'jumps',
-        'weapon-techniques',
-      ];
+      const subCategories = TECHNIQUE_CATEGORIES.map(
+        (category) => category.directory
+      );
       const currentLang = this.translate.currentLang || 'en';
       const requests = subCategories.map((cat) =>
         this.http
@@ -112,18 +94,24 @@ export class PracticeComponent {
       });
     } else {
       const currentLang = this.translate.currentLang || 'en';
-      const path = `assets/data/${currentLang}/${originalCategory
-        .toLowerCase()
-        .replace(' ', '-')}/index.json`;
+      const selectedCategory = TECHNIQUE_CATEGORIES.find(
+        (category) => category.key === originalCategory
+      );
+
+      if (!selectedCategory) {
+        this.isLoading = false;
+        this.showOverview = true;
+        return;
+      }
+
+      const path = `assets/data/${currentLang}/${selectedCategory.directory}/index.json`;
       this.http
         .get<string[]>(path)
         .pipe(
           map((files) =>
             files.map(
               (file) =>
-                `assets/data/${currentLang}/${originalCategory
-                  .toLowerCase()
-                  .replace(' ', '-')}/${file}`
+                `assets/data/${currentLang}/${selectedCategory.directory}/${file}`
             )
           ),
           catchError(() => of([]))
@@ -135,31 +123,26 @@ export class PracticeComponent {
   }
 
   private getOriginalCategoryKey(translatedCategory: string): string {
-    switch (translatedCategory) {
-      case this.translate.instant('practice.categories.balance'):
-        return 'Balance';
-      case this.translate.instant('practice.categories.handForms'):
-        return 'Hand Forms';
-      case this.translate.instant('practice.categories.legTechniques'):
-        return 'Leg Techniques';
-      case this.translate.instant('practice.categories.stances'):
-        return 'Stances';
-      case this.translate.instant('practice.categories.jumps'):
-        return 'Jumps';
-      case this.translate.instant('practice.categories.weaponTechniques'):
-        return 'Weapon Techniques';
-      case this.translate.instant('practice.categories.all'):
-        return 'All';
-      default:
-        return translatedCategory;
+    const category = TECHNIQUE_CATEGORIES.find(
+      (item) =>
+        this.translate.instant(item.translationKey) === translatedCategory
+    );
+
+    if (category) {
+      return category.key;
     }
+
+    return this.translate.instant(ALL_TECHNIQUES_CATEGORY.translationKey) ===
+      translatedCategory
+      ? ALL_TECHNIQUES_CATEGORY.key
+      : translatedCategory;
   }
 
-  loadQuestions(files: string[]) {
+  loadQuestions(files: string[]): void {
     this.questions = [];
     this.questionQueue = [];
     this.answeredCount = 0;
-    this.remainingCount = this.AMOUNT_OF_QUESTIONS;
+    this.remainingCount = this.amountOfQuestions;
     this.checkDisabled = false;
     this.showCorrectAnswer = false;
     this.answerHistory = [];
@@ -187,7 +170,7 @@ export class PracticeComponent {
         });
         this.questionQueue = this.shuffleArray(this.questions).slice(
           0,
-          this.AMOUNT_OF_QUESTIONS
+          this.amountOfQuestions
         );
         this.totalQuestions = this.questionQueue.length;
         this.answeredCount = 0;
@@ -203,7 +186,7 @@ export class PracticeComponent {
     });
   }
 
-  getNextQuestion() {
+  getNextQuestion(): void {
     if (this.questionQueue.length > 0) {
       this.currentQuestion = this.questionQueue.shift() ?? null;
       this.userAnswer = '';
@@ -217,7 +200,7 @@ export class PracticeComponent {
     }
   }
 
-  checkAnswer() {
+  checkAnswer(): void {
     if (this.checkDisabled || !this.currentQuestion) return;
     const normalize = (str: string) => str.trim().toLowerCase();
     const tokenize = (str: string) => normalize(str).split(/\s+/);
@@ -245,12 +228,12 @@ export class PracticeComponent {
     }
   }
 
-  saveMistake() {
+  saveMistake(): void {
     if (!this.currentQuestion || !this.currentQuestion.techniqueData) return;
 
     const techniqueData = this.currentQuestion.techniqueData;
 
-    const mistake = {
+    const mistake: MistakeItem = {
       question: this.currentQuestion.question,
       answer: this.currentQuestion.answer,
       technique_code: techniqueData.code,
@@ -261,30 +244,14 @@ export class PracticeComponent {
       original_technique_code: techniqueData.code,
     };
 
-    const mistakesJson = localStorage.getItem('wushu-mistakes');
-    let mistakes = mistakesJson ? JSON.parse(mistakesJson) : [];
-
-    const existingIndex = mistakes.findIndex(
-      (m: Question) =>
-        m.techniqueData?.code === mistake.technique_code &&
-        m.question === mistake.question
-    );
-
-    if (existingIndex !== -1) {
-      mistakes[existingIndex].count += 1;
-    } else {
-      mistakes.push(mistake);
-    }
-
-    localStorage.setItem('wushu-mistakes', JSON.stringify(mistakes));
-    console.log('Mistake saved:', mistake);
+    this.mistakeStorage.save(mistake);
   }
 
-  nextQuestion() {
+  nextQuestion(): void {
     this.getNextQuestion();
   }
 
-  shuffleArray(array: Question[]) {
+  shuffleArray(array: Question[]): Question[] {
     const arr = [...array];
     for (let i = arr.length - 1; i > 0; i--) {
       const j = Math.floor(Math.random() * (i + 1));
@@ -293,7 +260,7 @@ export class PracticeComponent {
     return arr;
   }
 
-  resetPractice() {
+  resetPractice(): void {
     this.showOverview = true;
     this.questions = [];
     this.currentQuestion = null;

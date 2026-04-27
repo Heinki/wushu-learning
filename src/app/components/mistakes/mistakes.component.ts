@@ -4,6 +4,7 @@ import { Router } from '@angular/router';
 import { CardComponent } from '../card/card.component';
 import { MistakeItem } from '../../interfaces/question';
 import { TranslateModule } from '@ngx-translate/core';
+import { MistakeStorageService } from '../../services/mistake-storage.service';
 
 @Component({
   selector: 'app-mistakes',
@@ -17,7 +18,10 @@ export class MistakesComponent implements OnInit {
   loading = true;
   objectKeys = Object.keys;
 
-  constructor(private router: Router) {}
+  constructor(
+    private router: Router,
+    private mistakeStorage: MistakeStorageService
+  ) {}
 
   ngOnInit(): void {
     this.loadMistakes();
@@ -25,9 +29,7 @@ export class MistakesComponent implements OnInit {
 
   loadMistakes(): void {
     try {
-      const mistakesJson = localStorage.getItem('wushu-mistakes');
-      this.mistakes = mistakesJson ? JSON.parse(mistakesJson) : [];
-
+      this.mistakes = this.mistakeStorage.getAll();
       this.mistakes.sort((a, b) => b.count - a.count);
     } catch (error) {
       this.mistakes = [];
@@ -55,7 +57,7 @@ export class MistakesComponent implements OnInit {
   }
 
   clearAllMistakes(): void {
-    localStorage.removeItem('wushu-mistakes');
+    this.mistakeStorage.clear();
     this.mistakes = [];
   }
 }

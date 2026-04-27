@@ -1,22 +1,52 @@
 import { Routes } from '@angular/router';
-import { MainPageComponent } from './components/main-page/main-page.component';
-import { TechniqueDetailComponent } from './components/technique-detail/technique-detail.component';
-import { JudgingCriteriaComponent } from './components/judging-criteria/judging-criteria.component';
-import { PracticeComponent } from './components/practice/practice.component';
-import { ResourcesComponent } from './components/resources/resources.component';
-import { MistakesComponent } from './components/mistakes/mistakes.component';
-import { SandaComponent } from './components/sanda/sanda.component';
 
 export const routes: Routes = [
-  { path: '', component: MainPageComponent },
-  { path: 'practice', component: PracticeComponent },
-  { path: 'sanda', component: SandaComponent },
-  { path: 'judging-criteria', component: JudgingCriteriaComponent },
+  {
+    path: '',
+    loadComponent: () =>
+      import('./components/main-page/main-page.component').then(
+        (m) => m.MainPageComponent
+      ),
+  },
+  {
+    path: 'practice',
+    loadComponent: () =>
+      import('./components/practice/practice.component').then(
+        (m) => m.PracticeComponent
+      ),
+  },
+  {
+    path: 'sanda',
+    loadComponent: () =>
+      import('./components/sanda/sanda.component').then((m) => m.SandaComponent),
+  },
+  {
+    path: 'judging-criteria',
+    loadComponent: () =>
+      import('./components/judging-criteria/judging-criteria.component').then(
+        (m) => m.JudgingCriteriaComponent
+      ),
+  },
   {
     path: 'judging-criteria/:techniqueId',
-    component: TechniqueDetailComponent,
+    loadComponent: () =>
+      import('./components/technique-detail/technique-detail.component').then(
+        (m) => m.TechniqueDetailComponent
+      ),
   },
-  { path: 'mistakes', component: MistakesComponent },
-  { path: 'resources', component: ResourcesComponent },
+  {
+    path: 'mistakes',
+    loadComponent: () =>
+      import('./components/mistakes/mistakes.component').then(
+        (m) => m.MistakesComponent
+      ),
+  },
+  {
+    path: 'resources',
+    loadComponent: () =>
+      import('./components/resources/resources.component').then(
+        (m) => m.ResourcesComponent
+      ),
+  },
   { path: '**', redirectTo: '' },
 ];

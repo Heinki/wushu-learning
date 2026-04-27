@@ -3,20 +3,17 @@ import { HttpClient } from '@angular/common/http';
 import { Observable, forkJoin, map, of, switchMap } from 'rxjs';
 import { TechniqueQuestionData } from '../interfaces/question';
 import { TranslateService } from '@ngx-translate/core';
+import { TECHNIQUE_CATEGORIES } from '../constants/technique-categories';
 
 @Injectable({
   providedIn: 'root',
 })
 export class TechniqueService {
-  private readonly directories = [
-    'hand-forms',
-    'balance',
-    'leg-techniques',
-    'stances',
-    'jumps',
-    'weapon-techniques',
-  ];
-  private techniqueCache = new Map<string, TechniqueQuestionData>();
+  private readonly directories = TECHNIQUE_CATEGORIES.map(
+    (category) => category.directory
+  );
+  private readonly techniqueCache = new Map<string, TechniqueQuestionData>();
+  private allTechniquesLoaded = false;
   private translate = inject(TranslateService);
 
   constructor(private http: HttpClient) {}
@@ -29,7 +26,7 @@ export class TechniqueService {
   }
 
   getAllTechniques(): Observable<TechniqueQuestionData[]> {
-    if (this.techniqueCache.size > 0) {
+    if (this.allTechniquesLoaded) {
       return of(Array.from(this.techniqueCache.values()));
     }
     return this.fetchAllTechniques();
@@ -37,6 +34,7 @@ export class TechniqueService {
 
   clearCache(): void {
     this.techniqueCache.clear();
+    this.allTechniquesLoaded = false;
   }
 
   private fetchTechniqueByCode(
@@ -68,6 +66,7 @@ export class TechniqueService {
         validTechniques.forEach((technique) => {
           this.techniqueCache.set(technique.code, technique);
         });
+        this.allTechniquesLoaded = true;
         return validTechniques;
       })
     );

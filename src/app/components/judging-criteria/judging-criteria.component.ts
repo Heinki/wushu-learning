@@ -43,7 +43,7 @@ export class JudgingCriteriaComponent implements OnInit {
 
   openAllCategories(): void {
     const categories = Object.keys(this.groupedTechniques);
-    categories.forEach(category => {
+    categories.forEach((category) => {
       this.openCategories.add(category);
     });
   }
@@ -77,7 +77,7 @@ export class JudgingCriteriaComponent implements OnInit {
     return grouped;
   }
 
-  objectKeys(obj: any): string[] {
+  objectKeys(obj: Record<string, unknown>): string[] {
     return Object.keys(obj);
   }
 }

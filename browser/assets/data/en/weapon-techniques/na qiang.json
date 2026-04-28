@@ -10,15 +10,33 @@
   "questions": [
     {
       "question": "What is the error code for Ná Qiāng (Inward Blocking with the Spear)?",
-      "answer": "63"
+      "answer": "63",
+      "choices": [
+        "13",
+        "63",
+        "10",
+        "12"
+      ]
     },
     {
       "question": "What are the deduction points for Ná Qiāng (Inward Blocking with the Spear)?",
-      "answer": "Deductions are applied when: 1) Spear head not travelling in a clearly defined arc, 2) Rear handle of spear end protrudes from the grip, 3) The thrusting arm and spear shaft do not form a horizontal straight line."
+      "answer": "Deductions are applied when: 1) Spear head not travelling in a clearly defined arc, 2) Rear handle of spear end protrudes from the grip, 3) The thrusting arm and spear shaft do not form a horizontal straight line.",
+      "choices": [
+        "Deductions are applied when: 1) Spear head not travelling in a clearly defined arc, 2) Rear handle of spear end protrudes from the grip, 3) The thrusting arm and spear shaft do not form a horizontal straight line.",
+        "Deductions are applied when: 1) Neither one of the buttocks is in contact with the floor, 2) Either one of the feet is not in contact with the floor.",
+        "The front and rear legs should form two parallel straight lines.",
+        "Deductions are applied when: 1) The hanging leg is bent when the toes of the kicking leg touch the forehead or above, 2) The angle between the torso and the hanging leg is less than 135 degrees at that moment."
+      ]
     },
     {
       "question": "Which technique category does Ná Qiāng (Inward Blocking with the Spear) belong to?",
-      "answer": "Weapon Techniques"
+      "answer": "Weapon Techniques",
+      "choices": [
+        "Leg Techniques",
+        "Jumps",
+        "Weapon Techniques",
+        "Stances"
+      ]
     }
   ]
 }

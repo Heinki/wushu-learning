@@ -9,15 +9,33 @@
   "questions": [
     {
       "question": "What is the error code for Bǎi Lián Pāi Jiǎo (Lotus Slap Kick)?",
-      "answer": "25"
+      "answer": "25",
+      "choices": [
+        "25",
+        "01",
+        "02",
+        "62"
+      ]
     },
     {
       "question": "What are the deduction points for Bǎi Lián Pāi Jiǎo (Lotus Slap Kick)?",
-      "answer": "Deductions are applied when: 1) Toes of slapped foot not above shoulder height, 2) Slap missed and/or inaudible."
+      "answer": "Deductions are applied when: 1) Toes of slapped foot not above shoulder height, 2) Slap missed and/or inaudible.",
+      "choices": [
+        "The thigh of the supporting leg must be at horizontal level.",
+        "Deductions are applied when: 1) Toes of slapped foot not above shoulder height, 2) Slap missed and/or inaudible.",
+        "The supporting leg must be completely straight without any bending.",
+        "Deductions are applied when: 1) Torso is held 45° or more above horizontal level, 2) Waist is not twisted toward the rear in the direction of the supporting leg, and 3) Instep of the raised bent leg is not extended flat."
+      ]
     },
     {
       "question": "Which technique category does Bǎi Lián Pāi Jiǎo (Lotus Slap Kick) belong to?",
-      "answer": "Leg Techniques"
+      "answer": "Leg Techniques",
+      "choices": [
+        "Jumps",
+        "Weapon Techniques",
+        "Stances",
+        "Leg Techniques"
+      ]
     }
   ]
 }

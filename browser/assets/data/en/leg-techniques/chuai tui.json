@@ -8,15 +8,33 @@
   "questions": [
     {
       "question": "What is the error code for Chuài Tuí (Side Kick)?",
-      "answer": "23"
+      "answer": "23",
+      "choices": [
+        "23",
+        "31",
+        "30",
+        "33"
+      ]
     },
     {
       "question": "What is the main deduction point for Chuài Tuí (Side Kick)?",
-      "answer": "Deduction is applied when the kicking leg does not transit from obvious bent (45° or more) to completely straight."
+      "answer": "Deduction is applied when the kicking leg does not transit from obvious bent (45° or more) to completely straight.",
+      "choices": [
+        "The kicking leg should transition from an obviously bent position (45° or more) to completely straight in a snapping motion.",
+        "The raised foot's toes should be pointed and hooking inwards.",
+        "The four fingers should be straight and held together, while the thumb should be bent and held in tightly at the tiger's mouth area.",
+        "Deduction is applied when the kicking leg does not transit from obvious bent (45° or more) to completely straight."
+      ]
     },
     {
       "question": "What is the minimum angle requirement for the bent leg before extending in Chuài Tuí?",
-      "answer": "The kicking leg must be bent at least 45° or more before transitioning to completely straight."
+      "answer": "The kicking leg must be bent at least 45° or more before transitioning to completely straight.",
+      "choices": [
+        "Deductions are applied when: 1) Raised shank/calf of the leg is not turning obliquely inwards, and 2) Raised foot's toes are not pointed and hooking inwards.",
+        "Deductions are applied when: 1) The sole of sweeping foot leaves the ground after making contact, and 2) Sweeping leg is bent 45° or more.",
+        "Deductions are applied when: 1) No obvious horizontal circle formed.",
+        "The kicking leg must be bent at least 45° or more before transitioning to completely straight."
+      ]
     }
   ]
 }

@@ -9,15 +9,33 @@
   "questions": [
     {
       "question": "What is the error code for Lǐ Hé Pāi Jiǎo (Inward Slap Kick)?",
-      "answer": "25"
+      "answer": "25",
+      "choices": [
+        "02",
+        "03",
+        "25",
+        "04"
+      ]
     },
     {
       "question": "What are the deduction points for Lǐ Hé Pāi Jiǎo (Inward Slap Kick)?",
-      "answer": "Deductions are applied when: 1) Toes of slapped foot not above shoulder height, 2) Slap missed and/or inaudible."
+      "answer": "Deductions are applied when: 1) Toes of slapped foot not above shoulder height, 2) Slap missed and/or inaudible.",
+      "choices": [
+        "Deduction is applied when the kicking leg does not transit from obvious bent (45° or more) to completely straight.",
+        "The sole of the sweeping foot should maintain contact with the ground throughout the sweeping action.",
+        "Deductions are applied when: 1) Toes of slapped foot not above shoulder level, 2) Slap missed and/or inaudible.",
+        "Deductions are applied when: 1) Toes of slapped foot not above shoulder height, 2) Slap missed and/or inaudible."
+      ]
     },
     {
       "question": "Which technique category does Lǐ Hé Pāi Jiǎo (Inward Slap Kick) belong to?",
-      "answer": "Leg Techniques"
+      "answer": "Leg Techniques",
+      "choices": [
+        "Stances",
+        "Leg Techniques",
+        "Jumps",
+        "Weapon Techniques"
+      ]
     }
   ]
 }

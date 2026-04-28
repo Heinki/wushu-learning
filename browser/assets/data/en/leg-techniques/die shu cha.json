@@ -9,19 +9,43 @@
   "questions": [
     {
       "question": "What is the error code for Die Shù Chà (Falling Front Split)?",
-      "answer": "22"
+      "answer": "22",
+      "choices": [
+        "63",
+        "62",
+        "61",
+        "22"
+      ]
     },
     {
       "question": "What are the two main deduction points for Die Shù Chà?",
-      "answer": "Deductions are applied when: 1) The sole of the front foot turns inward and touches the ground, and 2) Front and rear legs do not form two parallel straight lines."
+      "answer": "Deductions are applied when: 1) The sole of the front foot turns inward and touches the ground, and 2) Front and rear legs do not form two parallel straight lines.",
+      "choices": [
+        "Deductions are applied when: 1) The sole of the front foot turns inward and touches the ground, and 2) Front and rear legs do not form two parallel straight lines.",
+        "The kicking leg must bend at least 45° before transitioning to completely straight.",
+        "Deductions are applied when: 1) Toes of slapped foot not above shoulder height, 2) Slap missed and/or inaudible.",
+        "The five fingers should be pinched together, and the wrist should be completely hooked."
+      ]
     },
     {
       "question": "What is the correct foot position for the front foot in Die Shù Chà?",
-      "answer": "The sole of the front foot should not turn inward or touch the ground."
+      "answer": "The sole of the front foot should not turn inward or touch the ground.",
+      "choices": [
+        "The five fingers should be pinched together, and the wrist should be completely hooked.",
+        "The sole of the front foot should not turn inward or touch the ground.",
+        "The kicking leg should transition from an obviously bent position (45° or more) to completely straight in a snapping motion.",
+        "A deduction is applied when the kicking leg does not transit from obvious bent (45° or more) to completely straight."
+      ]
     },
     {
       "question": "How should the legs be aligned in a correct Die Shù Chà technique?",
-      "answer": "The front and rear legs should form two parallel straight lines."
+      "answer": "The front and rear legs should form two parallel straight lines.",
+      "choices": [
+        "The sole of the sweeping foot should maintain contact with the ground throughout the sweeping action without leaving the ground after making contact.",
+        "The front and rear legs should form two parallel straight lines.",
+        "A deduction is applied when the raised leg is held below horizontal level.",
+        "The supporting leg must be completely straight without any bending."
+      ]
     }
   ]
 }

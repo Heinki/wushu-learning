@@ -9,15 +9,33 @@
   "questions": [
     {
       "question": "What is the error code for Cè Ti Tuí (Side Stretch Kick)?",
-      "answer": "24"
+      "answer": "24",
+      "choices": [
+        "33",
+        "32",
+        "24",
+        "34"
+      ]
     },
     {
       "question": "What are the two main deduction points for Cè Ti Tuí (Side Stretch Kick)?",
-      "answer": "Deductions are applied when: 1) Knee/s are bent at the apex of the kick, and 2) Heel of supporting leg is off the floor."
+      "answer": "Deductions are applied when: 1) Knee/s are bent at the apex of the kick, and 2) Heel of supporting leg is off the floor.",
+      "choices": [
+        "Deductions are applied when: 1) Supporting leg is bent, and 2) Raised leg is bent.",
+        "Deductions are applied when: 1) Toes of slapped foot not above shoulder level, 2) Slap missed and/or inaudible.",
+        "Deductions are applied when: 1) Knee/s are bent at the apex of the kick, and 2) Heel of supporting leg is off the floor.",
+        "Deductions are applied when: 1) The sole of the front foot turns inward and touches the ground, and 2) Front and rear legs do not form two parallel straight lines."
+      ]
     },
     {
       "question": "How should the supporting leg be positioned during a correct Cè Ti Tuí (Side Stretch Kick)?",
-      "answer": "The heel of the supporting leg should remain on the floor throughout the kick."
+      "answer": "The heel of the supporting leg should remain on the floor throughout the kick.",
+      "choices": [
+        "The raised foot's toes should be pointed and hooking inwards.",
+        "A deduction is applied when the thigh of supporting leg is above horizontal level.",
+        "The four fingers should be straight and held together, while the thumb should be bent and held in tightly at the tiger's mouth area.",
+        "The heel of the supporting leg should remain on the floor throughout the kick."
+      ]
     }
   ]
 }

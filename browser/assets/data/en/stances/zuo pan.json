@@ -9,15 +9,33 @@
   "questions": [
     {
       "question": "What is the error code for Zuò Pán (Cross-Legged Sitting)?",
-      "answer": "58"
+      "answer": "58",
+      "choices": [
+        "15",
+        "58",
+        "66",
+        "14"
+      ]
     },
     {
       "question": "What are the deduction points for Zuò Pán (Cross-Legged Sitting)?",
-      "answer": "Deductions are applied when: 1) Neither one of the buttocks is in contact with the floor, 2) Either one of the feet is not in contact with the floor."
+      "answer": "Deductions are applied when: 1) Neither one of the buttocks is in contact with the floor, 2) Either one of the feet is not in contact with the floor.",
+      "choices": [
+        "Deductions are applied when: 1) Knee/s are bent at the apex of the kick, and 2) Heel of supporting leg is off the floor.",
+        "The kicking leg must bend at least 45° before transitioning to completely straight.",
+        "Deductions are applied when: 1) Neither one of the buttocks is in contact with the floor, 2) Either one of the feet is not in contact with the floor.",
+        "Deductions are applied when: 1) The two thighs are not crossed and closed together, 2) The buttocks are not in contact with the calf of the sitting leg."
+      ]
     },
     {
       "question": "Which technique category does Zuò Pán (Cross-Legged Sitting) belong to?",
-      "answer": "Stances"
+      "answer": "Stances",
+      "choices": [
+        "Stances",
+        "Jumps",
+        "Weapon Techniques",
+        "Leg Techniques"
+      ]
     }
   ]
 }

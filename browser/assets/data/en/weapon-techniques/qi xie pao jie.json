@@ -9,15 +9,33 @@
   "questions": [
     {
       "question": "What is the error code for Qì Xiè Pāo Jiē (Weapon Throwing and Catching Techniques)?",
-      "answer": "66"
+      "answer": "66",
+      "choices": [
+        "16",
+        "14",
+        "15",
+        "66"
+      ]
     },
     {
       "question": "What are the deduction points for Qì Xiè Pāo Jiē (Weapon Throwing and Catching Techniques)?",
-      "answer": "Deductions are applied when: 1) Weapon caught in a hugging manner, 2) Failure to catch the straight sword or broadsword by the handle, or the cudgel or spear shaft with a single hand."
+      "answer": "Deductions are applied when: 1) Weapon caught in a hugging manner, 2) Failure to catch the straight sword or broadsword by the handle, or the cudgel or spear shaft with a single hand.",
+      "choices": [
+        "Deductions are applied when: 1) Weapon caught in a hugging manner, 2) Failure to catch the straight sword or broadsword by the handle, or the cudgel or spear shaft with a single hand.",
+        "Deductions are applied when: 1) Leg or legs bent 45 degrees or more while in the air.",
+        "The five fingers should be pinched together, and the wrist should be completely hooked.",
+        "Deductions are applied when: 1) The hanging leg is bent when the toes of the kicking leg touch the forehead or above, 2) The angle between the torso and the hanging leg is less than 135 degrees at that moment."
+      ]
     },
     {
       "question": "Which technique category does Qì Xiè Pāo Jiē (Weapon Throwing and Catching Techniques) belong to?",
-      "answer": "Weapon Techniques"
+      "answer": "Weapon Techniques",
+      "choices": [
+        "Jumps",
+        "Stances",
+        "Weapon Techniques",
+        "Leg Techniques"
+      ]
     }
   ]
 }

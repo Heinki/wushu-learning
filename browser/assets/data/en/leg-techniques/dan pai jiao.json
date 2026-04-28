@@ -9,15 +9,33 @@
   "questions": [
     {
       "question": "What is the error code for Dān Pāi Jiǎo (Front Slap Kick)?",
-      "answer": "25"
+      "answer": "25",
+      "choices": [
+        "66",
+        "16",
+        "25",
+        "14"
+      ]
     },
     {
       "question": "What are the deduction points for Dān Pāi Jiǎo (Front Slap Kick)?",
-      "answer": "Deductions are applied when: 1) Toes of slapped foot not above shoulder height, 2) Slap missed and/or inaudible."
+      "answer": "Deductions are applied when: 1) Toes of slapped foot not above shoulder height, 2) Slap missed and/or inaudible.",
+      "choices": [
+        "The heel of the supporting leg should remain on the floor throughout the kick.",
+        "Deductions are applied when: 1) Toes of slapped foot not above shoulder height, 2) Slap missed and/or inaudible.",
+        "Deductions are applied when: 1) Raised shank/calf of the leg is not turning obliquely inwards, and 2) Raised foot's toes are not pointed and hooking inwards.",
+        "Both the supporting leg and the raised leg should be completely straight, with no bending at the knees."
+      ]
     },
     {
       "question": "Which technique category does Dān Pāi Jiǎo (Front Slap Kick) belong to?",
-      "answer": "Leg Techniques"
+      "answer": "Leg Techniques",
+      "choices": [
+        "Stances",
+        "Jumps",
+        "Weapon Techniques",
+        "Leg Techniques"
+      ]
     }
   ]
 }

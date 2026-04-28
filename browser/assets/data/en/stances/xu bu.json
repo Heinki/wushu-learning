@@ -9,15 +9,33 @@
   "questions": [
     {
       "question": "What is the error code for Xū Bù (Empty Stance)?",
-      "answer": "52"
+      "answer": "52",
+      "choices": [
+        "01",
+        "52",
+        "03",
+        "02"
+      ]
     },
     {
       "question": "What are the deduction points for Xū Bù (Empty Stance)?",
-      "answer": "Deductions are applied when: 1) Thigh of squatting leg is not parallel to the ground, 2) The heel of supporting foot is raised off the ground."
+      "answer": "Deductions are applied when: 1) Thigh of squatting leg is not parallel to the ground, 2) The heel of supporting foot is raised off the ground.",
+      "choices": [
+        "The arms should be outspread to form a cross-like position (hence the name 'Shi Zi' which means cross).",
+        "Deductions are applied when: 1) The sole of the front foot turns inward and touches the ground, and 2) Front and rear legs do not form two parallel straight lines.",
+        "Deductions are applied when: 1) Thigh of squatting leg is not parallel to the ground, 2) The heel of supporting foot is raised off the ground.",
+        "The thumb should be pressing on the second segment of both the index and middle fingers."
+      ]
     },
     {
       "question": "Which technique category does Xū Bù (Empty Stance) belong to?",
-      "answer": "Stances"
+      "answer": "Stances",
+      "choices": [
+        "Stances",
+        "Leg Techniques",
+        "Weapon Techniques",
+        "Jumps"
+      ]
     }
   ]
 }

@@ -9,15 +9,33 @@
   "questions": [
     {
       "question": "What is the error code for Liāo Jiàn (Straight Sword Uppercut)?",
-      "answer": "60"
+      "answer": "60",
+      "choices": [
+        "30",
+        "31",
+        "32",
+        "60"
+      ]
     },
     {
       "question": "What are the deduction points for Liāo Jiàn (Straight Sword Uppercut)?",
-      "answer": "Deductions are applied when: 1) Straight sword and forearm or wrist are aligned, 2) No obvious vertical circle formed."
+      "answer": "Deductions are applied when: 1) Straight sword and forearm or wrist are aligned, 2) No obvious vertical circle formed.",
+      "choices": [
+        "Deductions are applied when: 1) The cudgel does not rotate in an obvious vertical plane.",
+        "A deduction is applied when the thigh of supporting leg is not at horizontal level.",
+        "Deductions are applied when: 1) Straight sword and forearm or wrist are aligned, 2) No obvious vertical circle formed.",
+        "Deductions are applied when: 1) The back of the broadsword blade is not kept close to the body when wrapping or twining."
+      ]
     },
     {
       "question": "Which technique category does Liāo Jiàn (Straight Sword Uppercut) belong to?",
-      "answer": "Weapon Techniques"
+      "answer": "Weapon Techniques",
+      "choices": [
+        "Weapon Techniques",
+        "Stances",
+        "Jumps",
+        "Leg Techniques"
+      ]
     }
   ]
 }

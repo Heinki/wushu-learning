@@ -9,19 +9,43 @@
   "questions": [
     {
       "question": "What is the error code for Zhèng Ti Tuí (Front Stretch Kick)?",
-      "answer": "24"
+      "answer": "24",
+      "choices": [
+        "24",
+        "22",
+        "53",
+        "23"
+      ]
     },
     {
       "question": "What are the two main deduction points for Zhèng Ti Tuí?",
-      "answer": "Deductions are applied when: 1) Knee/s are bent at the apex of the kick, and 2) Heel of supporting leg is off the floor."
+      "answer": "Deductions are applied when: 1) Knee/s are bent at the apex of the kick, and 2) Heel of supporting leg is off the floor.",
+      "choices": [
+        "The kicking leg must be bent at least 45° or more before transitioning to completely straight.",
+        "Deductions are applied when: 1) Leg or legs bent 45 degrees or more while in the air.",
+        "Deductions are applied when: 1) The back of the thigh of the squatting leg is not in contact with the calf, 2) The extended leg is not completely straight, 3) Extended leg's foot is not turned inwards with the sole completely flat on the ground.",
+        "Deductions are applied when: 1) Knee/s are bent at the apex of the kick, and 2) Heel of supporting leg is off the floor."
+      ]
     },
     {
       "question": "What is the correct leg position at the apex of Zhèng Ti Tuí?",
-      "answer": "The leg should be completely straight at the apex of the kick with no bend in the knee."
+      "answer": "The leg should be completely straight at the apex of the kick with no bend in the knee.",
+      "choices": [
+        "Deductions are applied when: 1) Raised shank/calf of the leg is not turning obliquely inwards, and 2) Raised foot's toes are not pointed and hooking inwards.",
+        "Deductions are applied when: 1) The cudgel does not rotate in an obvious vertical plane.",
+        "Deductions are applied when: 1) Any finger wraps around the top of the hand guard and touches the edge of the blade.",
+        "The leg should be completely straight at the apex of the kick with no bend in the knee."
+      ]
     },
     {
       "question": "What is the correct foot position for the supporting leg during Zhèng Ti Tuí?",
-      "answer": "The heel of the supporting leg must remain in contact with the floor throughout the technique."
+      "answer": "The heel of the supporting leg must remain in contact with the floor throughout the technique.",
+      "choices": [
+        "Deductions are applied when: 1) Any finger wraps around the top of the hand guard and touches the edge of the blade.",
+        "Deductions are applied when: 1) No obvious horizontal circle formed.",
+        "The heel of the supporting leg must remain in contact with the floor throughout the technique.",
+        "The waist should be twisted toward the rear in the direction of the supporting leg."
+      ]
     }
   ]
 }

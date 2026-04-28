@@ -8,15 +8,33 @@
   "questions": [
     {
       "question": "What is the error code for Shuāng Shǒu Tí Liāo Huā Gùn (Vertical Uppercutting Cudgel with Both Hands)?",
-      "answer": "65"
+      "answer": "65",
+      "choices": [
+        "63",
+        "65",
+        "61",
+        "60"
+      ]
     },
     {
       "question": "What are the deduction points for Shuāng Shǒu Tí Liāo Huā Gùn (Vertical Uppercutting Cudgel with Both Hands)?",
-      "answer": "Deductions are applied when: 1) The cudgel does not rotate in an obvious vertical plane."
+      "answer": "Deductions are applied when: 1) The cudgel does not rotate in an obvious vertical plane.",
+      "choices": [
+        "Deductions are applied when: 1) The back of the broadsword blade is not kept close to the body when wrapping or twining.",
+        "The heel of the supporting leg must remain in contact with the floor throughout the technique.",
+        "Deductions are applied when: 1) The cudgel does not rotate in an obvious vertical plane.",
+        "Deductions are applied when: 1) Leg or legs obviously bent 45 degrees or more while in the air, 2) Angle of the torso is 45 degrees or more above horizontal level during the twist."
+      ]
     },
     {
       "question": "Which technique category does Shuāng Shǒu Tí Liāo Huā Gùn (Vertical Uppercutting Cudgel with Both Hands) belong to?",
-      "answer": "Weapon Techniques"
+      "answer": "Weapon Techniques",
+      "choices": [
+        "Weapon Techniques",
+        "Leg Techniques",
+        "Stances",
+        "Jumps"
+      ]
     }
   ]
 }

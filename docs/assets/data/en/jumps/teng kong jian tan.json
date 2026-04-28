@@ -9,15 +9,33 @@
   "questions": [
     {
       "question": "What is the error code for Téng Kōng Jiàn Tàn (Jumping Snap/Spring Kick)?",
-      "answer": "34"
+      "answer": "34",
+      "choices": [
+        "34",
+        "22",
+        "23",
+        "20"
+      ]
     },
     {
       "question": "What are the deduction points for Téng Kōng Jiàn Tàn (Jumping Snap/Spring Kick)?",
-      "answer": "Deductions are applied when: 1) Snap or spring leg does not transit from an obvious bend of 45 degrees or more to completely straight, 2) Snap or spring leg is below horizontal level."
+      "answer": "Deductions are applied when: 1) Snap or spring leg does not transit from an obvious bend of 45 degrees or more to completely straight, 2) Snap or spring leg is below horizontal level.",
+      "choices": [
+        "A deduction is applied when the raised leg is held below horizontal level.",
+        "Deductions are applied when: 1) Snap or spring leg does not transit from an obvious bend of 45 degrees or more to completely straight, 2) Snap or spring leg is below horizontal level.",
+        "Deductions are applied when: 1) The two thighs are not crossed and closed together, 2) The buttocks are not in contact with the calf of the sitting leg.",
+        "The waist should be twisted toward the rear in the direction of the supporting leg."
+      ]
     },
     {
       "question": "Which technique category does Téng Kōng Jiàn Tàn (Jumping Snap/Spring Kick) belong to?",
-      "answer": "Jumps"
+      "answer": "Jumps",
+      "choices": [
+        "Stances",
+        "Leg Techniques",
+        "Weapon Techniques",
+        "Jumps"
+      ]
     }
   ]
 }

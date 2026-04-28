@@ -9,15 +9,33 @@
   "questions": [
     {
       "question": "What is the error code for Cé Shèn Píng Héng (Sideways Leaning Balance)?",
-      "answer": "15"
+      "answer": "15",
+      "choices": [
+        "15",
+        "50",
+        "66",
+        "64"
+      ]
     },
     {
       "question": "What are the two main deduction points for Cé Shèn Píng Héng?",
-      "answer": "Deductions are applied when: 1) Supporting leg is bent, and 2) Raised leg is bent."
+      "answer": "Deductions are applied when: 1) Supporting leg is bent, and 2) Raised leg is bent.",
+      "choices": [
+        "Deductions are applied when: 1) Supporting leg is bent, and 2) Raised leg is bent.",
+        "Deductions are applied when: 1) Toes of slapped foot not above shoulder level, 2) Slap missed and/or inaudible.",
+        "The heel of the supporting leg should remain on the floor throughout the kick.",
+        "The thumb should be pressing on the second segment of both the index and middle fingers."
+      ]
     },
     {
       "question": "How should both legs be positioned in a correct Cé Shèn Píng Héng balance technique?",
-      "answer": "Both the supporting leg and the raised leg should be completely straight, with no bending at the knees."
+      "answer": "Both the supporting leg and the raised leg should be completely straight, with no bending at the knees.",
+      "choices": [
+        "Deductions are applied when: 1) Neither one of the buttocks is in contact with the floor, 2) Either one of the feet is not in contact with the floor.",
+        "Both the supporting leg and the raised leg should be completely straight, with no bending at the knees.",
+        "Deductions are applied when: 1) Knee/s are bent at the apex of the kick, and 2) Heel of supporting leg is off the floor.",
+        "Deductions are applied when: 1) The knee of the front leg is not above the instep, 2) The thigh of the bending front leg is not parallel to the ground, 3) Any portion of the sole of the rear leg is obviously off the floor, 4) The rear foot is not hooked inwards with the toes pointing obliquely forwards."
+      ]
     }
   ]
 }

@@ -11,15 +11,33 @@
   "questions": [
     {
       "question": "What is the error code for Gōng Bù (Bow Stance)?",
-      "answer": "50"
+      "answer": "50",
+      "choices": [
+        "13",
+        "12",
+        "50",
+        "10"
+      ]
     },
     {
       "question": "What are the deduction points for Gōng Bù (Bow Stance)?",
-      "answer": "Deductions are applied when: 1) The knee of the front leg is not above the instep, 2) The thigh of the bending front leg is not parallel to the ground, 3) Any portion of the sole of the rear leg is obviously off the floor, 4) The rear foot is not hooked inwards with the toes pointing obliquely forwards."
+      "answer": "Deductions are applied when: 1) The knee of the front leg is not above the instep, 2) The thigh of the bending front leg is not parallel to the ground, 3) Any portion of the sole of the rear leg is obviously off the floor, 4) The rear foot is not hooked inwards with the toes pointing obliquely forwards.",
+      "choices": [
+        "Deductions are applied when: 1) Supporting leg is bent, and 2) Raised leg is bent.",
+        "Deductions are applied when: 1) The knee of the front leg is not above the instep, 2) The thigh of the bending front leg is not parallel to the ground, 3) Any portion of the sole of the rear leg is obviously off the floor, 4) The rear foot is not hooked inwards with the toes pointing obliquely forwards.",
+        "Deductions are applied when: 1) Straight sword and forearm or wrist are aligned, 2) No obvious vertical circle formed.",
+        "Deductions are applied when: 1) Toes of slapped foot not above shoulder level, 2) Slap missed and/or inaudible."
+      ]
     },
     {
       "question": "Which technique category does Gōng Bù (Bow Stance) belong to?",
-      "answer": "Stances"
+      "answer": "Stances",
+      "choices": [
+        "Jumps",
+        "Leg Techniques",
+        "Weapon Techniques",
+        "Stances"
+      ]
     }
   ]
 }

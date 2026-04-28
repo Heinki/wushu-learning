@@ -9,23 +9,53 @@
   "questions": [
     {
       "question": "What is the error code for Shi Zi Píng Héng (Forward Leaning Balance with Arms Outspread)?",
-      "answer": "13"
+      "answer": "13",
+      "choices": [
+        "21",
+        "22",
+        "13",
+        "20"
+      ]
     },
     {
       "question": "What are the two main deduction points for Shi Zi Píng Héng?",
-      "answer": "Deductions are applied when: 1) The supporting leg is bent, and 2) The torso is below horizontal level."
+      "answer": "Deductions are applied when: 1) The supporting leg is bent, and 2) The torso is below horizontal level.",
+      "choices": [
+        "A deduction is applied when the sweeping leg is bent 45° or more.",
+        "Because the body leans backward while maintaining balance with one leg raised forward.",
+        "Deductions are applied when: 1) The supporting leg is bent, and 2) The torso is below horizontal level.",
+        "The leg should be completely straight at the apex of the kick with no bend in the knee."
+      ]
     },
     {
       "question": "What is the correct torso position for Shi Zi Píng Héng?",
-      "answer": "The torso should be at or above horizontal level."
+      "answer": "The torso should be at or above horizontal level.",
+      "choices": [
+        "Deductions are applied when: 1) Knee/s are bent at the apex of the kick, and 2) Heel of supporting leg is off the floor.",
+        "Deductions are applied when: 1) Weapon caught in a hugging manner, 2) Failure to catch the straight sword or broadsword by the handle, or the cudgel or spear shaft with a single hand.",
+        "Deductions are applied when: 1) The back of the thigh of the squatting leg is not in contact with the calf, 2) The extended leg is not completely straight, 3) Extended leg's foot is not turned inwards with the sole completely flat on the ground.",
+        "The torso should be at or above horizontal level."
+      ]
     },
     {
       "question": "What is the correct leg position for the supporting leg during Shi Zi Píng Héng?",
-      "answer": "The supporting leg must be completely straight without any bending."
+      "answer": "The supporting leg must be completely straight without any bending.",
+      "choices": [
+        "The instep of the raised bent leg should be extended flat with a clear inclination.",
+        "Deductions are applied when: 1) The supporting leg is bent, and 2) The torso is below horizontal level.",
+        "The index finger and middle finger should be kept straight and together, while the thumb should be pressing on the ring finger and little finger.",
+        "The supporting leg must be completely straight without any bending."
+      ]
     },
     {
       "question": "What is the correct arm position for Shi Zi Píng Héng?",
-      "answer": "The arms should be outspread to form a cross-like position (hence the name 'Shi Zi' which means cross)."
+      "answer": "The arms should be outspread to form a cross-like position (hence the name 'Shi Zi' which means cross).",
+      "choices": [
+        "The leg should be completely straight at the apex of the kick with no bend in the knee.",
+        "One leg is the supporting leg with the thigh at horizontal level, while the other leg is crossed in front of it.",
+        "The arms should be outspread to form a cross-like position (hence the name 'Shi Zi' which means cross).",
+        "The torso should be held below 45° from the horizontal level."
+      ]
     }
   ]
 }

@@ -9,15 +9,33 @@
   "questions": [
     {
       "question": "What is the error code for Téng Kōng Fēi Jiǎo (Jumping Front Slap Kick)?",
-      "answer": "30"
+      "answer": "30",
+      "choices": [
+        "13",
+        "12",
+        "30",
+        "10"
+      ]
     },
     {
       "question": "What are the deduction points for Téng Kōng Fēi Jiǎo (Jumping Front Slap Kick)?",
-      "answer": "Deductions are applied when: 1) Toes of slapped foot not above shoulder level, 2) Slap missed and/or inaudible."
+      "answer": "Deductions are applied when: 1) Toes of slapped foot not above shoulder level, 2) Slap missed and/or inaudible.",
+      "choices": [
+        "Deductions are applied when: 1) Weapon caught in a hugging manner, 2) Failure to catch the straight sword or broadsword by the handle, or the cudgel or spear shaft with a single hand.",
+        "Deductions are applied when: 1) Toes of slapped foot not above shoulder level, 2) Slap missed and/or inaudible.",
+        "Deductions are applied when: 1) The knee of the front leg is not above the instep, 2) The thigh of the bending front leg is not parallel to the ground, 3) Any portion of the sole of the rear leg is obviously off the floor, 4) The rear foot is not hooked inwards with the toes pointing obliquely forwards.",
+        "The sole of the sweeping foot should maintain contact with the ground throughout the sweeping action without leaving the ground after making contact."
+      ]
     },
     {
       "question": "Which technique category does Téng Kōng Fēi Jiǎo (Jumping Front Slap Kick) belong to?",
-      "answer": "Jumps"
+      "answer": "Jumps",
+      "choices": [
+        "Stances",
+        "Leg Techniques",
+        "Weapon Techniques",
+        "Jumps"
+      ]
     }
   ]
 }

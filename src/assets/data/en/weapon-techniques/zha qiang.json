@@ -10,15 +10,33 @@
   "questions": [
     {
       "question": "What is the error code for Zhā Qiāng (Spear Thrust)?",
-      "answer": "63"
+      "answer": "63",
+      "choices": [
+        "63",
+        "26",
+        "24",
+        "25"
+      ]
     },
     {
       "question": "What are the deduction points for Zhā Qiāng (Spear Thrust)?",
-      "answer": "Deductions are applied when: 1) Spear head not travelling in a clearly defined arc, 2) Rear handle of spear end protrudes from the grip, 3) The thrusting arm and spear shaft do not form a horizontal straight line."
+      "answer": "Deductions are applied when: 1) Spear head not travelling in a clearly defined arc, 2) Rear handle of spear end protrudes from the grip, 3) The thrusting arm and spear shaft do not form a horizontal straight line.",
+      "choices": [
+        "Deductions are applied when: 1) The back of the broadsword blade is not kept close to the body when wrapping or twining.",
+        "Deductions are applied when: 1) Raised shank/calf of the leg is not turning obliquely inwards, and 2) Raised foot's toes are not pointed and hooking inwards.",
+        "Deductions are applied when: 1) Straight sword and forearm or wrist are aligned, 2) No obvious vertical circle formed.",
+        "Deductions are applied when: 1) Spear head not travelling in a clearly defined arc, 2) Rear handle of spear end protrudes from the grip, 3) The thrusting arm and spear shaft do not form a horizontal straight line."
+      ]
     },
     {
       "question": "Which technique category does Zhā Qiāng (Spear Thrust) belong to?",
-      "answer": "Weapon Techniques"
+      "answer": "Weapon Techniques",
+      "choices": [
+        "Leg Techniques",
+        "Weapon Techniques",
+        "Jumps",
+        "Stances"
+      ]
     }
   ]
 }

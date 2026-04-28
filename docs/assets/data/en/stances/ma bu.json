@@ -12,15 +12,33 @@
   "questions": [
     {
       "question": "What is the error code for Mǎ Bù (Horse Stance)?",
-      "answer": "51"
+      "answer": "51",
+      "choices": [
+        "34",
+        "30",
+        "26",
+        "51"
+      ]
     },
     {
       "question": "What are the deduction points for Mǎ Bù (Horse Stance)?",
-      "answer": "Deductions are applied when: 1) Thighs not horizontal, 2) The distance between the inner portions of the two feet is narrower than the performer's shoulder width, 3) Knee or knees buckling inwards, 4) Heel or heels raised off the ground, 5) Toes of foot or feet pointing outward 45 degrees or more."
+      "answer": "Deductions are applied when: 1) Thighs not horizontal, 2) The distance between the inner portions of the two feet is narrower than the performer's shoulder width, 3) Knee or knees buckling inwards, 4) Heel or heels raised off the ground, 5) Toes of foot or feet pointing outward 45 degrees or more.",
+      "choices": [
+        "Deductions are applied when: 1) Thighs not horizontal, 2) The distance between the inner portions of the two feet is narrower than the performer's shoulder width, 3) Knee or knees buckling inwards, 4) Heel or heels raised off the ground, 5) Toes of foot or feet pointing outward 45 degrees or more.",
+        "The toes of the slapped foot should be above shoulder height and the slap should be audible.",
+        "One leg is the supporting leg with the thigh at horizontal level, while the other leg is crossed in front of it.",
+        "Deductions are applied when: 1) The back of the broadsword blade is not kept close to the body when wrapping or twining."
+      ]
     },
     {
       "question": "Which technique category does Mǎ Bù (Horse Stance) belong to?",
-      "answer": "Stances"
+      "answer": "Stances",
+      "choices": [
+        "Jumps",
+        "Leg Techniques",
+        "Stances",
+        "Weapon Techniques"
+      ]
     }
   ]
 }

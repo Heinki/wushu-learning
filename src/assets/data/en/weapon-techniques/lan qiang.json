@@ -10,15 +10,33 @@
   "questions": [
     {
       "question": "What is the error code for Lán Qiāng (Outward Blocking)?",
-      "answer": "63"
+      "answer": "63",
+      "choices": [
+        "21",
+        "22",
+        "63",
+        "20"
+      ]
     },
     {
       "question": "What are the deduction points for Lán Qiāng (Outward Blocking)?",
-      "answer": "Deductions are applied when: 1) Spear head not travelling in a clearly defined arc, 2) Rear handle of spear end protrudes from the grip, 3) The thrusting arm and spear shaft do not form a horizontal straight line."
+      "answer": "Deductions are applied when: 1) Spear head not travelling in a clearly defined arc, 2) Rear handle of spear end protrudes from the grip, 3) The thrusting arm and spear shaft do not form a horizontal straight line.",
+      "choices": [
+        "The heel of the supporting leg should remain on the floor throughout the kick.",
+        "Deductions are applied when: 1) Spear head not travelling in a clearly defined arc, 2) Rear handle of spear end protrudes from the grip, 3) The thrusting arm and spear shaft do not form a horizontal straight line.",
+        "Deductions are applied when: 1) The hanging leg is bent when the toes of the kicking leg touch the forehead or above, 2) The angle between the torso and the hanging leg is less than 135 degrees at that moment.",
+        "The sole of the front foot should not turn inward or touch the ground."
+      ]
     },
     {
       "question": "Which technique category does Lán Qiāng (Outward Blocking) belong to?",
-      "answer": "Weapon Techniques"
+      "answer": "Weapon Techniques",
+      "choices": [
+        "Jumps",
+        "Leg Techniques",
+        "Stances",
+        "Weapon Techniques"
+      ]
     }
   ]
 }

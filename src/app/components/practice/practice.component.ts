@@ -202,17 +202,10 @@ export class PracticeComponent {
 
   checkAnswer(): void {
     if (this.checkDisabled || !this.currentQuestion) return;
-    const normalize = (str: string) => str.trim().toLowerCase();
-    const tokenize = (str: string) => normalize(str).split(/\s+/);
-    const userTokens = tokenize(this.userAnswer);
-    const correctTokens = tokenize(this.currentQuestion.answer);
-    let overlap = 0;
-    correctTokens.forEach((token) => {
-      if (userTokens.includes(token)) overlap++;
-    });
-    const percent =
-      correctTokens.length > 0 ? overlap / correctTokens.length : 0;
-    this.isCorrect = percent >= 0.7;
+
+    if (!this.userAnswer) return;
+
+    this.isCorrect = this.userAnswer === this.currentQuestion.answer;
     this.showCorrectAnswer = !this.isCorrect;
     this.checkDisabled = true;
     this.answeredCount++;

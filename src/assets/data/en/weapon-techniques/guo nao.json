@@ -8,15 +8,33 @@
   "questions": [
     {
       "question": "What is the error code for Guǒ Nǎo (Wrapping with the Broadsword)?",
-      "answer": "62"
+      "answer": "62",
+      "choices": [
+        "01",
+        "03",
+        "02",
+        "62"
+      ]
     },
     {
       "question": "What are the deduction points for Guǒ Nǎo (Wrapping with the Broadsword)?",
-      "answer": "Deductions are applied when: 1) The back of the broadsword blade is not kept close to the body when wrapping or twining."
+      "answer": "Deductions are applied when: 1) The back of the broadsword blade is not kept close to the body when wrapping or twining.",
+      "choices": [
+        "Deductions are applied when: 1) The back of the broadsword blade is not kept close to the body when wrapping or twining.",
+        "Deductions are applied when: 1) Leg or legs bent 45 degrees or more while in the air.",
+        "A deduction is applied when the sweeping leg is bent 45° or more.",
+        "One leg is the supporting leg with the thigh at horizontal level, while the other leg is crossed in front of it."
+      ]
     },
     {
       "question": "Which technique category does Guǒ Nǎo (Wrapping with the Broadsword) belong to?",
-      "answer": "Weapon Techniques"
+      "answer": "Weapon Techniques",
+      "choices": [
+        "Stances",
+        "Jumps",
+        "Weapon Techniques",
+        "Leg Techniques"
+      ]
     }
   ]
 }

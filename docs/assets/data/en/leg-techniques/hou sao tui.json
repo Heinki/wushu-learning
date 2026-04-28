@@ -9,15 +9,33 @@
   "questions": [
     {
       "question": "What is the error code for Hou Sao Tui (Back Sweep)?",
-      "answer": "21"
+      "answer": "21",
+      "choices": [
+        "13",
+        "12",
+        "21",
+        "10"
+      ]
     },
     {
       "question": "What are the two main deduction points for Hou Sao Tui?",
-      "answer": "Deductions are applied when: 1) The sole of sweeping foot leaves the ground after making contact, and 2) Sweeping leg is bent 45° or more."
+      "answer": "Deductions are applied when: 1) The sole of sweeping foot leaves the ground after making contact, and 2) Sweeping leg is bent 45° or more.",
+      "choices": [
+        "Deductions are applied when: 1) Thighs not horizontal, 2) The distance between the inner portions of the two feet is narrower than the performer's shoulder width, 3) Knee or knees buckling inwards, 4) Heel or heels raised off the ground, 5) Toes of foot or feet pointing outward 45 degrees or more.",
+        "Deductions are applied when: 1) Straight sword and forearm or wrist are aligned, 2) No obvious vertical circle formed.",
+        "Deductions are applied when: 1) The sole of sweeping foot leaves the ground after making contact, and 2) Sweeping leg is bent 45° or more.",
+        "The instep of the raised bent leg should be extended flat with a clear inclination."
+      ]
     },
     {
       "question": "What is the correct foot position during a Hou Sao Tui sweep?",
-      "answer": "The sole of the sweeping foot should maintain contact with the ground throughout the sweeping action."
+      "answer": "The sole of the sweeping foot should maintain contact with the ground throughout the sweeping action.",
+      "choices": [
+        "Deductions are applied when: 1) The spear does not rotate in an obvious vertical plane.",
+        "Deductions are applied when: 1) Face of fist is uneven, and 2) The thumb is not pressing on the second segment of both the index and middle fingers.",
+        "Because the body leans backward while maintaining balance with one leg raised forward.",
+        "The sole of the sweeping foot should maintain contact with the ground throughout the sweeping action."
+      ]
     }
   ]
 }

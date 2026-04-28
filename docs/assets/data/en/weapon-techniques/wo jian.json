@@ -8,15 +8,33 @@
   "questions": [
     {
       "question": "What is the error code for Wò Jiàn (Gripping the Straight Sword)?",
-      "answer": "61"
+      "answer": "61",
+      "choices": [
+        "61",
+        "54",
+        "53",
+        "52"
+      ]
     },
     {
       "question": "What are the deduction points for Wò Jiàn (Gripping the Straight Sword)?",
-      "answer": "Deductions are applied when: 1) Any finger wraps around the top of the hand guard and touches the edge of the blade."
+      "answer": "Deductions are applied when: 1) Any finger wraps around the top of the hand guard and touches the edge of the blade.",
+      "choices": [
+        "Deductions are applied when: 1) Torso is held 45° or more above horizontal level, 2) Waist is not twisted toward the rear in the direction of the supporting leg, and 3) Instep of the raised bent leg is not extended flat.",
+        "Deductions are applied when: 1) Any finger wraps around the top of the hand guard and touches the edge of the blade.",
+        "Deductions are applied when: 1) The two thighs are not crossed and closed together, 2) The buttocks are not in contact with the calf of the sitting leg.",
+        "The kicking leg must be bent at least 45° or more before transitioning to completely straight."
+      ]
     },
     {
       "question": "Which technique category does Wò Jiàn (Gripping the Straight Sword) belong to?",
-      "answer": "Weapon Techniques"
+      "answer": "Weapon Techniques",
+      "choices": [
+        "Leg Techniques",
+        "Jumps",
+        "Stances",
+        "Weapon Techniques"
+      ]
     }
   ]
 }

@@ -9,15 +9,33 @@
   "questions": [
     {
       "question": "What is the error code for Ti Xi Dú Li (Single Knee Raised Position)?",
-      "answer": "25"
+      "answer": "25",
+      "choices": [
+        "03",
+        "25",
+        "58",
+        "04"
+      ]
     },
     {
       "question": "What are the two main deduction points for Ti Xi Dú Li?",
-      "answer": "Deductions are applied when: 1) Toes of slapped foot are not above shoulder height, and 2) Slap is missed and/or inaudible."
+      "answer": "Deductions are applied when: 1) Toes of slapped foot are not above shoulder height, and 2) Slap is missed and/or inaudible.",
+      "choices": [
+        "The sole of the sweeping foot should maintain contact with the ground throughout the sweeping action without leaving the ground after making contact.",
+        "Deduction is applied when the kicking leg does not transit from obvious bent (45° or more) to completely straight.",
+        "Deductions are applied when: 1) Toes of slapped foot are not above shoulder height, and 2) Slap is missed and/or inaudible.",
+        "The index finger and middle finger should be kept straight and together, while the thumb should be pressing on the ring finger and little finger."
+      ]
     },
     {
       "question": "What is the correct foot position for Ti Xi Dú Li?",
-      "answer": "The toes of the slapped foot should be above shoulder height and the slap should be audible."
+      "answer": "The toes of the slapped foot should be above shoulder height and the slap should be audible.",
+      "choices": [
+        "The toes of the slapped foot should be above shoulder height and the slap should be audible.",
+        "One leg is the supporting leg with the thigh at horizontal level, while the other leg is crossed in front of it.",
+        "A deduction is applied when the thigh of supporting leg is not at horizontal level.",
+        "Deductions are applied when: 1) The back of the broadsword blade is not kept close to the body when wrapping or twining."
+      ]
     }
   ]
 }

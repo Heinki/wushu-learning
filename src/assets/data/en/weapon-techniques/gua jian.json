@@ -9,15 +9,33 @@
   "questions": [
     {
       "question": "What is the error code for Guà Jiàn (Straight Sword Hooking Parry)?",
-      "answer": "60"
+      "answer": "60",
+      "choices": [
+        "30",
+        "31",
+        "32",
+        "60"
+      ]
     },
     {
       "question": "What are the deduction points for Guà Jiàn (Straight Sword Hooking Parry)?",
-      "answer": "Deductions are applied when: 1) Straight sword and forearm or wrist are aligned, 2) No obvious vertical circle formed."
+      "answer": "Deductions are applied when: 1) Straight sword and forearm or wrist are aligned, 2) No obvious vertical circle formed.",
+      "choices": [
+        "Deductions are applied when: 1) Weapon caught in a hugging manner, 2) Failure to catch the straight sword or broadsword by the handle, or the cudgel or spear shaft with a single hand.",
+        "Deductions are applied when: 1) Raised shank/calf of the leg is not turning obliquely inwards, and 2) Raised foot's toes are not pointed and hooking inwards.",
+        "Deductions are applied when: 1) Straight sword and forearm or wrist are aligned, 2) No obvious vertical circle formed.",
+        "The thigh of the supporting leg must be at horizontal level."
+      ]
     },
     {
       "question": "Which technique category does Guà Jiàn (Straight Sword Hooking Parry) belong to?",
-      "answer": "Weapon Techniques"
+      "answer": "Weapon Techniques",
+      "choices": [
+        "Weapon Techniques",
+        "Stances",
+        "Jumps",
+        "Leg Techniques"
+      ]
     }
   ]
 }

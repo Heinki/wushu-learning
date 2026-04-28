@@ -9,15 +9,33 @@
   "questions": [
     {
       "question": "What is the error code for Téng Kōng Xié Fēi Jiǎo (Jumping Slant Kick)?",
-      "answer": "30"
+      "answer": "30",
+      "choices": [
+        "16",
+        "30",
+        "14",
+        "15"
+      ]
     },
     {
       "question": "What are the deduction points for Téng Kōng Xié Fēi Jiǎo (Jumping Slant Kick)?",
-      "answer": "Deductions are applied when: 1) Toes of slapped foot not above shoulder level, 2) Slap missed and/or inaudible."
+      "answer": "Deductions are applied when: 1) Toes of slapped foot not above shoulder level, 2) Slap missed and/or inaudible.",
+      "choices": [
+        "Deductions are applied when: 1) Toes of slapped foot not above shoulder level, 2) Slap missed and/or inaudible.",
+        "Deductions are applied when: 1) Four fingers are not straight and held together, and 2) Thumb is not bent and held in tightly.",
+        "Deductions are applied when: 1) Toes of slapped foot are not above shoulder height, and 2) Slap is missed and/or inaudible.",
+        "Deductions are applied when: 1) Leg or legs bent 45 degrees or more while in the air."
+      ]
     },
     {
       "question": "Which technique category does Téng Kōng Xié Fēi Jiǎo (Jumping Slant Kick) belong to?",
-      "answer": "Jumps"
+      "answer": "Jumps",
+      "choices": [
+        "Weapon Techniques",
+        "Stances",
+        "Jumps",
+        "Leg Techniques"
+      ]
     }
   ]
 }

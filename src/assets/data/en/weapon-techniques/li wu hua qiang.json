@@ -8,15 +8,33 @@
   "questions": [
     {
       "question": "What is the error code for Lì Wǔ Huā Qiāng (Vertical Figure 8 with the Spear)?",
-      "answer": "65"
+      "answer": "65",
+      "choices": [
+        "30",
+        "31",
+        "32",
+        "65"
+      ]
     },
     {
       "question": "What are the deduction points for Lì Wǔ Huā Qiāng (Vertical Figure 8 with the Spear)?",
-      "answer": "Deductions are applied when: 1) The spear does not rotate in an obvious vertical plane."
+      "answer": "Deductions are applied when: 1) The spear does not rotate in an obvious vertical plane.",
+      "choices": [
+        "Deductions are applied when: 1) The spear does not rotate in an obvious vertical plane.",
+        "Deductions are applied when: 1) Supporting leg is bent, and 2) Raised leg is bent.",
+        "Deductions are applied when: 1) The sole of the front foot turns inward and touches the ground, and 2) Front and rear legs do not form two parallel straight lines.",
+        "The front and rear legs should form two parallel straight lines."
+      ]
     },
     {
       "question": "Which technique category does Lì Wǔ Huā Qiāng (Vertical Figure 8 with the Spear) belong to?",
-      "answer": "Weapon Techniques"
+      "answer": "Weapon Techniques",
+      "choices": [
+        "Leg Techniques",
+        "Stances",
+        "Weapon Techniques",
+        "Jumps"
+      ]
     }
   ]
 }

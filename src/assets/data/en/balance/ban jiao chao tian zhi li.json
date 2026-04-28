@@ -9,15 +9,33 @@
   "questions": [
     {
       "question": "What is the error code for Bán Jiao Chào Tian Zhi Li?",
-      "answer": "10"
+      "answer": "10",
+      "choices": [
+        "63",
+        "10",
+        "61",
+        "60"
+      ]
     },
     {
       "question": "What are the two main deduction points for Bán Jiao Chào Tian Zhi Li?",
-      "answer": "Deductions are applied when: 1) Supporting leg is bent, and 2) Raised leg is bent."
+      "answer": "Deductions are applied when: 1) Supporting leg is bent, and 2) Raised leg is bent.",
+      "choices": [
+        "The index finger and middle finger should be kept straight and together, while the thumb should be pressing on the ring finger and little finger.",
+        "Deductions are applied when: 1) Supporting leg is bent, and 2) Raised leg is bent.",
+        "Deductions are applied when: 1) Leg or legs bent 45 degrees or more while in the air.",
+        "Because one leg is crossed in front of the supporting leg while maintaining balance on the supporting leg."
+      ]
     },
     {
       "question": "How should the legs be positioned in a correct Bán Jiao Chào Tian Zhi Li balance technique?",
-      "answer": "Both the supporting leg and the raised leg should be completely straight, with no bending at the knees."
+      "answer": "Both the supporting leg and the raised leg should be completely straight, with no bending at the knees.",
+      "choices": [
+        "Both the supporting leg and the raised leg should be completely straight, with no bending at the knees.",
+        "Because the body leans backward while maintaining balance with one leg raised forward.",
+        "The toes of the slapped foot should be above shoulder height and the slap should be audible.",
+        "Deductions are applied when: 1) Raised shank/calf of the leg is not turning obliquely inwards, and 2) Raised foot's toes are not pointed and hooking inwards."
+      ]
     }
   ]
 }

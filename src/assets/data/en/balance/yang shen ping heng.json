@@ -8,19 +8,43 @@
   "questions": [
     {
       "question": "What is the error code for Yáng Shèn Píng Héng (Backward Leaning Balance)?",
-      "answer": "12"
+      "answer": "12",
+      "choices": [
+        "63",
+        "13",
+        "62",
+        "12"
+      ]
     },
     {
       "question": "What is the main deduction point for Yáng Shèn Píng Héng?",
-      "answer": "A deduction is applied when the raised leg is held below horizontal level."
+      "answer": "A deduction is applied when the raised leg is held below horizontal level.",
+      "choices": [
+        "A deduction is applied when the raised leg is held below horizontal level.",
+        "The sole of the sweeping foot should maintain contact with the ground throughout the sweeping action without leaving the ground after making contact.",
+        "Deductions are applied when: 1) Thighs not horizontal, 2) The distance between the inner portions of the two feet is narrower than the performer's shoulder width, 3) Knee or knees buckling inwards, 4) Heel or heels raised off the ground, 5) Toes of foot or feet pointing outward 45 degrees or more.",
+        "The sole of the sweeping foot should maintain contact with the ground throughout the sweeping action."
+      ]
     },
     {
       "question": "What is the correct position for the raised leg in Yáng Shèn Píng Héng?",
-      "answer": "The raised leg should be held at or above horizontal level."
+      "answer": "The raised leg should be held at or above horizontal level.",
+      "choices": [
+        "Deductions are applied when: 1) Four fingers are not straight and held together, and 2) Thumb is not bent and held in tightly.",
+        "The raised leg should be held at or above horizontal level.",
+        "The thumb should be pressing on the second segment of both the index and middle fingers.",
+        "A deduction is applied when the kicking leg does not transit from obvious bent (45° or more) to completely straight."
+      ]
     },
     {
       "question": "Why is this technique called 'Backward Leaning Balance'?",
-      "answer": "Because the body leans backward while maintaining balance with one leg raised forward."
+      "answer": "Because the body leans backward while maintaining balance with one leg raised forward.",
+      "choices": [
+        "A deduction is applied when the thigh of supporting leg is not at horizontal level.",
+        "The thigh of the supporting leg must be at horizontal level.",
+        "Because the body leans backward while maintaining balance with one leg raised forward.",
+        "Deductions are applied when: 1) Supporting leg is bent, and 2) Raised leg is bent."
+      ]
     }
   ]
 }

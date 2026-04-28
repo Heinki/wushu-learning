@@ -10,19 +10,43 @@
   "questions": [
     {
       "question": "What is the error code for Qian Sao Tui (Front Sweep)?",
-      "answer": "20"
+      "answer": "20",
+      "choices": [
+        "66",
+        "20",
+        "16",
+        "64"
+      ]
     },
     {
       "question": "What deduction occurs if the supporting leg's thigh is above horizontal level?",
-      "answer": "A deduction is applied when the thigh of supporting leg is above horizontal level."
+      "answer": "A deduction is applied when the thigh of supporting leg is above horizontal level.",
+      "choices": [
+        "A deduction is applied when the thigh of supporting leg is above horizontal level.",
+        "The supporting leg must be completely straight without any bending.",
+        "Deductions are applied when: 1) Thighs not horizontal, 2) The distance between the inner portions of the two feet is narrower than the performer's shoulder width, 3) Knee or knees buckling inwards, 4) Heel or heels raised off the ground, 5) Toes of foot or feet pointing outward 45 degrees or more.",
+        "The five fingers should be pinched together, and the wrist should be completely hooked."
+      ]
     },
     {
       "question": "How much bend in the sweeping leg results in a deduction?",
-      "answer": "A deduction is applied when the sweeping leg is bent 45° or more."
+      "answer": "A deduction is applied when the sweeping leg is bent 45° or more.",
+      "choices": [
+        "The four fingers should be straight and held together, while the thumb should be bent and held in tightly at the tiger's mouth area.",
+        "A deduction is applied when the sweeping leg is bent 45° or more.",
+        "Deductions are applied when: 1) The spear does not rotate in an obvious vertical plane.",
+        "The supporting leg must be completely straight without any bending."
+      ]
     },
     {
       "question": "What is the proper foot position during the sweep?",
-      "answer": "The sole of the sweeping foot should maintain contact with the ground throughout the sweeping action without leaving the ground after making contact."
+      "answer": "The sole of the sweeping foot should maintain contact with the ground throughout the sweeping action without leaving the ground after making contact.",
+      "choices": [
+        "The sole of the sweeping foot should maintain contact with the ground throughout the sweeping action without leaving the ground after making contact.",
+        "A deduction is applied when the sweeping leg is bent 45° or more.",
+        "The kicking leg must be bent at least 45° or more before transitioning to completely straight.",
+        "Deduction is applied when the kicking leg does not transit from obvious bent (45° or more) to completely straight."
+      ]
     }
   ]
 }

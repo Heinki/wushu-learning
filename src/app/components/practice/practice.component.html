@@ -27,16 +27,21 @@
           {{ currentQuestion.question }}
         </div>
 
-        <div class="answer-input" [class.correct]="isCorrect === true" [class.incorrect]="isCorrect === false">
-          <input
-            type="text"
-            [(ngModel)]="userAnswer"
-            [placeholder]="'practice.yourAnswer' | translate"
-            (keyup.enter)="checkAnswer()"
-            [disabled]="checkDisabled"
-          />
+        <div class="answer-options" [class.correct]="isCorrect === true" [class.incorrect]="isCorrect === false">
+          @for (choice of currentQuestion.choices; track choice) {
+            <label class="answer-option" [class.selected]="userAnswer === choice">
+              <input
+                type="radio"
+                name="practice-answer"
+                [(ngModel)]="userAnswer"
+                [value]="choice"
+                [disabled]="checkDisabled"
+              />
+              <span>{{ choice }}</span>
+            </label>
+          }
           @if (!checkDisabled) {
-            <button (click)="checkAnswer()">{{ 'practice.check' | translate }}</button>
+            <button (click)="checkAnswer()" [disabled]="!userAnswer">{{ 'practice.check' | translate }}</button>
           }
         </div>
         @if (showCorrectAnswer && !isCorrect) {

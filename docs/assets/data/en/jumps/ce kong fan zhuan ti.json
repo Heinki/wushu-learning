@@ -8,15 +8,33 @@
   "questions": [
     {
       "question": "What is the error code for Cè Kōng Fān Zhuǎn Tǐ (Aerial Cartwheel Twist)?",
-      "answer": "32"
+      "answer": "32",
+      "choices": [
+        "32",
+        "15",
+        "25",
+        "65"
+      ]
     },
     {
       "question": "What are the deduction points for Cè Kōng Fān Zhuǎn Tǐ (Aerial Cartwheel Twist)?",
-      "answer": "Deductions are applied when: 1) Leg or legs bent 45 degrees or more while in the air."
+      "answer": "Deductions are applied when: 1) Leg or legs bent 45 degrees or more while in the air.",
+      "choices": [
+        "A deduction is applied when the thigh of supporting leg is above horizontal level.",
+        "Deductions are applied when: 1) Leg or legs bent 45 degrees or more while in the air.",
+        "Deductions are applied when: 1) Four fingers are not straight and held together, and 2) Thumb is not bent and held in tightly.",
+        "The sole of the sweeping foot should maintain contact with the ground throughout the sweeping action."
+      ]
     },
     {
       "question": "Which technique category does Cè Kōng Fān Zhuǎn Tǐ (Aerial Cartwheel Twist) belong to?",
-      "answer": "Jumps"
+      "answer": "Jumps",
+      "choices": [
+        "Weapon Techniques",
+        "Stances",
+        "Leg Techniques",
+        "Jumps"
+      ]
     }
   ]
 }

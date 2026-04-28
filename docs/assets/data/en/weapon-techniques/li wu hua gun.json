@@ -8,15 +8,33 @@
   "questions": [
     {
       "question": "What is the error code for Lì Wǔ Huā Gùn (Vertical Figure 8 with the Cudgel)?",
-      "answer": "65"
+      "answer": "65",
+      "choices": [
+        "65",
+        "04",
+        "16",
+        "01"
+      ]
     },
     {
       "question": "What are the deduction points for Lì Wǔ Huā Gùn (Vertical Figure 8 with the Cudgel)?",
-      "answer": "Deductions are applied when: 1) The cudgel does not rotate in an obvious vertical plane."
+      "answer": "Deductions are applied when: 1) The cudgel does not rotate in an obvious vertical plane.",
+      "choices": [
+        "The heel of the supporting leg should remain on the floor throughout the kick.",
+        "Deductions are applied when: 1) The cudgel does not rotate in an obvious vertical plane.",
+        "The toes of the slapped foot should be above shoulder height and the slap should be audible.",
+        "Deductions are applied when: 1) The hanging leg is bent when the toes of the kicking leg touch the forehead or above, 2) The angle between the torso and the hanging leg is less than 135 degrees at that moment."
+      ]
     },
     {
       "question": "Which technique category does Lì Wǔ Huā Gùn (Vertical Figure 8 with the Cudgel) belong to?",
-      "answer": "Weapon Techniques"
+      "answer": "Weapon Techniques",
+      "choices": [
+        "Stances",
+        "Jumps",
+        "Leg Techniques",
+        "Weapon Techniques"
+      ]
     }
   ]
 }

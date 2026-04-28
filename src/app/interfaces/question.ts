@@ -1,6 +1,7 @@
 export interface Question {
   question: string;
   answer: string;
+  choices: string[];
   techniqueData?: {
     code: string;
     technique_name: string;

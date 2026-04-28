@@ -9,15 +9,33 @@
   "questions": [
     {
       "question": "What is the error code for Xiē Bù (Cross-Legged Crouching Stance)?",
-      "answer": "54"
+      "answer": "54",
+      "choices": [
+        "61",
+        "62",
+        "54",
+        "60"
+      ]
     },
     {
       "question": "What are the deduction points for Xiē Bù (Cross-Legged Crouching Stance)?",
-      "answer": "Deductions are applied when: 1) The two thighs are not crossed and closed together, 2) The buttocks are not in contact with the calf of the sitting leg."
+      "answer": "Deductions are applied when: 1) The two thighs are not crossed and closed together, 2) The buttocks are not in contact with the calf of the sitting leg.",
+      "choices": [
+        "Deductions are applied when: 1) The cudgel does not rotate in an obvious vertical plane.",
+        "Deductions are applied when: 1) The two thighs are not crossed and closed together, 2) The buttocks are not in contact with the calf of the sitting leg.",
+        "The index finger and middle finger should be kept straight and together, while the thumb should be pressing on the ring finger and little finger.",
+        "The instep of the raised bent leg should be extended flat with a clear inclination."
+      ]
     },
     {
       "question": "Which technique category does Xiē Bù (Cross-Legged Crouching Stance) belong to?",
-      "answer": "Stances"
+      "answer": "Stances",
+      "choices": [
+        "Leg Techniques",
+        "Weapon Techniques",
+        "Jumps",
+        "Stances"
+      ]
     }
   ]
 }

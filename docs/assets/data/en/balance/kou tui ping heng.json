@@ -8,15 +8,33 @@
   "questions": [
     {
       "question": "What is the error code for Kòu Tuì Píng Héng (Rear Cross-legged Balance)?",
-      "answer": "14"
+      "answer": "14",
+      "choices": [
+        "14",
+        "22",
+        "23",
+        "20"
+      ]
     },
     {
       "question": "What is the main deduction point for Kòu Tuì Píng Héng?",
-      "answer": "A deduction is applied when the thigh of supporting leg is not at horizontal level."
+      "answer": "A deduction is applied when the thigh of supporting leg is not at horizontal level.",
+      "choices": [
+        "Deductions are applied when: 1) Torso is held 45° or more above horizontal level, 2) Waist is not twisted toward the rear in the direction of the supporting leg, and 3) Instep of the raised bent leg is not extended flat.",
+        "Deductions are applied when: 1) Leg or legs bent 45 degrees or more while in the air.",
+        "Because one leg is crossed in front of the supporting leg while maintaining balance on the supporting leg.",
+        "A deduction is applied when the thigh of supporting leg is not at horizontal level."
+      ]
     },
     {
       "question": "What is the correct thigh position for the supporting leg in Kòu Tuì Píng Héng?",
-      "answer": "The thigh of the supporting leg must be at horizontal level."
+      "answer": "The thigh of the supporting leg must be at horizontal level.",
+      "choices": [
+        "Deductions are applied when: 1) Weapon caught in a hugging manner, 2) Failure to catch the straight sword or broadsword by the handle, or the cudgel or spear shaft with a single hand.",
+        "The thigh of the supporting leg must be at horizontal level.",
+        "Deductions are applied when: 1) The five fingers are not pinched together, and 2) Wrist is not hooked completely.",
+        "Deductions are applied when: 1) Spear head not travelling in a clearly defined arc, 2) Rear handle of spear end protrudes from the grip, 3) The thrusting arm and spear shaft do not form a horizontal straight line."
+      ]
     }
   ]
 }

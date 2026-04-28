@@ -9,15 +9,33 @@
   "questions": [
     {
       "question": "What is the error code for Téng Kōng Shuāng Fēi Jiǎo (Jumping Double Front Slap Kick)?",
-      "answer": "30"
+      "answer": "30",
+      "choices": [
+        "63",
+        "62",
+        "61",
+        "30"
+      ]
     },
     {
       "question": "What are the deduction points for Téng Kōng Shuāng Fēi Jiǎo (Jumping Double Front Slap Kick)?",
-      "answer": "Deductions are applied when: 1) Toes of slapped foot not above shoulder level, 2) Slap missed and/or inaudible."
+      "answer": "Deductions are applied when: 1) Toes of slapped foot not above shoulder level, 2) Slap missed and/or inaudible.",
+      "choices": [
+        "Deductions are applied when: 1) Toes of slapped foot not above shoulder level, 2) Slap missed and/or inaudible.",
+        "The kicking leg should transition from an obviously bent position (45° or more) to completely straight in a snapping motion.",
+        "The raised foot's toes should be pointed and hooking inwards.",
+        "The supporting leg must be completely straight without any bending."
+      ]
     },
     {
       "question": "Which technique category does Téng Kōng Shuāng Fēi Jiǎo (Jumping Double Front Slap Kick) belong to?",
-      "answer": "Jumps"
+      "answer": "Jumps",
+      "choices": [
+        "Leg Techniques",
+        "Stances",
+        "Jumps",
+        "Weapon Techniques"
+      ]
     }
   ]
 }

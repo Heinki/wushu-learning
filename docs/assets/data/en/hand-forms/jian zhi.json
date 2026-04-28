@@ -9,15 +9,33 @@
   "questions": [
     {
       "question": "What is the error code for Jiàn Zhi (Sword Fingers)?",
-      "answer": "04"
+      "answer": "04",
+      "choices": [
+        "52",
+        "04",
+        "50",
+        "51"
+      ]
     },
     {
       "question": "What are the two main deduction points for Jiàn Zhi (Sword Fingers)?",
-      "answer": "Deductions are applied when: 1) Index finger and middle finger are not kept straight and together, and 2) Thumb is not pressing on the ring finger and little finger."
+      "answer": "Deductions are applied when: 1) Index finger and middle finger are not kept straight and together, and 2) Thumb is not pressing on the ring finger and little finger.",
+      "choices": [
+        "Deductions are applied when: 1) The back of the broadsword blade is not kept close to the body when wrapping or twining.",
+        "Deductions are applied when: 1) Index finger and middle finger are not kept straight and together, and 2) Thumb is not pressing on the ring finger and little finger.",
+        "Deductions are applied when: 1) The knee of the front leg is not above the instep, 2) The thigh of the bending front leg is not parallel to the ground, 3) Any portion of the sole of the rear leg is obviously off the floor, 4) The rear foot is not hooked inwards with the toes pointing obliquely forwards.",
+        "Deductions are applied when: 1) The two thighs are not crossed and closed together, 2) The buttocks are not in contact with the calf of the sitting leg."
+      ]
     },
     {
       "question": "How should the fingers be positioned in a correct Jiàn Zhi (Sword Fingers)?",
-      "answer": "The index finger and middle finger should be kept straight and together, while the thumb should be pressing on the ring finger and little finger."
+      "answer": "The index finger and middle finger should be kept straight and together, while the thumb should be pressing on the ring finger and little finger.",
+      "choices": [
+        "Deductions are applied when: 1) Raised shank/calf of the leg is not turning obliquely inwards, and 2) Raised foot's toes are not pointed and hooking inwards.",
+        "The index finger and middle finger should be kept straight and together, while the thumb should be pressing on the ring finger and little finger.",
+        "The heel of the supporting leg should remain on the floor throughout the kick.",
+        "One leg is the supporting leg with the thigh at horizontal level, while the other leg is crossed in front of it."
+      ]
     }
   ]
 }

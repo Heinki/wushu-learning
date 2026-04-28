@@ -8,19 +8,43 @@
   "questions": [
     {
       "question": "What is the error code for Tán Tuí (Snap/Spring Kick)?",
-      "answer": "23"
+      "answer": "23",
+      "choices": [
+        "34",
+        "30",
+        "26",
+        "23"
+      ]
     },
     {
       "question": "What is the main deduction point for Tán Tuí?",
-      "answer": "A deduction is applied when the kicking leg does not transit from obvious bent (45° or more) to completely straight."
+      "answer": "A deduction is applied when the kicking leg does not transit from obvious bent (45° or more) to completely straight.",
+      "choices": [
+        "Deductions are applied when: 1) The cudgel does not rotate in an obvious vertical plane.",
+        "Deductions are applied when: 1) Any finger wraps around the top of the hand guard and touches the edge of the blade.",
+        "The arms should be outspread to form a cross-like position (hence the name 'Shi Zi' which means cross).",
+        "A deduction is applied when the kicking leg does not transit from obvious bent (45° or more) to completely straight."
+      ]
     },
     {
       "question": "What is the minimum angle requirement for the kicking leg in Tán Tuí?",
-      "answer": "The kicking leg must bend at least 45° before transitioning to completely straight."
+      "answer": "The kicking leg must bend at least 45° before transitioning to completely straight.",
+      "choices": [
+        "The raised leg should be held at or above horizontal level.",
+        "The kicking leg must bend at least 45° before transitioning to completely straight.",
+        "The arms should be outspread to form a cross-like position (hence the name 'Shi Zi' which means cross).",
+        "The leg should be completely straight at the apex of the kick with no bend in the knee."
+      ]
     },
     {
       "question": "What is the correct execution of Tán Tuí?",
-      "answer": "The kicking leg should transition from an obviously bent position (45° or more) to completely straight in a snapping motion."
+      "answer": "The kicking leg should transition from an obviously bent position (45° or more) to completely straight in a snapping motion.",
+      "choices": [
+        "Deductions are applied when: 1) The two thighs are not crossed and closed together, 2) The buttocks are not in contact with the calf of the sitting leg.",
+        "The kicking leg should transition from an obviously bent position (45° or more) to completely straight in a snapping motion.",
+        "The front and rear legs should form two parallel straight lines.",
+        "A deduction is applied when the raised leg is held below horizontal level."
+      ]
     }
   ]
 }

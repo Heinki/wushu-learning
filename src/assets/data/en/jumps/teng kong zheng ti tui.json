@@ -9,15 +9,33 @@
   "questions": [
     {
       "question": "What is the error code for Téng Kōng Zhèng Tī Tuǐ (Jumping Front Straight Kick)?",
-      "answer": "31"
+      "answer": "31",
+      "choices": [
+        "30",
+        "31",
+        "32",
+        "33"
+      ]
     },
     {
       "question": "What are the deduction points for Téng Kōng Zhèng Tī Tuǐ (Jumping Front Straight Kick)?",
-      "answer": "Deductions are applied when: 1) The hanging leg is bent when the toes of the kicking leg touch the forehead or above, 2) The angle between the torso and the hanging leg is less than 135 degrees at that moment."
+      "answer": "Deductions are applied when: 1) The hanging leg is bent when the toes of the kicking leg touch the forehead or above, 2) The angle between the torso and the hanging leg is less than 135 degrees at that moment.",
+      "choices": [
+        "The heel of the supporting leg must remain in contact with the floor throughout the technique.",
+        "The toes of the slapped foot should be above shoulder height and the slap should be audible.",
+        "Deductions are applied when: 1) The hanging leg is bent when the toes of the kicking leg touch the forehead or above, 2) The angle between the torso and the hanging leg is less than 135 degrees at that moment.",
+        "Deductions are applied when: 1) Neither one of the buttocks is in contact with the floor, 2) Either one of the feet is not in contact with the floor."
+      ]
     },
     {
       "question": "Which technique category does Téng Kōng Zhèng Tī Tuǐ (Jumping Front Straight Kick) belong to?",
-      "answer": "Jumps"
+      "answer": "Jumps",
+      "choices": [
+        "Jumps",
+        "Leg Techniques",
+        "Stances",
+        "Weapon Techniques"
+      ]
     }
   ]
 }

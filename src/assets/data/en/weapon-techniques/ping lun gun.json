@@ -8,15 +8,33 @@
   "questions": [
     {
       "question": "What is the error code for Píng Lūn Gùn (Horizontal Cudgel Windmill Waving with One Hand)?",
-      "answer": "64"
+      "answer": "64",
+      "choices": [
+        "64",
+        "58",
+        "54",
+        "53"
+      ]
     },
     {
       "question": "What are the deduction points for Píng Lūn Gùn (Horizontal Cudgel Windmill Waving with One Hand)?",
-      "answer": "Deductions are applied when: 1) No obvious horizontal circle formed."
+      "answer": "Deductions are applied when: 1) No obvious horizontal circle formed.",
+      "choices": [
+        "A deduction is applied when the thigh of supporting leg is above horizontal level.",
+        "The thigh of the supporting leg must be at horizontal level.",
+        "Deductions are applied when: 1) Toes of slapped foot are not above shoulder height, and 2) Slap is missed and/or inaudible.",
+        "Deductions are applied when: 1) No obvious horizontal circle formed."
+      ]
     },
     {
       "question": "Which technique category does Píng Lūn Gùn (Horizontal Cudgel Windmill Waving with One Hand) belong to?",
-      "answer": "Weapon Techniques"
+      "answer": "Weapon Techniques",
+      "choices": [
+        "Stances",
+        "Weapon Techniques",
+        "Jumps",
+        "Leg Techniques"
+      ]
     }
   ]
 }

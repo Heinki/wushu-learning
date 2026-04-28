@@ -9,15 +9,33 @@
   "questions": [
     {
       "question": "What is the error code for Zhàng (Palm)?",
-      "answer": "02"
+      "answer": "02",
+      "choices": [
+        "63",
+        "02",
+        "61",
+        "60"
+      ]
     },
     {
       "question": "What are the two main deduction points for Zhàng (Palm)?",
-      "answer": "Deductions are applied when: 1) Four fingers are not straight and held together, and 2) Thumb is not bent and held in tightly."
+      "answer": "Deductions are applied when: 1) Four fingers are not straight and held together, and 2) Thumb is not bent and held in tightly.",
+      "choices": [
+        "The kicking leg should transition from an obviously bent position (45° or more) to completely straight in a snapping motion.",
+        "Deductions are applied when: 1) Four fingers are not straight and held together, and 2) Thumb is not bent and held in tightly.",
+        "Deductions are applied when: 1) Weapon caught in a hugging manner, 2) Failure to catch the straight sword or broadsword by the handle, or the cudgel or spear shaft with a single hand.",
+        "Deductions are applied when: 1) Thighs not horizontal, 2) The distance between the inner portions of the two feet is narrower than the performer's shoulder width, 3) Knee or knees buckling inwards, 4) Heel or heels raised off the ground, 5) Toes of foot or feet pointing outward 45 degrees or more."
+      ]
     },
     {
       "question": "How should the fingers be positioned in a correct Zhàng (Palm)?",
-      "answer": "The four fingers should be straight and held together, while the thumb should be bent and held in tightly at the tiger's mouth area."
+      "answer": "The four fingers should be straight and held together, while the thumb should be bent and held in tightly at the tiger's mouth area.",
+      "choices": [
+        "Deductions are applied when: 1) Spear head not travelling in a clearly defined arc, 2) Rear handle of spear end protrudes from the grip, 3) The thrusting arm and spear shaft do not form a horizontal straight line.",
+        "The four fingers should be straight and held together, while the thumb should be bent and held in tightly at the tiger's mouth area.",
+        "Deductions are applied when: 1) Raised shank/calf of the leg is not turning obliquely inwards, and 2) Raised foot's toes are not pointed and hooking inwards.",
+        "Deductions are applied when: 1) Leg or legs obviously bent 45 degrees or more while in the air, 2) Angle of the torso is 45 degrees or more above horizontal level during the twist."
+      ]
     }
   ]
 }

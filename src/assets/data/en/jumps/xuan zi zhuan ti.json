@@ -9,15 +9,33 @@
   "questions": [
     {
       "question": "What is the error code for Xuàn Zǐ Zhuǎn Tǐ (Butterfly Twist)?",
-      "answer": "33"
+      "answer": "33",
+      "choices": [
+        "21",
+        "22",
+        "33",
+        "20"
+      ]
     },
     {
       "question": "What are the deduction points for Xuàn Zǐ Zhuǎn Tǐ (Butterfly Twist)?",
-      "answer": "Deductions are applied when: 1) Leg or legs obviously bent 45 degrees or more while in the air, 2) Angle of the torso is 45 degrees or more above horizontal level during the twist."
+      "answer": "Deductions are applied when: 1) Leg or legs obviously bent 45 degrees or more while in the air, 2) Angle of the torso is 45 degrees or more above horizontal level during the twist.",
+      "choices": [
+        "A deduction is applied when the sweeping leg is bent 45° or more.",
+        "Deductions are applied when: 1) Leg or legs obviously bent 45 degrees or more while in the air, 2) Angle of the torso is 45 degrees or more above horizontal level during the twist.",
+        "The waist should be twisted toward the rear in the direction of the supporting leg.",
+        "Deductions are applied when: 1) The five fingers are not pinched together, and 2) Wrist is not hooked completely."
+      ]
     },
     {
       "question": "Which technique category does Xuàn Zǐ Zhuǎn Tǐ (Butterfly Twist) belong to?",
-      "answer": "Jumps"
+      "answer": "Jumps",
+      "choices": [
+        "Weapon Techniques",
+        "Stances",
+        "Leg Techniques",
+        "Jumps"
+      ]
     }
   ]
 }

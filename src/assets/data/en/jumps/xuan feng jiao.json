@@ -9,15 +9,33 @@
   "questions": [
     {
       "question": "What is the error code for Xuàn Fēng Jiǎo (Tornado Kick)?",
-      "answer": "30"
+      "answer": "30",
+      "choices": [
+        "30",
+        "26",
+        "24",
+        "25"
+      ]
     },
     {
       "question": "What are the deduction points for Xuàn Fēng Jiǎo (Tornado Kick)?",
-      "answer": "Deductions are applied when: 1) Toes of slapped foot not above shoulder level, 2) Slap missed and/or inaudible."
+      "answer": "Deductions are applied when: 1) Toes of slapped foot not above shoulder level, 2) Slap missed and/or inaudible.",
+      "choices": [
+        "The raised leg should be held at or above horizontal level.",
+        "Deductions are applied when: 1) Toes of slapped foot not above shoulder level, 2) Slap missed and/or inaudible.",
+        "A deduction is applied when the thigh of supporting leg is not at horizontal level.",
+        "The instep of the raised bent leg should be extended flat with a clear inclination."
+      ]
     },
     {
       "question": "Which technique category does Xuàn Fēng Jiǎo (Tornado Kick) belong to?",
-      "answer": "Jumps"
+      "answer": "Jumps",
+      "choices": [
+        "Weapon Techniques",
+        "Stances",
+        "Leg Techniques",
+        "Jumps"
+      ]
     }
   ]
 }

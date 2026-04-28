@@ -9,15 +9,33 @@
   "questions": [
     {
       "question": "What is the error code for Téng Kōng Bǎi Lián (Jumping Lotus Kick)?",
-      "answer": "30"
+      "answer": "30",
+      "choices": [
+        "34",
+        "26",
+        "31",
+        "30"
+      ]
     },
     {
       "question": "What are the deduction points for Téng Kōng Bǎi Lián (Jumping Lotus Kick)?",
-      "answer": "Deductions are applied when: 1) Toes of slapped foot not above shoulder level, 2) Slap missed and/or inaudible."
+      "answer": "Deductions are applied when: 1) Toes of slapped foot not above shoulder level, 2) Slap missed and/or inaudible.",
+      "choices": [
+        "Deductions are applied when: 1) Toes of slapped foot not above shoulder height, 2) Slap missed and/or inaudible.",
+        "Deductions are applied when: 1) Straight sword and forearm or wrist are aligned, 2) No obvious vertical circle formed.",
+        "Deductions are applied when: 1) Toes of slapped foot not above shoulder level, 2) Slap missed and/or inaudible.",
+        "Because the body leans backward while maintaining balance with one leg raised forward."
+      ]
     },
     {
       "question": "Which technique category does Téng Kōng Bǎi Lián (Jumping Lotus Kick) belong to?",
-      "answer": "Jumps"
+      "answer": "Jumps",
+      "choices": [
+        "Jumps",
+        "Leg Techniques",
+        "Stances",
+        "Weapon Techniques"
+      ]
     }
   ]
 }

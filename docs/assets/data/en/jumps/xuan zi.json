@@ -9,15 +9,33 @@
   "questions": [
     {
       "question": "What is the error code for Xuàn Zǐ (Butterfly Kick)?",
-      "answer": "33"
+      "answer": "33",
+      "choices": [
+        "33",
+        "01",
+        "02",
+        "62"
+      ]
     },
     {
       "question": "What are the deduction points for Xuàn Zǐ (Butterfly Kick)?",
-      "answer": "Deductions are applied when: 1) Leg or legs obviously bent 45 degrees or more while in the air, 2) Angle of the torso is 45 degrees or more above horizontal level during the twist."
+      "answer": "Deductions are applied when: 1) Leg or legs obviously bent 45 degrees or more while in the air, 2) Angle of the torso is 45 degrees or more above horizontal level during the twist.",
+      "choices": [
+        "Deductions are applied when: 1) Knee/s are bent at the apex of the kick, and 2) Heel of supporting leg is off the floor.",
+        "The heel of the supporting leg must remain in contact with the floor throughout the technique.",
+        "Deductions are applied when: 1) The five fingers are not pinched together, and 2) Wrist is not hooked completely.",
+        "Deductions are applied when: 1) Leg or legs obviously bent 45 degrees or more while in the air, 2) Angle of the torso is 45 degrees or more above horizontal level during the twist."
+      ]
     },
     {
       "question": "Which technique category does Xuàn Zǐ (Butterfly Kick) belong to?",
-      "answer": "Jumps"
+      "answer": "Jumps",
+      "choices": [
+        "Leg Techniques",
+        "Jumps",
+        "Weapon Techniques",
+        "Stances"
+      ]
     }
   ]
 }

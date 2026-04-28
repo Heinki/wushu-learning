@@ -8,15 +8,33 @@
   "questions": [
     {
       "question": "What is the error code for Cè Kōng Fān (Aerial Cartwheel)?",
-      "answer": "32"
+      "answer": "32",
+      "choices": [
+        "13",
+        "12",
+        "32",
+        "10"
+      ]
     },
     {
       "question": "What are the deduction points for Cè Kōng Fān (Aerial Cartwheel)?",
-      "answer": "Deductions are applied when: 1) Leg or legs bent 45 degrees or more while in the air."
+      "answer": "Deductions are applied when: 1) Leg or legs bent 45 degrees or more while in the air.",
+      "choices": [
+        "Deductions are applied when: 1) The supporting leg is bent, and 2) The torso is below horizontal level.",
+        "Deductions are applied when: 1) Leg or legs bent 45 degrees or more while in the air.",
+        "The index finger and middle finger should be kept straight and together, while the thumb should be pressing on the ring finger and little finger.",
+        "The raised foot's toes should be pointed and hooking inwards."
+      ]
     },
     {
       "question": "Which technique category does Cè Kōng Fān (Aerial Cartwheel) belong to?",
-      "answer": "Jumps"
+      "answer": "Jumps",
+      "choices": [
+        "Weapon Techniques",
+        "Leg Techniques",
+        "Stances",
+        "Jumps"
+      ]
     }
   ]
 }

@@ -10,15 +10,33 @@
   "questions": [
     {
       "question": "What is the error code for Pū Bù (Crouching Stance)?",
-      "answer": "53"
+      "answer": "53",
+      "choices": [
+        "13",
+        "12",
+        "53",
+        "10"
+      ]
     },
     {
       "question": "What are the deduction points for Pū Bù (Crouching Stance)?",
-      "answer": "Deductions are applied when: 1) The back of the thigh of the squatting leg is not in contact with the calf, 2) The extended leg is not completely straight, 3) Extended leg's foot is not turned inwards with the sole completely flat on the ground."
+      "answer": "Deductions are applied when: 1) The back of the thigh of the squatting leg is not in contact with the calf, 2) The extended leg is not completely straight, 3) Extended leg's foot is not turned inwards with the sole completely flat on the ground.",
+      "choices": [
+        "A deduction is applied when the raised leg is held below horizontal level.",
+        "Deductions are applied when: 1) The back of the thigh of the squatting leg is not in contact with the calf, 2) The extended leg is not completely straight, 3) Extended leg's foot is not turned inwards with the sole completely flat on the ground.",
+        "The waist should be twisted toward the rear in the direction of the supporting leg.",
+        "Deductions are applied when: 1) Torso is held 45° or more above horizontal level, 2) Waist is not twisted toward the rear in the direction of the supporting leg, and 3) Instep of the raised bent leg is not extended flat."
+      ]
     },
     {
       "question": "Which technique category does Pū Bù (Crouching Stance) belong to?",
-      "answer": "Stances"
+      "answer": "Stances",
+      "choices": [
+        "Leg Techniques",
+        "Weapon Techniques",
+        "Jumps",
+        "Stances"
+      ]
     }
   ]
 }

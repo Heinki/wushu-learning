@@ -1,0 +1,61 @@
+{
+  "category": "Gleichgewichtstechniken",
+  "technique_name": "Shi Zi Píng Héng (nach vorn geneigtes Gleichgewicht mit ausgebreiteten Armen)",
+  "deduction_content": [
+    "Standbein gebeugt",
+    "Der Oberkörper ist unter horizontaler Höhe"
+  ],
+  "code": "13",
+  "questions": [
+    {
+      "question": "Wie lautet der Fehlercode für Shi Zi Píng Héng (nach vorn geneigtes Gleichgewicht mit ausgebreiteten Armen)?",
+      "answer": "13",
+      "choices": [
+        "21",
+        "22",
+        "13",
+        "20"
+      ]
+    },
+    {
+      "question": "Welche zwei Hauptabzugspunkte gelten für Shi Zi Píng Héng?",
+      "answer": "Abzüge werden vergeben, wenn: 1) Das Standbein ist gebeugt und 2) Der Oberkörper ist unter horizontaler Höhe.",
+      "choices": [
+        "Ein Abzug wird vergeben, wenn Das Schwungbein ist um 45° oder mehr gebeugt.",
+        "Weil der Körper nach hinten geneigt ist, während mit einem nach vorn angehobenen Bein das Gleichgewicht gehalten wird.",
+        "Abzüge werden vergeben, wenn: 1) Das Standbein ist gebeugt und 2) Der Oberkörper ist unter horizontaler Höhe.",
+        "Das Bein soll am höchsten Punkt des Tritts vollständig gestreckt sein, ohne Beugung im Knie."
+      ]
+    },
+    {
+      "question": "Was ist die korrekte Oberkörperposition bei Shi Zi Píng Héng?",
+      "answer": "Der Oberkörper soll auf oder über horizontaler Höhe sein.",
+      "choices": [
+        "Abzüge werden vergeben, wenn: 1) Ein Knie oder beide Knie sind am höchsten Punkt des Tritts gebeugt und 2) Ferse des Standbeins ist vom Boden abgehoben.",
+        "Abzüge werden vergeben, wenn: 1) Die Waffe wird umklammernd gefangen, 2) Das gerade Schwert oder der Säbel wird nicht am Griff gefangen, oder Stock beziehungsweise Speerschaft werden nicht mit einer Hand gefangen.",
+        "Abzüge werden vergeben, wenn: 1) Die Rückseite des Oberschenkels des hockenden Beins hat keinen Kontakt zur Wade, 2) Das gestreckte Bein ist nicht vollständig gerade, 3) Der Fuß des gestreckten Beins ist nicht nach innen gedreht und die Sohle liegt nicht vollständig flach auf dem Boden.",
+        "Der Oberkörper soll auf oder über horizontaler Höhe sein."
+      ]
+    },
+    {
+      "question": "Was ist die korrekte Beinposition des Standbeins während Shi Zi Píng Héng?",
+      "answer": "Das Standbein muss vollständig gestreckt sein, ohne jede Beugung.",
+      "choices": [
+        "Der Spann des angehobenen gebeugten Beins soll flach gestreckt sein und eine klare Neigung zeigen.",
+        "Abzüge werden vergeben, wenn: 1) Das Standbein ist gebeugt und 2) Der Oberkörper ist unter horizontaler Höhe.",
+        "Zeige- und Mittelfinger sollen gerade und zusammen gehalten werden, während der Daumen auf Ringfinger und kleinen Finger drückt.",
+        "Das Standbein muss vollständig gestreckt sein, ohne jede Beugung."
+      ]
+    },
+    {
+      "question": "Was ist die korrekte Armposition bei Shi Zi Píng Héng?",
+      "answer": "Die Arme sollen ausgebreitet sein und eine kreuzartige Position bilden, daher der Name 'Shi Zi', der Kreuz bedeutet.",
+      "choices": [
+        "Das Bein soll am höchsten Punkt des Tritts vollständig gestreckt sein, ohne Beugung im Knie.",
+        "Ein Bein ist das Standbein mit dem Oberschenkel auf horizontaler Höhe, während das andere Bein davor gekreuzt wird.",
+        "Die Arme sollen ausgebreitet sein und eine kreuzartige Position bilden, daher der Name 'Shi Zi', der Kreuz bedeutet.",
+        "Der Oberkörper soll unter 45° zur Horizontalen gehalten werden."
+      ]
+    }
+  ]
+}

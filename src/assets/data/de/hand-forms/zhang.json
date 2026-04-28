@@ -1,0 +1,41 @@
+{
+  "category": "Handformen",
+  "technique_name": "Zhàng (Handfläche)",
+  "deduction_content": [
+    "Vier Finger sind nicht gerade und geschlossen gehalten",
+    "Der Daumen ist nicht gebeugt und eng angelegt"
+  ],
+  "code": "02",
+  "questions": [
+    {
+      "question": "Wie lautet der Fehlercode für Zhàng (Handfläche)?",
+      "answer": "02",
+      "choices": [
+        "63",
+        "02",
+        "61",
+        "60"
+      ]
+    },
+    {
+      "question": "Welche zwei Hauptabzugspunkte gelten für Zhàng (Handfläche)?",
+      "answer": "Abzüge werden vergeben, wenn: 1) Vier Finger sind nicht gerade und geschlossen gehalten und 2) Der Daumen ist nicht gebeugt und eng angelegt.",
+      "choices": [
+        "Das Trittbein soll in einer Schnappbewegung aus einer deutlich gebeugten Position (45° oder mehr) in eine vollständig gestreckte Position übergehen.",
+        "Abzüge werden vergeben, wenn: 1) Vier Finger sind nicht gerade und geschlossen gehalten und 2) Der Daumen ist nicht gebeugt und eng angelegt.",
+        "Abzüge werden vergeben, wenn: 1) Die Waffe wird umklammernd gefangen, 2) Das gerade Schwert oder der Säbel wird nicht am Griff gefangen, oder Stock beziehungsweise Speerschaft werden nicht mit einer Hand gefangen.",
+        "Abzüge werden vergeben, wenn: 1) Oberschenkel sind nicht horizontal, 2) Der Abstand zwischen den Innenseiten der beiden Füße ist kleiner als die Schulterbreite der ausführenden Person, 3) Ein Knie oder beide Knie knicken nach innen ein, 4) Eine oder beide Fersen sind vom Boden abgehoben, 5) Zehen eines Fußes oder beider Füße zeigen 45 Grad oder mehr nach außen."
+      ]
+    },
+    {
+      "question": "Wie sollen die Finger bei einer korrekten Zhàng (Handfläche) positioniert sein?",
+      "answer": "Die vier Finger sollen gerade und geschlossen gehalten werden, während der Daumen gebeugt und eng am Tigermaul-Bereich angelegt ist.",
+      "choices": [
+        "Abzüge werden vergeben, wenn: 1) Die Speerspitze bewegt sich nicht in einem klar definierten Bogen, 2) Das hintere Ende des Speers ragt aus dem Griff heraus, 3) Stoßarm und Speerschaft bilden keine horizontale gerade Linie.",
+        "Die vier Finger sollen gerade und geschlossen gehalten werden, während der Daumen gebeugt und eng am Tigermaul-Bereich angelegt ist.",
+        "Abzüge werden vergeben, wenn: 1) Der angehobene Unterschenkel dreht nicht schräg nach innen und 2) Die Zehen des angehobenen Fußes sind nicht gestreckt und nach innen gehakt.",
+        "Abzüge werden vergeben, wenn: 1) Ein Bein oder beide Beine sind in der Luft deutlich um 45 Grad oder mehr gebeugt, 2) Der Oberkörper ist während der Drehung 45 Grad oder mehr über der Horizontalen."
+      ]
+    }
+  ]
+}

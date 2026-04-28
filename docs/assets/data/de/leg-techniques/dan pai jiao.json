@@ -1,0 +1,41 @@
+{
+  "category": "Beintechniken",
+  "technique_name": "Dān Pāi Jiǎo (vorderer Schlagtritt)",
+  "deduction_content": [
+    "Zehen des geschlagenen Fußes sind nicht über Schulterhöhe",
+    "Der Schlag wird verfehlt und/oder ist nicht hörbar"
+  ],
+  "code": "25",
+  "questions": [
+    {
+      "question": "Wie lautet der Fehlercode für Dān Pāi Jiǎo (vorderer Schlagtritt)?",
+      "answer": "25",
+      "choices": [
+        "66",
+        "16",
+        "25",
+        "14"
+      ]
+    },
+    {
+      "question": "Welche Abzugspunkte gelten für Dān Pāi Jiǎo (vorderer Schlagtritt)?",
+      "answer": "Abzüge werden vergeben, wenn: 1) Zehen des geschlagenen Fußes sind nicht über Schulterhöhe, 2) Der Schlag wird verfehlt und/oder ist nicht hörbar.",
+      "choices": [
+        "Die Ferse des Standbeins soll während des gesamten Tritts auf dem Boden bleiben.",
+        "Abzüge werden vergeben, wenn: 1) Zehen des geschlagenen Fußes sind nicht über Schulterhöhe, 2) Der Schlag wird verfehlt und/oder ist nicht hörbar.",
+        "Abzüge werden vergeben, wenn: 1) Der angehobene Unterschenkel dreht nicht schräg nach innen und 2) Die Zehen des angehobenen Fußes sind nicht gestreckt und nach innen gehakt.",
+        "Sowohl das Standbein als auch das angehobene Bein sollen vollständig gestreckt sein, ohne Beugung in den Knien."
+      ]
+    },
+    {
+      "question": "Zu welcher Technikkategorie gehört Dān Pāi Jiǎo (vorderer Schlagtritt)?",
+      "answer": "Beintechniken",
+      "choices": [
+        "Stände",
+        "Sprünge",
+        "Waffentechniken",
+        "Beintechniken"
+      ]
+    }
+  ]
+}

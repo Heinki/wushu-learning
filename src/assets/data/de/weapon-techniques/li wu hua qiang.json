@@ -1,0 +1,40 @@
+{
+  "category": "Waffentechniken",
+  "technique_name": "Lì Wǔ Huā Qiāng (vertikale Acht mit dem Speer)",
+  "deduction_content": [
+    "Der Speer rotiert nicht in einer deutlich erkennbaren vertikalen Ebene"
+  ],
+  "code": "65",
+  "questions": [
+    {
+      "question": "Wie lautet der Fehlercode für Lì Wǔ Huā Qiāng (vertikale Acht mit dem Speer)?",
+      "answer": "65",
+      "choices": [
+        "30",
+        "31",
+        "32",
+        "65"
+      ]
+    },
+    {
+      "question": "Welche Abzugspunkte gelten für Lì Wǔ Huā Qiāng (vertikale Acht mit dem Speer)?",
+      "answer": "Abzüge werden vergeben, wenn: 1) Der Speer rotiert nicht in einer deutlich erkennbaren vertikalen Ebene.",
+      "choices": [
+        "Abzüge werden vergeben, wenn: 1) Der Speer rotiert nicht in einer deutlich erkennbaren vertikalen Ebene.",
+        "Abzüge werden vergeben, wenn: 1) Standbein ist gebeugt und 2) Angehobenes Bein ist gebeugt.",
+        "Abzüge werden vergeben, wenn: 1) Die Sohle des vorderen Fußes dreht nach innen und berührt den Boden und 2) Vorderes und hinteres Bein bilden keine zwei parallelen geraden Linien.",
+        "Vorderes und hinteres Bein sollen zwei parallele gerade Linien bilden."
+      ]
+    },
+    {
+      "question": "Zu welcher Technikkategorie gehört Lì Wǔ Huā Qiāng (vertikale Acht mit dem Speer)?",
+      "answer": "Waffentechniken",
+      "choices": [
+        "Beintechniken",
+        "Stände",
+        "Waffentechniken",
+        "Sprünge"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,42 @@
+{
+  "category": "Waffentechniken",
+  "technique_name": "Lán Qiāng (Block nach außen)",
+  "deduction_content": [
+    "Die Speerspitze bewegt sich nicht in einem klar definierten Bogen",
+    "Das hintere Ende des Speers ragt aus dem Griff heraus",
+    "Stoßarm und Speerschaft bilden keine horizontale gerade Linie"
+  ],
+  "code": "63",
+  "questions": [
+    {
+      "question": "Wie lautet der Fehlercode für Lán Qiāng (Block nach außen)?",
+      "answer": "63",
+      "choices": [
+        "21",
+        "22",
+        "63",
+        "20"
+      ]
+    },
+    {
+      "question": "Welche Abzugspunkte gelten für Lán Qiāng (Block nach außen)?",
+      "answer": "Abzüge werden vergeben, wenn: 1) Die Speerspitze bewegt sich nicht in einem klar definierten Bogen, 2) Das hintere Ende des Speers ragt aus dem Griff heraus, 3) Stoßarm und Speerschaft bilden keine horizontale gerade Linie.",
+      "choices": [
+        "Die Ferse des Standbeins soll während des gesamten Tritts auf dem Boden bleiben.",
+        "Abzüge werden vergeben, wenn: 1) Die Speerspitze bewegt sich nicht in einem klar definierten Bogen, 2) Das hintere Ende des Speers ragt aus dem Griff heraus, 3) Stoßarm und Speerschaft bilden keine horizontale gerade Linie.",
+        "Abzüge werden vergeben, wenn: 1) Das hängende Bein ist gebeugt, wenn die Zehen des tretenden Beins die Stirn oder höher erreichen, 2) Der Winkel zwischen Oberkörper und hängendem Bein beträgt in diesem Moment weniger als 135 Grad.",
+        "Die Sohle des vorderen Fußes soll sich nicht nach innen drehen oder den Boden berühren."
+      ]
+    },
+    {
+      "question": "Zu welcher Technikkategorie gehört Lán Qiāng (Block nach außen)?",
+      "answer": "Waffentechniken",
+      "choices": [
+        "Sprünge",
+        "Beintechniken",
+        "Stände",
+        "Waffentechniken"
+      ]
+    }
+  ]
+}

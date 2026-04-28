@@ -1,0 +1,40 @@
+{
+  "category": "Waffentechniken",
+  "technique_name": "Shuāng Shǒu Tí Liāo Huā Gùn (vertikaler Aufwärtsschwung des Stocks mit beiden Händen)",
+  "deduction_content": [
+    "Der Stock rotiert nicht in einer deutlich erkennbaren vertikalen Ebene"
+  ],
+  "code": "65",
+  "questions": [
+    {
+      "question": "Wie lautet der Fehlercode für Shuāng Shǒu Tí Liāo Huā Gùn (vertikaler Aufwärtsschwung des Stocks mit beiden Händen)?",
+      "answer": "65",
+      "choices": [
+        "63",
+        "65",
+        "61",
+        "60"
+      ]
+    },
+    {
+      "question": "Welche Abzugspunkte gelten für Shuāng Shǒu Tí Liāo Huā Gùn (vertikaler Aufwärtsschwung des Stocks mit beiden Händen)?",
+      "answer": "Abzüge werden vergeben, wenn: 1) Der Stock rotiert nicht in einer deutlich erkennbaren vertikalen Ebene.",
+      "choices": [
+        "Abzüge werden vergeben, wenn: 1) Der Rücken der Säbelklinge wird beim Wickeln oder Umwinden nicht nah am Körper geführt.",
+        "Die Ferse des Standbeins muss während der gesamten Technik Bodenkontakt behalten.",
+        "Abzüge werden vergeben, wenn: 1) Der Stock rotiert nicht in einer deutlich erkennbaren vertikalen Ebene.",
+        "Abzüge werden vergeben, wenn: 1) Ein Bein oder beide Beine sind in der Luft deutlich um 45 Grad oder mehr gebeugt, 2) Der Oberkörper ist während der Drehung 45 Grad oder mehr über der Horizontalen."
+      ]
+    },
+    {
+      "question": "Zu welcher Technikkategorie gehört Shuāng Shǒu Tí Liāo Huā Gùn (vertikaler Aufwärtsschwung des Stocks mit beiden Händen)?",
+      "answer": "Waffentechniken",
+      "choices": [
+        "Waffentechniken",
+        "Beintechniken",
+        "Stände",
+        "Sprünge"
+      ]
+    }
+  ]
+}

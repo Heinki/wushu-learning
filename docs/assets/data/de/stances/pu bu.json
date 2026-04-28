@@ -1,0 +1,42 @@
+{
+  "category": "Stände",
+  "technique_name": "Pū Bù (Kauerstand)",
+  "deduction_content": [
+    "Die Rückseite des Oberschenkels des hockenden Beins hat keinen Kontakt zur Wade",
+    "Das gestreckte Bein ist nicht vollständig gerade",
+    "Der Fuß des gestreckten Beins ist nicht nach innen gedreht und die Sohle liegt nicht vollständig flach auf dem Boden"
+  ],
+  "code": "53",
+  "questions": [
+    {
+      "question": "Wie lautet der Fehlercode für Pū Bù (Kauerstand)?",
+      "answer": "53",
+      "choices": [
+        "13",
+        "12",
+        "53",
+        "10"
+      ]
+    },
+    {
+      "question": "Welche Abzugspunkte gelten für Pū Bù (Kauerstand)?",
+      "answer": "Abzüge werden vergeben, wenn: 1) Die Rückseite des Oberschenkels des hockenden Beins hat keinen Kontakt zur Wade, 2) Das gestreckte Bein ist nicht vollständig gerade, 3) Der Fuß des gestreckten Beins ist nicht nach innen gedreht und die Sohle liegt nicht vollständig flach auf dem Boden.",
+      "choices": [
+        "Ein Abzug wird vergeben, wenn Das angehobene Bein wird unter horizontaler Höhe gehalten.",
+        "Abzüge werden vergeben, wenn: 1) Die Rückseite des Oberschenkels des hockenden Beins hat keinen Kontakt zur Wade, 2) Das gestreckte Bein ist nicht vollständig gerade, 3) Der Fuß des gestreckten Beins ist nicht nach innen gedreht und die Sohle liegt nicht vollständig flach auf dem Boden.",
+        "Die Taille soll nach hinten in Richtung des Standbeins gedreht sein.",
+        "Abzüge werden vergeben, wenn: 1) Der Oberkörper wird 45° oder mehr über horizontaler Höhe gehalten, 2) Die Taille ist nicht nach hinten in Richtung des Standbeins gedreht und 3) Der Spann des angehobenen gebeugten Beins ist nicht flach gestreckt."
+      ]
+    },
+    {
+      "question": "Zu welcher Technikkategorie gehört Pū Bù (Kauerstand)?",
+      "answer": "Stände",
+      "choices": [
+        "Beintechniken",
+        "Waffentechniken",
+        "Sprünge",
+        "Stände"
+      ]
+    }
+  ]
+}

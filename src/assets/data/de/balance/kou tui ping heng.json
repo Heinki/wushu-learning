@@ -1,0 +1,40 @@
+{
+  "category": "Gleichgewichtstechniken",
+  "technique_name": "Kòu Tuì Píng Héng (Gleichgewicht mit hinten gekreuztem Bein)",
+  "deduction_content": [
+    "Der Oberschenkel des Standbeins ist nicht auf horizontaler Höhe"
+  ],
+  "code": "14",
+  "questions": [
+    {
+      "question": "Wie lautet der Fehlercode für Kòu Tuì Píng Héng (Gleichgewicht mit hinten gekreuztem Bein)?",
+      "answer": "14",
+      "choices": [
+        "14",
+        "22",
+        "23",
+        "20"
+      ]
+    },
+    {
+      "question": "Was ist der wichtigste Abzugspunkt für Kòu Tuì Píng Héng?",
+      "answer": "Ein Abzug wird vergeben, wenn Der Oberschenkel des Standbeins ist nicht auf horizontaler Höhe.",
+      "choices": [
+        "Abzüge werden vergeben, wenn: 1) Der Oberkörper wird 45° oder mehr über horizontaler Höhe gehalten, 2) Die Taille ist nicht nach hinten in Richtung des Standbeins gedreht und 3) Der Spann des angehobenen gebeugten Beins ist nicht flach gestreckt.",
+        "Abzüge werden vergeben, wenn: 1) Ein Bein oder beide Beine sind in der Luft um 45 Grad oder mehr gebeugt.",
+        "Weil ein Bein vor dem Standbein gekreuzt wird, während das Gleichgewicht auf dem Standbein gehalten wird.",
+        "Ein Abzug wird vergeben, wenn Der Oberschenkel des Standbeins ist nicht auf horizontaler Höhe."
+      ]
+    },
+    {
+      "question": "Was ist die korrekte Oberschenkelposition des Standbeins bei Kòu Tuì Píng Héng?",
+      "answer": "Der Oberschenkel des Standbeins muss auf horizontaler Höhe sein.",
+      "choices": [
+        "Abzüge werden vergeben, wenn: 1) Die Waffe wird umklammernd gefangen, 2) Das gerade Schwert oder der Säbel wird nicht am Griff gefangen, oder Stock beziehungsweise Speerschaft werden nicht mit einer Hand gefangen.",
+        "Der Oberschenkel des Standbeins muss auf horizontaler Höhe sein.",
+        "Abzüge werden vergeben, wenn: 1) Die fünf Finger sind nicht zusammengefasst und 2) Handgelenk ist nicht vollständig gehakt.",
+        "Abzüge werden vergeben, wenn: 1) Die Speerspitze bewegt sich nicht in einem klar definierten Bogen, 2) Das hintere Ende des Speers ragt aus dem Griff heraus, 3) Stoßarm und Speerschaft bilden keine horizontale gerade Linie."
+      ]
+    }
+  ]
+}

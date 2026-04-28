@@ -1,0 +1,41 @@
+{
+  "category": "Sprünge",
+  "technique_name": "Téng Kōng Dēng Tuǐ (gesprungener Fersenschubtritt)",
+  "deduction_content": [
+    "Das schiebende Bein geht nicht aus einer deutlichen Beugung von 45 Grad oder mehr in eine vollständig gestreckte Position über",
+    "Das schiebende Bein ist unter horizontaler Höhe"
+  ],
+  "code": "34",
+  "questions": [
+    {
+      "question": "Wie lautet der Fehlercode für Téng Kōng Dēng Tuǐ (gesprungener Fersenschubtritt)?",
+      "answer": "34",
+      "choices": [
+        "34",
+        "26",
+        "24",
+        "25"
+      ]
+    },
+    {
+      "question": "Welche Abzugspunkte gelten für Téng Kōng Dēng Tuǐ (gesprungener Fersenschubtritt)?",
+      "answer": "Abzüge werden vergeben, wenn: 1) Das schiebende Bein geht nicht aus einer deutlichen Beugung von 45 Grad oder mehr in eine vollständig gestreckte Position über, 2) Das schiebende Bein ist unter horizontaler Höhe.",
+      "choices": [
+        "Ein Bein ist das Standbein mit dem Oberschenkel auf horizontaler Höhe, während das andere Bein davor gekreuzt wird.",
+        "Abzüge werden vergeben, wenn: 1) Das schiebende Bein geht nicht aus einer deutlichen Beugung von 45 Grad oder mehr in eine vollständig gestreckte Position über, 2) Das schiebende Bein ist unter horizontaler Höhe.",
+        "Die Zehen des geschlagenen Fußes sollen über Schulterhöhe sein und der Schlag soll hörbar sein.",
+        "Abzüge werden vergeben, wenn: 1) Das Schnappbein geht nicht aus einer deutlichen Beugung von 45 Grad oder mehr in eine vollständig gestreckte Position über, 2) Das Schnappbein ist unter horizontaler Höhe."
+      ]
+    },
+    {
+      "question": "Zu welcher Technikkategorie gehört Téng Kōng Dēng Tuǐ (gesprungener Fersenschubtritt)?",
+      "answer": "Sprünge",
+      "choices": [
+        "Beintechniken",
+        "Waffentechniken",
+        "Stände",
+        "Sprünge"
+      ]
+    }
+  ]
+}

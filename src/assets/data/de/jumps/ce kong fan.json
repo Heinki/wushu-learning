@@ -1,0 +1,40 @@
+{
+  "category": "Sprünge",
+  "technique_name": "Cè Kōng Fān (Rad ohne Handstütz)",
+  "deduction_content": [
+    "Ein Bein oder beide Beine sind in der Luft um 45 Grad oder mehr gebeugt"
+  ],
+  "code": "32",
+  "questions": [
+    {
+      "question": "Wie lautet der Fehlercode für Cè Kōng Fān (Rad ohne Handstütz)?",
+      "answer": "32",
+      "choices": [
+        "13",
+        "12",
+        "32",
+        "10"
+      ]
+    },
+    {
+      "question": "Welche Abzugspunkte gelten für Cè Kōng Fān (Rad ohne Handstütz)?",
+      "answer": "Abzüge werden vergeben, wenn: 1) Ein Bein oder beide Beine sind in der Luft um 45 Grad oder mehr gebeugt.",
+      "choices": [
+        "Abzüge werden vergeben, wenn: 1) Das Standbein ist gebeugt und 2) Der Oberkörper ist unter horizontaler Höhe.",
+        "Abzüge werden vergeben, wenn: 1) Ein Bein oder beide Beine sind in der Luft um 45 Grad oder mehr gebeugt.",
+        "Zeige- und Mittelfinger sollen gerade und zusammen gehalten werden, während der Daumen auf Ringfinger und kleinen Finger drückt.",
+        "Die Zehen des angehobenen Fußes sollen gestreckt sein und nach innen haken."
+      ]
+    },
+    {
+      "question": "Zu welcher Technikkategorie gehört Cè Kōng Fān (Rad ohne Handstütz)?",
+      "answer": "Sprünge",
+      "choices": [
+        "Waffentechniken",
+        "Beintechniken",
+        "Stände",
+        "Sprünge"
+      ]
+    }
+  ]
+}

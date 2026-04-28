@@ -1,0 +1,41 @@
+{
+  "category": "Beintechniken",
+  "technique_name": "Angehobenes Knie ist nicht über Hüfthöhe",
+  "deduction_content": [
+    "Der angehobene Unterschenkel dreht nicht schräg nach innen",
+    "Die Zehen des angehobenen Fußes sind nicht gestreckt und nach innen gehakt"
+  ],
+  "code": "26",
+  "questions": [
+    {
+      "question": "Wie lautet der Fehlercode für Angehobenes Knie ist nicht über Hüfthöhe?",
+      "answer": "26",
+      "choices": [
+        "21",
+        "22",
+        "26",
+        "20"
+      ]
+    },
+    {
+      "question": "Welche zwei Hauptabzugspunkte gelten für die Technik mit angehobenem Knie?",
+      "answer": "Abzüge werden vergeben, wenn: 1) Der angehobene Unterschenkel dreht nicht schräg nach innen und 2) Die Zehen des angehobenen Fußes sind nicht gestreckt und nach innen gehakt.",
+      "choices": [
+        "Abzüge werden vergeben, wenn: 1) Das Standbein ist gebeugt und 2) Der Oberkörper ist unter horizontaler Höhe.",
+        "Abzüge werden vergeben, wenn: 1) Vier Finger sind nicht gerade und geschlossen gehalten und 2) Der Daumen ist nicht gebeugt und eng angelegt.",
+        "Der Oberkörper soll unter 45° zur Horizontalen gehalten werden.",
+        "Abzüge werden vergeben, wenn: 1) Der angehobene Unterschenkel dreht nicht schräg nach innen und 2) Die Zehen des angehobenen Fußes sind nicht gestreckt und nach innen gehakt."
+      ]
+    },
+    {
+      "question": "Wie soll der Fuß bei einer korrekten Technik mit angehobenem Knie positioniert sein?",
+      "answer": "Die Zehen des angehobenen Fußes sollen gestreckt sein und nach innen haken.",
+      "choices": [
+        "Die Zehen des angehobenen Fußes sollen gestreckt sein und nach innen haken.",
+        "Das Standbein muss vollständig gestreckt sein, ohne jede Beugung.",
+        "Abzüge werden vergeben, wenn: 1) Der Speer rotiert nicht in einer deutlich erkennbaren vertikalen Ebene.",
+        "Die Sohle des Schwungfußes soll während der gesamten Schwungbewegung Bodenkontakt halten."
+      ]
+    }
+  ]
+}

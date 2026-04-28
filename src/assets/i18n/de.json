@@ -1,0 +1,185 @@
+{
+  "app": {
+    "title": "Wushu Lernen"
+  },
+  "nav": {
+    "home": "Startseite",
+    "judgingCriteria": "Bewertungskriterien",
+    "commonMistakes": "Häufige Fehler",
+    "practice": "Üben",
+    "sanda": "Sanda",
+    "resources": "Ressourcen"
+  },
+  "lang": {
+    "english": "English",
+    "chinese": "中文",
+    "german": "Deutsch",
+    "select": "Sprache"
+  },
+  "mainPage": {
+    "title": "Wushu-Lernplattform für Kampfrichter",
+    "welcome": {
+      "title": "Willkommen auf der Plattform",
+      "description1": "Diese Anwendung hilft Wushu-Kampfrichtern, verschiedene Bewertungskriterien, häufige Fehler und die korrekte Vergabe von Abzügen im Wettkampf zu lernen.",
+      "description2": "Nutze das Navigationsmenü, um die verschiedenen Bereiche der Anwendung zu erkunden."
+    },
+    "features": {
+      "judgingCriteria": {
+        "title": "Bewertungskriterien",
+        "subtitle": "Offizielle Standards lernen",
+        "description": "Verstehe die detaillierten Kriterien in Wushu-Wettkämpfen und wende sie einheitlich an.",
+        "button": "Kriterien ansehen"
+      },
+      "practice": {
+        "title": "Übungsszenarien",
+        "subtitle": "Teste dein Wissen",
+        "description": "Übe deine Bewertungsfähigkeiten mit realistischen Wettkampfszenarien und erhalte direktes Feedback.",
+        "button": "Übung starten"
+      },
+      "sanda": {
+        "title": "Sanda-Regeln",
+        "subtitle": "Referenz für Kampfrichter",
+        "description": "Lerne Kampfformate, gültige Trefferbereiche, Fouls, Strafen und Wertungsstandards für Sanda.",
+        "button": "Sanda öffnen"
+      },
+      "mistakes": {
+        "title": "Häufige Fehler",
+        "subtitle": "Bewertungsfehler vermeiden",
+        "description": "Sieh dir deine aktuellen Fehler aus den Übungen an.",
+        "button": "Fehler ansehen"
+      }
+    }
+  },
+  "mistakes": {
+    "title": "Häufige Fehler",
+    "clearAll": "Alle löschen",
+    "loading": "Fehler werden geladen...",
+    "noMistakes": {
+      "title": "Keine Fehler erfasst",
+      "description1": "Du hast in den Übungen noch keine Fehler gemacht oder sie wurden gelöscht.",
+      "description2": "Hinweis: Fehlerdaten werden lokal in deinem Browser gespeichert. Wenn du Browserdaten oder Cookies löschst, werden diese Informationen ebenfalls entfernt."
+    },
+    "mistakeInfo": {
+      "code": "Code:",
+      "mistakes": "Fehler:",
+      "question": "Frage:",
+      "answer": "Antwort:",
+      "viewDetails": "Details ansehen"
+    }
+  },
+  "practice": {
+    "title": "Was möchtest du üben?",
+    "loading": "Fragen werden geladen...",
+    "progress": "Frage",
+    "of": "/",
+    "yourAnswer": "Ausgewählte Antwort",
+    "check": "Prüfen",
+    "correctAnswer": "Richtige Antwort:",
+    "correct": "Richtig!",
+    "incorrect": "Falsch.",
+    "nextQuestion": "Nächste Frage",
+    "noQuestions": "Für diese Kategorie sind keine Fragen verfügbar.",
+    "backToCategories": "Zurück zu den Kategorien",
+    "categories": {
+      "balance": "Gleichgewicht",
+      "handForms": "Handformen",
+      "legTechniques": "Beintechniken",
+      "stances": "Stände",
+      "jumps": "Sprünge",
+      "weaponTechniques": "Waffentechniken",
+      "all": "Alle"
+    },
+    "summary": {
+      "title": "Übungszusammenfassung",
+      "question": "Frage",
+      "yourAnswer": "Deine Antwort",
+      "result": "Ergebnis",
+      "correct": "Richtig",
+      "incorrect": "Falsch"
+    }
+  },
+  "judgingCriteria": {
+    "error": "Fehler",
+    "errorMessage": "Techniken konnten nicht geladen werden. Bitte versuche es später erneut.",
+    "noTechniques": "Keine Techniken gefunden",
+    "noTechniquesMessage": "Zurzeit sind keine Techniken verfügbar.",
+    "code": "Code:",
+    "deductionPoints": "Abzugspunkt(e)",
+    "viewDetails": "Details ansehen",
+    "openAll": "Alle öffnen",
+    "closeAll": "Alle schließen"
+  },
+  "techniqueDetail": {
+    "backToCriteria": "Zurück zu den Bewertungskriterien",
+    "category": "Kategorie",
+    "deductionPoints": "Abzugspunkte",
+    "techniqueCode": "Technikcode:",
+    "practiceQuestions": "Übungsfragen",
+    "backToPractice": "Zurück zur Übung",
+    "loading": "Wird geladen...",
+    "loadingMessage": "Technikinformationen werden geladen...",
+    "error": "Fehler",
+    "errorMessage": "Die angeforderte Technik konnte nicht gefunden werden. Bitte versuche es erneut."
+  },
+  "resources": {
+    "title": "Wushu-Ressourcen",
+    "description": "Offizielle Wettkampfregeln und Bewertungsmethoden herunterladen:"
+  },
+  "sanda": {
+    "eyebrow": "Sanda",
+    "title": "Wushu-Sanda-Regeln und Bewertung",
+    "intro": "Sanda ist die Vollkontakt-Wettkampfform des Wushu. Dieser Bereich bietet Kampfrichtern eine schnelle Referenz zu Kampfform, Wertungsbereichen, verbotenen Bereichen, Wertungsstandards und Strafen nach den Regeln von 2024.",
+    "downloadRules": "Regel-PDF herunterladen",
+    "quickFacts": {
+      "title": "Schnellreferenz",
+      "rounds": {
+        "title": "Kampfformat",
+        "description": "Ein Kampf besteht aus bis zu drei Runden. Wer zwei Runden gewinnt, gewinnt den Kampf."
+      },
+      "roundDuration": {
+        "title": "Rundenlänge",
+        "description": "Jede Runde dauert zwei Minuten."
+      },
+      "rest": {
+        "title": "Pause",
+        "description": "Zwischen den Runden gibt es eine Pause von einer Minute."
+      },
+      "platform": {
+        "title": "Leitai",
+        "description": "Kämpfe finden auf einer erhöhten Plattform von 8 m mal 8 m statt."
+      },
+      "validAreas": {
+        "title": "Gültige Wertungsbereiche",
+        "description": "Kopf, Rumpf und Oberschenkel sind gültige Wertungsbereiche."
+      },
+      "prohibitedAreas": {
+        "title": "Verbotene Bereiche",
+        "description": "Hinterkopf, Nacken und Schritt sind verbotene Trefferbereiche."
+      }
+    },
+    "scoring": {
+      "title": "Bewertungshinweise",
+      "twoPoints": {
+        "title": "Situationen für zwei Punkte",
+        "description": "Typische Zwei-Punkte-Wertungen sind, den Gegner von der Plattform zu drängen oder ihn zu Fall zu bringen, während man selbst stehen bleibt."
+      },
+      "onePoint": {
+        "title": "Situationen für einen Punkt",
+        "description": "Typische Ein-Punkt-Wertungen umfassen klare wirksame Hand- oder Beintechniken zu gültigen Wertungsbereichen, abhängig vom konkreten Wertungsfall."
+      },
+      "noScore": {
+        "title": "Situationen ohne Wertung",
+        "description": "Keine Punkte werden vergeben, wenn Techniken unklar, beidseitig wirkungslos, gleichzeitig ohne Wertung oder auf verbotene Bereiche ausgeführt werden."
+      },
+      "fouls": {
+        "title": "Fouls und Strafen",
+        "description": "Technische und persönliche Fouls können je nach Schwere zu Ermahnungen, Verwarnungen, Strafpunkten, Rundenverlust oder Disqualifikation führen."
+      }
+    }
+  },
+  "common": {
+    "loading": "Wird geladen...",
+    "error": "Fehler",
+    "back": "Zurück"
+  }
+}

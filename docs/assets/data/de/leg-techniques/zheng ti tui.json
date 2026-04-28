@@ -1,0 +1,51 @@
+{
+  "category": "Beintechniken",
+  "technique_name": "Zhèng Ti Tuí (gerader Vorwärts-Strecktritt)",
+  "deduction_content": [
+    "Ein Knie oder beide Knie sind am höchsten Punkt des Tritts gebeugt",
+    "Ferse des Standbeins ist vom Boden abgehoben"
+  ],
+  "code": "24",
+  "questions": [
+    {
+      "question": "Wie lautet der Fehlercode für Zhèng Ti Tuí (gerader Vorwärts-Strecktritt)?",
+      "answer": "24",
+      "choices": [
+        "24",
+        "22",
+        "53",
+        "23"
+      ]
+    },
+    {
+      "question": "Welche zwei Hauptabzugspunkte gelten für Zhèng Ti Tuí?",
+      "answer": "Abzüge werden vergeben, wenn: 1) Ein Knie oder beide Knie sind am höchsten Punkt des Tritts gebeugt und 2) Ferse des Standbeins ist vom Boden abgehoben.",
+      "choices": [
+        "Das Trittbein muss mindestens 45° oder mehr gebeugt sein, bevor es vollständig gestreckt wird.",
+        "Abzüge werden vergeben, wenn: 1) Ein Bein oder beide Beine sind in der Luft um 45 Grad oder mehr gebeugt.",
+        "Abzüge werden vergeben, wenn: 1) Die Rückseite des Oberschenkels des hockenden Beins hat keinen Kontakt zur Wade, 2) Das gestreckte Bein ist nicht vollständig gerade, 3) Der Fuß des gestreckten Beins ist nicht nach innen gedreht und die Sohle liegt nicht vollständig flach auf dem Boden.",
+        "Abzüge werden vergeben, wenn: 1) Ein Knie oder beide Knie sind am höchsten Punkt des Tritts gebeugt und 2) Ferse des Standbeins ist vom Boden abgehoben."
+      ]
+    },
+    {
+      "question": "Was ist die korrekte Beinposition am höchsten Punkt von Zhèng Ti Tuí?",
+      "answer": "Das Bein soll am höchsten Punkt des Tritts vollständig gestreckt sein, ohne Beugung im Knie.",
+      "choices": [
+        "Abzüge werden vergeben, wenn: 1) Der angehobene Unterschenkel dreht nicht schräg nach innen und 2) Die Zehen des angehobenen Fußes sind nicht gestreckt und nach innen gehakt.",
+        "Abzüge werden vergeben, wenn: 1) Der Stock rotiert nicht in einer deutlich erkennbaren vertikalen Ebene.",
+        "Abzüge werden vergeben, wenn: 1) Ein Finger greift oben um den Handschutz und berührt die Klingenkante.",
+        "Das Bein soll am höchsten Punkt des Tritts vollständig gestreckt sein, ohne Beugung im Knie."
+      ]
+    },
+    {
+      "question": "Was ist die korrekte Fußposition des Standbeins während Zhèng Ti Tuí?",
+      "answer": "Die Ferse des Standbeins muss während der gesamten Technik Bodenkontakt behalten.",
+      "choices": [
+        "Abzüge werden vergeben, wenn: 1) Ein Finger greift oben um den Handschutz und berührt die Klingenkante.",
+        "Abzüge werden vergeben, wenn: 1) Es wird kein klar erkennbarer horizontaler Kreis gebildet.",
+        "Die Ferse des Standbeins muss während der gesamten Technik Bodenkontakt behalten.",
+        "Die Taille soll nach hinten in Richtung des Standbeins gedreht sein."
+      ]
+    }
+  ]
+}

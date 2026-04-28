@@ -1,0 +1,41 @@
+{
+  "category": "Sprünge",
+  "technique_name": "Xuàn Zǐ Zhuǎn Tǐ (Schmetterlingsdrehung)",
+  "deduction_content": [
+    "Ein Bein oder beide Beine sind in der Luft deutlich um 45 Grad oder mehr gebeugt",
+    "Der Oberkörper ist während der Drehung 45 Grad oder mehr über der Horizontalen"
+  ],
+  "code": "33",
+  "questions": [
+    {
+      "question": "Wie lautet der Fehlercode für Xuàn Zǐ Zhuǎn Tǐ (Schmetterlingsdrehung)?",
+      "answer": "33",
+      "choices": [
+        "21",
+        "22",
+        "33",
+        "20"
+      ]
+    },
+    {
+      "question": "Welche Abzugspunkte gelten für Xuàn Zǐ Zhuǎn Tǐ (Schmetterlingsdrehung)?",
+      "answer": "Abzüge werden vergeben, wenn: 1) Ein Bein oder beide Beine sind in der Luft deutlich um 45 Grad oder mehr gebeugt, 2) Der Oberkörper ist während der Drehung 45 Grad oder mehr über der Horizontalen.",
+      "choices": [
+        "Ein Abzug wird vergeben, wenn Das Schwungbein ist um 45° oder mehr gebeugt.",
+        "Abzüge werden vergeben, wenn: 1) Ein Bein oder beide Beine sind in der Luft deutlich um 45 Grad oder mehr gebeugt, 2) Der Oberkörper ist während der Drehung 45 Grad oder mehr über der Horizontalen.",
+        "Die Taille soll nach hinten in Richtung des Standbeins gedreht sein.",
+        "Abzüge werden vergeben, wenn: 1) Die fünf Finger sind nicht zusammengefasst und 2) Handgelenk ist nicht vollständig gehakt."
+      ]
+    },
+    {
+      "question": "Zu welcher Technikkategorie gehört Xuàn Zǐ Zhuǎn Tǐ (Schmetterlingsdrehung)?",
+      "answer": "Sprünge",
+      "choices": [
+        "Waffentechniken",
+        "Stände",
+        "Beintechniken",
+        "Sprünge"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "category": "Beintechniken",
+  "technique_name": "Chuài Tuí (Seittritt)",
+  "deduction_content": [
+    "Das Trittbein geht nicht aus einer deutlichen Beugung von 45° oder mehr in eine vollständig gestreckte Position über"
+  ],
+  "code": "23",
+  "questions": [
+    {
+      "question": "Wie lautet der Fehlercode für Chuài Tuí (Seittritt)?",
+      "answer": "23",
+      "choices": [
+        "23",
+        "31",
+        "30",
+        "33"
+      ]
+    },
+    {
+      "question": "Was ist der wichtigste Abzugspunkt für Chuài Tuí (Seittritt)?",
+      "answer": "Ein Abzug wird vergeben, wenn Das Trittbein geht nicht aus einer deutlichen Beugung von 45° oder mehr in eine vollständig gestreckte Position über.",
+      "choices": [
+        "Das Trittbein soll in einer Schnappbewegung aus einer deutlich gebeugten Position (45° oder mehr) in eine vollständig gestreckte Position übergehen.",
+        "Die Zehen des angehobenen Fußes sollen gestreckt sein und nach innen haken.",
+        "Die vier Finger sollen gerade und geschlossen gehalten werden, während der Daumen gebeugt und eng am Tigermaul-Bereich angelegt ist.",
+        "Ein Abzug wird vergeben, wenn Das Trittbein geht nicht aus einer deutlichen Beugung von 45° oder mehr in eine vollständig gestreckte Position über."
+      ]
+    },
+    {
+      "question": "Welcher Mindestwinkel gilt für das gebeugte Bein, bevor es bei Chuài Tuí gestreckt wird?",
+      "answer": "Das Trittbein muss mindestens 45° oder mehr gebeugt sein, bevor es vollständig gestreckt wird.",
+      "choices": [
+        "Abzüge werden vergeben, wenn: 1) Der angehobene Unterschenkel dreht nicht schräg nach innen und 2) Die Zehen des angehobenen Fußes sind nicht gestreckt und nach innen gehakt.",
+        "Abzüge werden vergeben, wenn: 1) Die Sohle des Schwungfußes verlässt nach dem Kontakt den Boden und 2) Das Schwungbein ist um 45° oder mehr gebeugt.",
+        "Abzüge werden vergeben, wenn: 1) Es wird kein klar erkennbarer horizontaler Kreis gebildet.",
+        "Das Trittbein muss mindestens 45° oder mehr gebeugt sein, bevor es vollständig gestreckt wird."
+      ]
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "category": "Waffentechniken",
+  "technique_name": "Chán Tóu (Umwickeln mit dem Säbel)",
+  "deduction_content": [
+    "Der Rücken der Säbelklinge wird beim Wickeln oder Umwinden nicht nah am Körper geführt"
+  ],
+  "code": "62",
+  "questions": [
+    {
+      "question": "Wie lautet der Fehlercode für Chán Tóu (Umwickeln mit dem Säbel)?",
+      "answer": "62",
+      "choices": [
+        "58",
+        "30",
+        "31",
+        "62"
+      ]
+    },
+    {
+      "question": "Welche Abzugspunkte gelten für Chán Tóu (Umwickeln mit dem Säbel)?",
+      "answer": "Abzüge werden vergeben, wenn: 1) Der Rücken der Säbelklinge wird beim Wickeln oder Umwinden nicht nah am Körper geführt.",
+      "choices": [
+        "Abzüge werden vergeben, wenn: 1) Faustfläche ist uneben und 2) Der Daumen drückt nicht auf das zweite Glied von Zeige- und Mittelfinger.",
+        "Abzüge werden vergeben, wenn: 1) Das schiebende Bein geht nicht aus einer deutlichen Beugung von 45 Grad oder mehr in eine vollständig gestreckte Position über, 2) Das schiebende Bein ist unter horizontaler Höhe.",
+        "Abzüge werden vergeben, wenn: 1) Der Rücken der Säbelklinge wird beim Wickeln oder Umwinden nicht nah am Körper geführt.",
+        "Weil der Körper nach hinten geneigt ist, während mit einem nach vorn angehobenen Bein das Gleichgewicht gehalten wird."
+      ]
+    },
+    {
+      "question": "Zu welcher Technikkategorie gehört Chán Tóu (Umwickeln mit dem Säbel)?",
+      "answer": "Waffentechniken",
+      "choices": [
+        "Waffentechniken",
+        "Sprünge",
+        "Stände",
+        "Beintechniken"
+      ]
+    }
+  ]
+}

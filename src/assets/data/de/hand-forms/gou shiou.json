@@ -1,0 +1,41 @@
+{
+  "category": "Handformen",
+  "technique_name": "Gōu Shiòu (Hakenhand)",
+  "deduction_content": [
+    "Die fünf Finger sind nicht zusammengefasst",
+    "Handgelenk ist nicht vollständig gehakt"
+  ],
+  "code": "03",
+  "questions": [
+    {
+      "question": "Wie lautet der Fehlercode für Gōu Shiòu (Hakenhand)?",
+      "answer": "03",
+      "choices": [
+        "01",
+        "02",
+        "04",
+        "03"
+      ]
+    },
+    {
+      "question": "Welche zwei Hauptabzugspunkte gelten für Gōu Shiòu (Hakenhand)?",
+      "answer": "Abzüge werden vergeben, wenn: 1) Die fünf Finger sind nicht zusammengefasst und 2) Handgelenk ist nicht vollständig gehakt.",
+      "choices": [
+        "Das Trittbein muss mindestens 45° gebeugt sein, bevor es vollständig gestreckt wird.",
+        "Die Zehen des angehobenen Fußes sollen gestreckt sein und nach innen haken.",
+        "Der Oberkörper soll unter 45° zur Horizontalen gehalten werden.",
+        "Abzüge werden vergeben, wenn: 1) Die fünf Finger sind nicht zusammengefasst und 2) Handgelenk ist nicht vollständig gehakt."
+      ]
+    },
+    {
+      "question": "Wie sollen Finger und Handgelenk bei einer korrekten Gōu Shiòu (Hakenhand) positioniert sein?",
+      "answer": "Die fünf Finger sollen zusammengefasst sein, und das Handgelenk soll vollständig gehakt sein.",
+      "choices": [
+        "Weil der Körper nach hinten geneigt ist, während mit einem nach vorn angehobenen Bein das Gleichgewicht gehalten wird.",
+        "Die fünf Finger sollen zusammengefasst sein, und das Handgelenk soll vollständig gehakt sein.",
+        "Abzüge werden vergeben, wenn: 1) Oberschenkel sind nicht horizontal, 2) Der Abstand zwischen den Innenseiten der beiden Füße ist kleiner als die Schulterbreite der ausführenden Person, 3) Ein Knie oder beide Knie knicken nach innen ein, 4) Eine oder beide Fersen sind vom Boden abgehoben, 5) Zehen eines Fußes oder beider Füße zeigen 45 Grad oder mehr nach außen.",
+        "Ein Abzug wird vergeben, wenn Der Oberschenkel des Standbeins ist über horizontaler Höhe."
+      ]
+    }
+  ]
+}

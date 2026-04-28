@@ -1,0 +1,41 @@
+{
+  "category": "Sprünge",
+  "technique_name": "Téng Kōng Jiàn Tàn (gesprungener Schnapptritt)",
+  "deduction_content": [
+    "Das Schnappbein geht nicht aus einer deutlichen Beugung von 45 Grad oder mehr in eine vollständig gestreckte Position über",
+    "Das Schnappbein ist unter horizontaler Höhe"
+  ],
+  "code": "34",
+  "questions": [
+    {
+      "question": "Wie lautet der Fehlercode für Téng Kōng Jiàn Tàn (gesprungener Schnapptritt)?",
+      "answer": "34",
+      "choices": [
+        "34",
+        "22",
+        "23",
+        "20"
+      ]
+    },
+    {
+      "question": "Welche Abzugspunkte gelten für Téng Kōng Jiàn Tàn (gesprungener Schnapptritt)?",
+      "answer": "Abzüge werden vergeben, wenn: 1) Das Schnappbein geht nicht aus einer deutlichen Beugung von 45 Grad oder mehr in eine vollständig gestreckte Position über, 2) Das Schnappbein ist unter horizontaler Höhe.",
+      "choices": [
+        "Ein Abzug wird vergeben, wenn Das angehobene Bein wird unter horizontaler Höhe gehalten.",
+        "Abzüge werden vergeben, wenn: 1) Das Schnappbein geht nicht aus einer deutlichen Beugung von 45 Grad oder mehr in eine vollständig gestreckte Position über, 2) Das Schnappbein ist unter horizontaler Höhe.",
+        "Abzüge werden vergeben, wenn: 1) Die beiden Oberschenkel sind nicht gekreuzt und geschlossen zusammengeführt, 2) Das Gesäß hat keinen Kontakt zur Wade des sitzenden Beins.",
+        "Die Taille soll nach hinten in Richtung des Standbeins gedreht sein."
+      ]
+    },
+    {
+      "question": "Zu welcher Technikkategorie gehört Téng Kōng Jiàn Tàn (gesprungener Schnapptritt)?",
+      "answer": "Sprünge",
+      "choices": [
+        "Stände",
+        "Beintechniken",
+        "Waffentechniken",
+        "Sprünge"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "category": "Stände",
+  "technique_name": "Zuò Pán (Sitz mit gekreuzten Beinen)",
+  "deduction_content": [
+    "Keine Gesäßhälfte berührt den Boden",
+    "Einer der Füße hat keinen Bodenkontakt"
+  ],
+  "code": "58",
+  "questions": [
+    {
+      "question": "Wie lautet der Fehlercode für Zuò Pán (Sitz mit gekreuzten Beinen)?",
+      "answer": "58",
+      "choices": [
+        "15",
+        "58",
+        "66",
+        "14"
+      ]
+    },
+    {
+      "question": "Welche Abzugspunkte gelten für Zuò Pán (Sitz mit gekreuzten Beinen)?",
+      "answer": "Abzüge werden vergeben, wenn: 1) Keine Gesäßhälfte berührt den Boden, 2) Einer der Füße hat keinen Bodenkontakt.",
+      "choices": [
+        "Abzüge werden vergeben, wenn: 1) Ein Knie oder beide Knie sind am höchsten Punkt des Tritts gebeugt und 2) Ferse des Standbeins ist vom Boden abgehoben.",
+        "Das Trittbein muss mindestens 45° gebeugt sein, bevor es vollständig gestreckt wird.",
+        "Abzüge werden vergeben, wenn: 1) Keine Gesäßhälfte berührt den Boden, 2) Einer der Füße hat keinen Bodenkontakt.",
+        "Abzüge werden vergeben, wenn: 1) Die beiden Oberschenkel sind nicht gekreuzt und geschlossen zusammengeführt, 2) Das Gesäß hat keinen Kontakt zur Wade des sitzenden Beins."
+      ]
+    },
+    {
+      "question": "Zu welcher Technikkategorie gehört Zuò Pán (Sitz mit gekreuzten Beinen)?",
+      "answer": "Stände",
+      "choices": [
+        "Stände",
+        "Sprünge",
+        "Waffentechniken",
+        "Beintechniken"
+      ]
+    }
+  ]
+}

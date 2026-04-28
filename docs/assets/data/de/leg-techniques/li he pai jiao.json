@@ -1,0 +1,41 @@
+{
+  "category": "Beintechniken",
+  "technique_name": "Lǐ Hé Pāi Jiǎo (einwärts geführter Schlagtritt)",
+  "deduction_content": [
+    "Zehen des geschlagenen Fußes sind nicht über Schulterhöhe",
+    "Der Schlag wird verfehlt und/oder ist nicht hörbar"
+  ],
+  "code": "25",
+  "questions": [
+    {
+      "question": "Wie lautet der Fehlercode für Lǐ Hé Pāi Jiǎo (einwärts geführter Schlagtritt)?",
+      "answer": "25",
+      "choices": [
+        "02",
+        "03",
+        "25",
+        "04"
+      ]
+    },
+    {
+      "question": "Welche Abzugspunkte gelten für Lǐ Hé Pāi Jiǎo (einwärts geführter Schlagtritt)?",
+      "answer": "Abzüge werden vergeben, wenn: 1) Zehen des geschlagenen Fußes sind nicht über Schulterhöhe, 2) Der Schlag wird verfehlt und/oder ist nicht hörbar.",
+      "choices": [
+        "Ein Abzug wird vergeben, wenn Das Trittbein geht nicht aus einer deutlichen Beugung von 45° oder mehr in eine vollständig gestreckte Position über.",
+        "Die Sohle des Schwungfußes soll während der gesamten Schwungbewegung Bodenkontakt halten.",
+        "Abzüge werden vergeben, wenn: 1) Zehen des geschlagenen Fußes sind nicht über Schulterhöhe, 2) Der Schlag wird verfehlt und/oder ist nicht hörbar.",
+        "Abzüge werden vergeben, wenn: 1) Zehen des geschlagenen Fußes sind nicht über Schulterhöhe, 2) Der Schlag wird verfehlt und/oder ist nicht hörbar."
+      ]
+    },
+    {
+      "question": "Zu welcher Technikkategorie gehört Lǐ Hé Pāi Jiǎo (einwärts geführter Schlagtritt)?",
+      "answer": "Beintechniken",
+      "choices": [
+        "Stände",
+        "Beintechniken",
+        "Sprünge",
+        "Waffentechniken"
+      ]
+    }
+  ]
+}

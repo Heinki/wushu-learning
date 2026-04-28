@@ -1,0 +1,40 @@
+{
+  "category": "Waffentechniken",
+  "technique_name": "Lì Wǔ Huā Gùn (vertikale Acht mit dem Stock)",
+  "deduction_content": [
+    "Der Stock rotiert nicht in einer deutlich erkennbaren vertikalen Ebene"
+  ],
+  "code": "65",
+  "questions": [
+    {
+      "question": "Wie lautet der Fehlercode für Lì Wǔ Huā Gùn (vertikale Acht mit dem Stock)?",
+      "answer": "65",
+      "choices": [
+        "65",
+        "04",
+        "16",
+        "01"
+      ]
+    },
+    {
+      "question": "Welche Abzugspunkte gelten für Lì Wǔ Huā Gùn (vertikale Acht mit dem Stock)?",
+      "answer": "Abzüge werden vergeben, wenn: 1) Der Stock rotiert nicht in einer deutlich erkennbaren vertikalen Ebene.",
+      "choices": [
+        "Die Ferse des Standbeins soll während des gesamten Tritts auf dem Boden bleiben.",
+        "Abzüge werden vergeben, wenn: 1) Der Stock rotiert nicht in einer deutlich erkennbaren vertikalen Ebene.",
+        "Die Zehen des geschlagenen Fußes sollen über Schulterhöhe sein und der Schlag soll hörbar sein.",
+        "Abzüge werden vergeben, wenn: 1) Das hängende Bein ist gebeugt, wenn die Zehen des tretenden Beins die Stirn oder höher erreichen, 2) Der Winkel zwischen Oberkörper und hängendem Bein beträgt in diesem Moment weniger als 135 Grad."
+      ]
+    },
+    {
+      "question": "Zu welcher Technikkategorie gehört Lì Wǔ Huā Gùn (vertikale Acht mit dem Stock)?",
+      "answer": "Waffentechniken",
+      "choices": [
+        "Stände",
+        "Sprünge",
+        "Beintechniken",
+        "Waffentechniken"
+      ]
+    }
+  ]
+}

@@ -19,7 +19,7 @@ export class AppComponent {
   constructor() {
     const stored = localStorage.getItem('lang');
     const lang = stored || 'en';
-    this.translate.addLangs(['en', 'zh']);
+    this.translate.addLangs(['en', 'zh', 'de']);
     this.translate.setFallbackLang('en');
     this.translate.use(lang);
 

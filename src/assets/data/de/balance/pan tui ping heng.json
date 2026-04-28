@@ -1,0 +1,60 @@
+{
+  "category": "Gleichgewichtstechniken",
+  "technique_name": "Pán Tuì Píng Héng (Gleichgewicht mit vorn gekreuztem Bein)",
+  "deduction_content": [
+    "Der Oberschenkel des Standbeins ist nicht auf horizontaler Höhe"
+  ],
+  "code": "14",
+  "questions": [
+    {
+      "question": "Wie lautet der Fehlercode für Pán Tuì Píng Héng (Gleichgewicht mit vorn gekreuztem Bein)?",
+      "answer": "14",
+      "choices": [
+        "01",
+        "03",
+        "02",
+        "14"
+      ]
+    },
+    {
+      "question": "Was ist der wichtigste Abzugspunkt für Pán Tuì Píng Héng?",
+      "answer": "Ein Abzug wird vergeben, wenn Der Oberschenkel des Standbeins ist nicht auf horizontaler Höhe.",
+      "choices": [
+        "Ein Abzug wird vergeben, wenn Der Oberschenkel des Standbeins ist nicht auf horizontaler Höhe.",
+        "Abzüge werden vergeben, wenn: 1) Das Schnappbein geht nicht aus einer deutlichen Beugung von 45 Grad oder mehr in eine vollständig gestreckte Position über, 2) Das Schnappbein ist unter horizontaler Höhe.",
+        "Der Oberkörper soll auf oder über horizontaler Höhe sein.",
+        "Die Sohle des vorderen Fußes soll sich nicht nach innen drehen oder den Boden berühren."
+      ]
+    },
+    {
+      "question": "Was ist die korrekte Oberschenkelposition des Standbeins bei Pán Tuì Píng Héng?",
+      "answer": "Der Oberschenkel des Standbeins muss auf horizontaler Höhe sein.",
+      "choices": [
+        "Die Zehen des angehobenen Fußes sollen gestreckt sein und nach innen haken.",
+        "Ein Abzug wird vergeben, wenn Der Oberschenkel des Standbeins ist über horizontaler Höhe.",
+        "Der Oberschenkel des Standbeins muss auf horizontaler Höhe sein.",
+        "Das Trittbein soll in einer Schnappbewegung aus einer deutlich gebeugten Position (45° oder mehr) in eine vollständig gestreckte Position übergehen."
+      ]
+    },
+    {
+      "question": "Wie sollen die Beine bei Pán Tuì Píng Héng positioniert sein?",
+      "answer": "Ein Bein ist das Standbein mit dem Oberschenkel auf horizontaler Höhe, während das andere Bein davor gekreuzt wird.",
+      "choices": [
+        "Abzüge werden vergeben, wenn: 1) Ein Bein oder beide Beine sind in der Luft um 45 Grad oder mehr gebeugt.",
+        "Ein Bein ist das Standbein mit dem Oberschenkel auf horizontaler Höhe, während das andere Bein davor gekreuzt wird.",
+        "Abzüge werden vergeben, wenn: 1) Zehen des geschlagenen Fußes sind nicht über Schulterhöhe, 2) Der Schlag wird verfehlt und/oder ist nicht hörbar.",
+        "Das Trittbein muss mindestens 45° oder mehr gebeugt sein, bevor es vollständig gestreckt wird."
+      ]
+    },
+    {
+      "question": "Warum heißt diese Technik 'Gleichgewicht mit vorn gekreuztem Bein'?",
+      "answer": "Weil ein Bein vor dem Standbein gekreuzt wird, während das Gleichgewicht auf dem Standbein gehalten wird.",
+      "choices": [
+        "Abzüge werden vergeben, wenn: 1) Zehen des geschlagenen Fußes sind nicht über Schulterhöhe und 2) Der Schlag wird verfehlt und/oder ist nicht hörbar.",
+        "Abzüge werden vergeben, wenn: 1) Der Stock rotiert nicht in einer deutlich erkennbaren vertikalen Ebene.",
+        "Weil ein Bein vor dem Standbein gekreuzt wird, während das Gleichgewicht auf dem Standbein gehalten wird.",
+        "Der Spann des angehobenen gebeugten Beins soll flach gestreckt sein und eine klare Neigung zeigen."
+      ]
+    }
+  ]
+}

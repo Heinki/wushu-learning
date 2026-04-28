@@ -1,0 +1,40 @@
+{
+  "category": "Waffentechniken",
+  "technique_name": "Guǒ Nǎo (Wickeln mit dem Säbel)",
+  "deduction_content": [
+    "Der Rücken der Säbelklinge wird beim Wickeln oder Umwinden nicht nah am Körper geführt"
+  ],
+  "code": "62",
+  "questions": [
+    {
+      "question": "Wie lautet der Fehlercode für Guǒ Nǎo (Wickeln mit dem Säbel)?",
+      "answer": "62",
+      "choices": [
+        "01",
+        "03",
+        "02",
+        "62"
+      ]
+    },
+    {
+      "question": "Welche Abzugspunkte gelten für Guǒ Nǎo (Wickeln mit dem Säbel)?",
+      "answer": "Abzüge werden vergeben, wenn: 1) Der Rücken der Säbelklinge wird beim Wickeln oder Umwinden nicht nah am Körper geführt.",
+      "choices": [
+        "Abzüge werden vergeben, wenn: 1) Der Rücken der Säbelklinge wird beim Wickeln oder Umwinden nicht nah am Körper geführt.",
+        "Abzüge werden vergeben, wenn: 1) Ein Bein oder beide Beine sind in der Luft um 45 Grad oder mehr gebeugt.",
+        "Ein Abzug wird vergeben, wenn Das Schwungbein ist um 45° oder mehr gebeugt.",
+        "Ein Bein ist das Standbein mit dem Oberschenkel auf horizontaler Höhe, während das andere Bein davor gekreuzt wird."
+      ]
+    },
+    {
+      "question": "Zu welcher Technikkategorie gehört Guǒ Nǎo (Wickeln mit dem Säbel)?",
+      "answer": "Waffentechniken",
+      "choices": [
+        "Stände",
+        "Sprünge",
+        "Waffentechniken",
+        "Beintechniken"
+      ]
+    }
+  ]
+}

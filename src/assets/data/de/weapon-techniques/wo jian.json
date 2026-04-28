@@ -1,0 +1,40 @@
+{
+  "category": "Waffentechniken",
+  "technique_name": "Wò Jiàn (Griff des geraden Schwerts)",
+  "deduction_content": [
+    "Ein Finger greift oben um den Handschutz und berührt die Klingenkante"
+  ],
+  "code": "61",
+  "questions": [
+    {
+      "question": "Wie lautet der Fehlercode für Wò Jiàn (Griff des geraden Schwerts)?",
+      "answer": "61",
+      "choices": [
+        "61",
+        "54",
+        "53",
+        "52"
+      ]
+    },
+    {
+      "question": "Welche Abzugspunkte gelten für Wò Jiàn (Griff des geraden Schwerts)?",
+      "answer": "Abzüge werden vergeben, wenn: 1) Ein Finger greift oben um den Handschutz und berührt die Klingenkante.",
+      "choices": [
+        "Abzüge werden vergeben, wenn: 1) Der Oberkörper wird 45° oder mehr über horizontaler Höhe gehalten, 2) Die Taille ist nicht nach hinten in Richtung des Standbeins gedreht und 3) Der Spann des angehobenen gebeugten Beins ist nicht flach gestreckt.",
+        "Abzüge werden vergeben, wenn: 1) Ein Finger greift oben um den Handschutz und berührt die Klingenkante.",
+        "Abzüge werden vergeben, wenn: 1) Die beiden Oberschenkel sind nicht gekreuzt und geschlossen zusammengeführt, 2) Das Gesäß hat keinen Kontakt zur Wade des sitzenden Beins.",
+        "Das Trittbein muss mindestens 45° oder mehr gebeugt sein, bevor es vollständig gestreckt wird."
+      ]
+    },
+    {
+      "question": "Zu welcher Technikkategorie gehört Wò Jiàn (Griff des geraden Schwerts)?",
+      "answer": "Waffentechniken",
+      "choices": [
+        "Beintechniken",
+        "Sprünge",
+        "Stände",
+        "Waffentechniken"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,51 @@
+{
+  "category": "Beintechniken",
+  "technique_name": "Die Shù Chà (fallender Frontspagat)",
+  "deduction_content": [
+    "Die Sohle des vorderen Fußes dreht nach innen und berührt den Boden",
+    "Vorderes und hinteres Bein bilden keine zwei parallelen geraden Linien"
+  ],
+  "code": "22",
+  "questions": [
+    {
+      "question": "Wie lautet der Fehlercode für Die Shù Chà (fallender Frontspagat)?",
+      "answer": "22",
+      "choices": [
+        "63",
+        "62",
+        "61",
+        "22"
+      ]
+    },
+    {
+      "question": "Welche zwei Hauptabzugspunkte gelten für Die Shù Chà?",
+      "answer": "Abzüge werden vergeben, wenn: 1) Die Sohle des vorderen Fußes dreht nach innen und berührt den Boden und 2) Vorderes und hinteres Bein bilden keine zwei parallelen geraden Linien.",
+      "choices": [
+        "Abzüge werden vergeben, wenn: 1) Die Sohle des vorderen Fußes dreht nach innen und berührt den Boden und 2) Vorderes und hinteres Bein bilden keine zwei parallelen geraden Linien.",
+        "Das Trittbein muss mindestens 45° gebeugt sein, bevor es vollständig gestreckt wird.",
+        "Abzüge werden vergeben, wenn: 1) Zehen des geschlagenen Fußes sind nicht über Schulterhöhe, 2) Der Schlag wird verfehlt und/oder ist nicht hörbar.",
+        "Die fünf Finger sollen zusammengefasst sein, und das Handgelenk soll vollständig gehakt sein."
+      ]
+    },
+    {
+      "question": "Was ist die korrekte Fußposition des vorderen Fußes bei Die Shù Chà?",
+      "answer": "Die Sohle des vorderen Fußes soll sich nicht nach innen drehen oder den Boden berühren.",
+      "choices": [
+        "Die fünf Finger sollen zusammengefasst sein, und das Handgelenk soll vollständig gehakt sein.",
+        "Die Sohle des vorderen Fußes soll sich nicht nach innen drehen oder den Boden berühren.",
+        "Das Trittbein soll in einer Schnappbewegung aus einer deutlich gebeugten Position (45° oder mehr) in eine vollständig gestreckte Position übergehen.",
+        "Ein Abzug wird vergeben, wenn Das Trittbein geht nicht aus einer deutlichen Beugung von 45° oder mehr in eine vollständig gestreckte Position über."
+      ]
+    },
+    {
+      "question": "Wie sollen die Beine bei einer korrekten Die Shù Chà-Technik ausgerichtet sein?",
+      "answer": "Vorderes und hinteres Bein sollen zwei parallele gerade Linien bilden.",
+      "choices": [
+        "Die Sohle des Schwungfußes soll während der gesamten Schwungbewegung Bodenkontakt halten und den Boden nach dem Kontakt nicht verlassen.",
+        "Vorderes und hinteres Bein sollen zwei parallele gerade Linien bilden.",
+        "Ein Abzug wird vergeben, wenn Das angehobene Bein wird unter horizontaler Höhe gehalten.",
+        "Das Standbein muss vollständig gestreckt sein, ohne jede Beugung."
+      ]
+    }
+  ]
+}

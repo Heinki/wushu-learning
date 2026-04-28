@@ -1,0 +1,40 @@
+{
+  "category": "Sprünge",
+  "technique_name": "Cè Kōng Fān Zhuǎn Tǐ (Rad ohne Handstütz mit Drehung)",
+  "deduction_content": [
+    "Ein Bein oder beide Beine sind in der Luft um 45 Grad oder mehr gebeugt"
+  ],
+  "code": "32",
+  "questions": [
+    {
+      "question": "Wie lautet der Fehlercode für Cè Kōng Fān Zhuǎn Tǐ (Rad ohne Handstütz mit Drehung)?",
+      "answer": "32",
+      "choices": [
+        "32",
+        "15",
+        "25",
+        "65"
+      ]
+    },
+    {
+      "question": "Welche Abzugspunkte gelten für Cè Kōng Fān Zhuǎn Tǐ (Rad ohne Handstütz mit Drehung)?",
+      "answer": "Abzüge werden vergeben, wenn: 1) Ein Bein oder beide Beine sind in der Luft um 45 Grad oder mehr gebeugt.",
+      "choices": [
+        "Ein Abzug wird vergeben, wenn Der Oberschenkel des Standbeins ist über horizontaler Höhe.",
+        "Abzüge werden vergeben, wenn: 1) Ein Bein oder beide Beine sind in der Luft um 45 Grad oder mehr gebeugt.",
+        "Abzüge werden vergeben, wenn: 1) Vier Finger sind nicht gerade und geschlossen gehalten und 2) Der Daumen ist nicht gebeugt und eng angelegt.",
+        "Die Sohle des Schwungfußes soll während der gesamten Schwungbewegung Bodenkontakt halten."
+      ]
+    },
+    {
+      "question": "Zu welcher Technikkategorie gehört Cè Kōng Fān Zhuǎn Tǐ (Rad ohne Handstütz mit Drehung)?",
+      "answer": "Sprünge",
+      "choices": [
+        "Waffentechniken",
+        "Stände",
+        "Beintechniken",
+        "Sprünge"
+      ]
+    }
+  ]
+}

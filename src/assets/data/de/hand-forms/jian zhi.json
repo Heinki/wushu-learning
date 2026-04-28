@@ -1,0 +1,41 @@
+{
+  "category": "Handformen",
+  "technique_name": "Jiàn Zhi (Schwertfinger)",
+  "deduction_content": [
+    "Zeige- und Mittelfinger sind nicht gerade und zusammen gehalten",
+    "Der Daumen drückt nicht auf Ringfinger und kleinen Finger"
+  ],
+  "code": "04",
+  "questions": [
+    {
+      "question": "Wie lautet der Fehlercode für Jiàn Zhi (Schwertfinger)?",
+      "answer": "04",
+      "choices": [
+        "52",
+        "04",
+        "50",
+        "51"
+      ]
+    },
+    {
+      "question": "Welche zwei Hauptabzugspunkte gelten für Jiàn Zhi (Schwertfinger)?",
+      "answer": "Abzüge werden vergeben, wenn: 1) Zeige- und Mittelfinger sind nicht gerade und zusammen gehalten und 2) Der Daumen drückt nicht auf Ringfinger und kleinen Finger.",
+      "choices": [
+        "Abzüge werden vergeben, wenn: 1) Der Rücken der Säbelklinge wird beim Wickeln oder Umwinden nicht nah am Körper geführt.",
+        "Abzüge werden vergeben, wenn: 1) Zeige- und Mittelfinger sind nicht gerade und zusammen gehalten und 2) Der Daumen drückt nicht auf Ringfinger und kleinen Finger.",
+        "Abzüge werden vergeben, wenn: 1) Das Knie des vorderen Beins befindet sich nicht über dem Spann, 2) Der Oberschenkel des gebeugten vorderen Beins ist nicht parallel zum Boden, 3) Ein Teil der Sohle des hinteren Beins ist deutlich vom Boden abgehoben, 4) Der hintere Fuß ist nicht nach innen gehakt, wobei die Zehen schräg nach vorn zeigen.",
+        "Abzüge werden vergeben, wenn: 1) Die beiden Oberschenkel sind nicht gekreuzt und geschlossen zusammengeführt, 2) Das Gesäß hat keinen Kontakt zur Wade des sitzenden Beins."
+      ]
+    },
+    {
+      "question": "Wie sollen die Finger bei korrekten Jiàn Zhi (Schwertfingern) positioniert sein?",
+      "answer": "Zeige- und Mittelfinger sollen gerade und zusammen gehalten werden, während der Daumen auf Ringfinger und kleinen Finger drückt.",
+      "choices": [
+        "Abzüge werden vergeben, wenn: 1) Der angehobene Unterschenkel dreht nicht schräg nach innen und 2) Die Zehen des angehobenen Fußes sind nicht gestreckt und nach innen gehakt.",
+        "Zeige- und Mittelfinger sollen gerade und zusammen gehalten werden, während der Daumen auf Ringfinger und kleinen Finger drückt.",
+        "Die Ferse des Standbeins soll während des gesamten Tritts auf dem Boden bleiben.",
+        "Ein Bein ist das Standbein mit dem Oberschenkel auf horizontaler Höhe, während das andere Bein davor gekreuzt wird."
+      ]
+    }
+  ]
+}

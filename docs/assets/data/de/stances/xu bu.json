@@ -1,0 +1,41 @@
+{
+  "category": "Stände",
+  "technique_name": "Xū Bù (Leerstand)",
+  "deduction_content": [
+    "Der Oberschenkel des hockenden Beins ist nicht parallel zum Boden",
+    "Die Ferse des Standfußes ist vom Boden abgehoben"
+  ],
+  "code": "52",
+  "questions": [
+    {
+      "question": "Wie lautet der Fehlercode für Xū Bù (Leerstand)?",
+      "answer": "52",
+      "choices": [
+        "01",
+        "52",
+        "03",
+        "02"
+      ]
+    },
+    {
+      "question": "Welche Abzugspunkte gelten für Xū Bù (Leerstand)?",
+      "answer": "Abzüge werden vergeben, wenn: 1) Der Oberschenkel des hockenden Beins ist nicht parallel zum Boden, 2) Die Ferse des Standfußes ist vom Boden abgehoben.",
+      "choices": [
+        "Die Arme sollen ausgebreitet sein und eine kreuzartige Position bilden, daher der Name 'Shi Zi', der Kreuz bedeutet.",
+        "Abzüge werden vergeben, wenn: 1) Die Sohle des vorderen Fußes dreht nach innen und berührt den Boden und 2) Vorderes und hinteres Bein bilden keine zwei parallelen geraden Linien.",
+        "Abzüge werden vergeben, wenn: 1) Der Oberschenkel des hockenden Beins ist nicht parallel zum Boden, 2) Die Ferse des Standfußes ist vom Boden abgehoben.",
+        "Der Daumen soll auf das zweite Glied von Zeige- und Mittelfinger drücken."
+      ]
+    },
+    {
+      "question": "Zu welcher Technikkategorie gehört Xū Bù (Leerstand)?",
+      "answer": "Stände",
+      "choices": [
+        "Stände",
+        "Beintechniken",
+        "Waffentechniken",
+        "Sprünge"
+      ]
+    }
+  ]
+}

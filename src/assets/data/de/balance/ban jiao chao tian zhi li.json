@@ -1,0 +1,41 @@
+{
+  "category": "Gleichgewichtstechniken",
+  "technique_name": "Bán Jiao Chào Tian Zhi Li (Fuß greifen und bei senkrecht gehaltenem Bein auf Kopfhöhe bringen, während man steht)",
+  "deduction_content": [
+    "Standbein gebeugt",
+    "Angehobenes Bein ist gebeugt"
+  ],
+  "code": "10",
+  "questions": [
+    {
+      "question": "Wie lautet der Fehlercode für Bán Jiao Chào Tian Zhi Li?",
+      "answer": "10",
+      "choices": [
+        "63",
+        "10",
+        "61",
+        "60"
+      ]
+    },
+    {
+      "question": "Welche zwei Hauptabzugspunkte gelten für Bán Jiao Chào Tian Zhi Li?",
+      "answer": "Abzüge werden vergeben, wenn: 1) Standbein ist gebeugt und 2) Angehobenes Bein ist gebeugt.",
+      "choices": [
+        "Zeige- und Mittelfinger sollen gerade und zusammen gehalten werden, während der Daumen auf Ringfinger und kleinen Finger drückt.",
+        "Abzüge werden vergeben, wenn: 1) Standbein ist gebeugt und 2) Angehobenes Bein ist gebeugt.",
+        "Abzüge werden vergeben, wenn: 1) Ein Bein oder beide Beine sind in der Luft um 45 Grad oder mehr gebeugt.",
+        "Weil ein Bein vor dem Standbein gekreuzt wird, während das Gleichgewicht auf dem Standbein gehalten wird."
+      ]
+    },
+    {
+      "question": "Wie sollen die Beine bei einer korrekten Bán Jiao Chào Tian Zhi Li-Gleichgewichtstechnik positioniert sein?",
+      "answer": "Sowohl das Standbein als auch das angehobene Bein sollen vollständig gestreckt sein, ohne Beugung in den Knien.",
+      "choices": [
+        "Sowohl das Standbein als auch das angehobene Bein sollen vollständig gestreckt sein, ohne Beugung in den Knien.",
+        "Weil der Körper nach hinten geneigt ist, während mit einem nach vorn angehobenen Bein das Gleichgewicht gehalten wird.",
+        "Die Zehen des geschlagenen Fußes sollen über Schulterhöhe sein und der Schlag soll hörbar sein.",
+        "Abzüge werden vergeben, wenn: 1) Der angehobene Unterschenkel dreht nicht schräg nach innen und 2) Die Zehen des angehobenen Fußes sind nicht gestreckt und nach innen gehakt."
+      ]
+    }
+  ]
+}

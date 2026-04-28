@@ -1,0 +1,41 @@
+{
+  "category": "Beintechniken",
+  "technique_name": "Ti Xi Dú Li (einbeiniges Stehen mit angehobenem Knie)",
+  "deduction_content": [
+    "Zehen des geschlagenen Fußes sind nicht über Schulterhöhe",
+    "Der Schlag wird verfehlt und/oder ist nicht hörbar"
+  ],
+  "code": "25",
+  "questions": [
+    {
+      "question": "Wie lautet der Fehlercode für Ti Xi Dú Li (einbeiniges Stehen mit angehobenem Knie)?",
+      "answer": "25",
+      "choices": [
+        "03",
+        "25",
+        "58",
+        "04"
+      ]
+    },
+    {
+      "question": "Welche zwei Hauptabzugspunkte gelten für Ti Xi Dú Li?",
+      "answer": "Abzüge werden vergeben, wenn: 1) Zehen des geschlagenen Fußes sind nicht über Schulterhöhe und 2) Der Schlag wird verfehlt und/oder ist nicht hörbar.",
+      "choices": [
+        "Die Sohle des Schwungfußes soll während der gesamten Schwungbewegung Bodenkontakt halten und den Boden nach dem Kontakt nicht verlassen.",
+        "Ein Abzug wird vergeben, wenn Das Trittbein geht nicht aus einer deutlichen Beugung von 45° oder mehr in eine vollständig gestreckte Position über.",
+        "Abzüge werden vergeben, wenn: 1) Zehen des geschlagenen Fußes sind nicht über Schulterhöhe und 2) Der Schlag wird verfehlt und/oder ist nicht hörbar.",
+        "Zeige- und Mittelfinger sollen gerade und zusammen gehalten werden, während der Daumen auf Ringfinger und kleinen Finger drückt."
+      ]
+    },
+    {
+      "question": "Was ist die korrekte Fußposition bei Ti Xi Dú Li?",
+      "answer": "Die Zehen des geschlagenen Fußes sollen über Schulterhöhe sein und der Schlag soll hörbar sein.",
+      "choices": [
+        "Die Zehen des geschlagenen Fußes sollen über Schulterhöhe sein und der Schlag soll hörbar sein.",
+        "Ein Bein ist das Standbein mit dem Oberschenkel auf horizontaler Höhe, während das andere Bein davor gekreuzt wird.",
+        "Ein Abzug wird vergeben, wenn Der Oberschenkel des Standbeins ist nicht auf horizontaler Höhe.",
+        "Abzüge werden vergeben, wenn: 1) Der Rücken der Säbelklinge wird beim Wickeln oder Umwinden nicht nah am Körper geführt."
+      ]
+    }
+  ]
+}

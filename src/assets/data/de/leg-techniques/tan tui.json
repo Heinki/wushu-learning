@@ -1,0 +1,50 @@
+{
+  "category": "Beintechniken",
+  "technique_name": "Tán Tuí (Schnapptritt)",
+  "deduction_content": [
+    "Das Trittbein geht nicht aus einer deutlichen Beugung von 45° oder mehr in eine vollständig gestreckte Position über"
+  ],
+  "code": "23",
+  "questions": [
+    {
+      "question": "Wie lautet der Fehlercode für Tán Tuí (Schnapptritt)?",
+      "answer": "23",
+      "choices": [
+        "34",
+        "30",
+        "26",
+        "23"
+      ]
+    },
+    {
+      "question": "Was ist der wichtigste Abzugspunkt für Tán Tuí?",
+      "answer": "Ein Abzug wird vergeben, wenn Das Trittbein geht nicht aus einer deutlichen Beugung von 45° oder mehr in eine vollständig gestreckte Position über.",
+      "choices": [
+        "Abzüge werden vergeben, wenn: 1) Der Stock rotiert nicht in einer deutlich erkennbaren vertikalen Ebene.",
+        "Abzüge werden vergeben, wenn: 1) Ein Finger greift oben um den Handschutz und berührt die Klingenkante.",
+        "Die Arme sollen ausgebreitet sein und eine kreuzartige Position bilden, daher der Name 'Shi Zi', der Kreuz bedeutet.",
+        "Ein Abzug wird vergeben, wenn Das Trittbein geht nicht aus einer deutlichen Beugung von 45° oder mehr in eine vollständig gestreckte Position über."
+      ]
+    },
+    {
+      "question": "Welcher Mindestwinkel gilt für das Trittbein bei Tán Tuí?",
+      "answer": "Das Trittbein muss mindestens 45° gebeugt sein, bevor es vollständig gestreckt wird.",
+      "choices": [
+        "Das angehobene Bein soll auf oder über horizontaler Höhe gehalten werden.",
+        "Das Trittbein muss mindestens 45° gebeugt sein, bevor es vollständig gestreckt wird.",
+        "Die Arme sollen ausgebreitet sein und eine kreuzartige Position bilden, daher der Name 'Shi Zi', der Kreuz bedeutet.",
+        "Das Bein soll am höchsten Punkt des Tritts vollständig gestreckt sein, ohne Beugung im Knie."
+      ]
+    },
+    {
+      "question": "Wie wird Tán Tuí korrekt ausgeführt?",
+      "answer": "Das Trittbein soll in einer Schnappbewegung aus einer deutlich gebeugten Position (45° oder mehr) in eine vollständig gestreckte Position übergehen.",
+      "choices": [
+        "Abzüge werden vergeben, wenn: 1) Die beiden Oberschenkel sind nicht gekreuzt und geschlossen zusammengeführt, 2) Das Gesäß hat keinen Kontakt zur Wade des sitzenden Beins.",
+        "Das Trittbein soll in einer Schnappbewegung aus einer deutlich gebeugten Position (45° oder mehr) in eine vollständig gestreckte Position übergehen.",
+        "Vorderes und hinteres Bein sollen zwei parallele gerade Linien bilden.",
+        "Ein Abzug wird vergeben, wenn Das angehobene Bein wird unter horizontaler Höhe gehalten."
+      ]
+    }
+  ]
+}

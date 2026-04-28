@@ -1,0 +1,41 @@
+{
+  "category": "Gleichgewichtstechniken",
+  "technique_name": "Cé Ti Bảo Jiáo Zhi Li (Seittritt nach oben, Fuß auf Kopfhöhe fangen, Bein senkrecht halten und stehen bleiben)",
+  "deduction_content": [
+    "Standbein gebeugt",
+    "Angehobenes Bein ist gebeugt"
+  ],
+  "code": "10",
+  "questions": [
+    {
+      "question": "Wie lautet der Fehlercode für Cé Ti Bảo Jiáo Zhi Li (Seittritt nach oben, Fuß auf Kopfhöhe fangen)?",
+      "answer": "10",
+      "choices": [
+        "65",
+        "66",
+        "10",
+        "64"
+      ]
+    },
+    {
+      "question": "Welche zwei Hauptabzugspunkte gelten für Cé Ti Bảo Jiáo Zhi Li?",
+      "answer": "Abzüge werden vergeben, wenn: 1) Standbein ist gebeugt und 2) Angehobenes Bein ist gebeugt.",
+      "choices": [
+        "Ein Abzug wird vergeben, wenn Das Schwungbein ist um 45° oder mehr gebeugt.",
+        "Abzüge werden vergeben, wenn: 1) Standbein ist gebeugt und 2) Angehobenes Bein ist gebeugt.",
+        "Ein Abzug wird vergeben, wenn Das Trittbein geht nicht aus einer deutlichen Beugung von 45° oder mehr in eine vollständig gestreckte Position über.",
+        "Weil ein Bein vor dem Standbein gekreuzt wird, während das Gleichgewicht auf dem Standbein gehalten wird."
+      ]
+    },
+    {
+      "question": "Wie sollen beide Beine bei einer korrekten Cé Ti Bảo Jiáo Zhi Li-Gleichgewichtstechnik positioniert sein?",
+      "answer": "Sowohl das Standbein als auch das angehobene Bein sollen vollständig gestreckt sein, ohne Beugung in den Knien.",
+      "choices": [
+        "Sowohl das Standbein als auch das angehobene Bein sollen vollständig gestreckt sein, ohne Beugung in den Knien.",
+        "Ein Abzug wird vergeben, wenn Das angehobene Bein wird unter horizontaler Höhe gehalten.",
+        "Die Zehen des angehobenen Fußes sollen gestreckt sein und nach innen haken.",
+        "Abzüge werden vergeben, wenn: 1) Die Speerspitze bewegt sich nicht in einem klar definierten Bogen, 2) Das hintere Ende des Speers ragt aus dem Griff heraus, 3) Stoßarm und Speerschaft bilden keine horizontale gerade Linie."
+      ]
+    }
+  ]
+}

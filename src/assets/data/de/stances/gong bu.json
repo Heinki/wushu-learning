@@ -1,0 +1,43 @@
+{
+  "category": "Stände",
+  "technique_name": "Gōng Bù (Bogenstand)",
+  "deduction_content": [
+    "Das Knie des vorderen Beins befindet sich nicht über dem Spann",
+    "Der Oberschenkel des gebeugten vorderen Beins ist nicht parallel zum Boden",
+    "Ein Teil der Sohle des hinteren Beins ist deutlich vom Boden abgehoben",
+    "Der hintere Fuß ist nicht nach innen gehakt, wobei die Zehen schräg nach vorn zeigen"
+  ],
+  "code": "50",
+  "questions": [
+    {
+      "question": "Wie lautet der Fehlercode für Gōng Bù (Bogenstand)?",
+      "answer": "50",
+      "choices": [
+        "13",
+        "12",
+        "50",
+        "10"
+      ]
+    },
+    {
+      "question": "Welche Abzugspunkte gelten für Gōng Bù (Bogenstand)?",
+      "answer": "Abzüge werden vergeben, wenn: 1) Das Knie des vorderen Beins befindet sich nicht über dem Spann, 2) Der Oberschenkel des gebeugten vorderen Beins ist nicht parallel zum Boden, 3) Ein Teil der Sohle des hinteren Beins ist deutlich vom Boden abgehoben, 4) Der hintere Fuß ist nicht nach innen gehakt, wobei die Zehen schräg nach vorn zeigen.",
+      "choices": [
+        "Abzüge werden vergeben, wenn: 1) Standbein ist gebeugt und 2) Angehobenes Bein ist gebeugt.",
+        "Abzüge werden vergeben, wenn: 1) Das Knie des vorderen Beins befindet sich nicht über dem Spann, 2) Der Oberschenkel des gebeugten vorderen Beins ist nicht parallel zum Boden, 3) Ein Teil der Sohle des hinteren Beins ist deutlich vom Boden abgehoben, 4) Der hintere Fuß ist nicht nach innen gehakt, wobei die Zehen schräg nach vorn zeigen.",
+        "Abzüge werden vergeben, wenn: 1) Gerades Schwert und Unterarm oder Handgelenk liegen auf einer Linie, 2) Es wird kein klar erkennbarer vertikaler Kreis gebildet.",
+        "Abzüge werden vergeben, wenn: 1) Zehen des geschlagenen Fußes sind nicht über Schulterhöhe, 2) Der Schlag wird verfehlt und/oder ist nicht hörbar."
+      ]
+    },
+    {
+      "question": "Zu welcher Technikkategorie gehört Gōng Bù (Bogenstand)?",
+      "answer": "Stände",
+      "choices": [
+        "Sprünge",
+        "Beintechniken",
+        "Waffentechniken",
+        "Stände"
+      ]
+    }
+  ]
+}

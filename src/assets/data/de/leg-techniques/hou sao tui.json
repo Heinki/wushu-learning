@@ -1,0 +1,41 @@
+{
+  "category": "Beintechniken",
+  "technique_name": "Hou Sao Tui (Rückwärtsschwung)",
+  "deduction_content": [
+    "Die Sohle des Schwungfußes verlässt nach dem Kontakt für die Schwungbewegung den Boden",
+    "Schwungbein ist um 45° oder mehr gebeugt"
+  ],
+  "code": "21",
+  "questions": [
+    {
+      "question": "Wie lautet der Fehlercode für Hou Sao Tui (Rückwärtsschwung)?",
+      "answer": "21",
+      "choices": [
+        "13",
+        "12",
+        "21",
+        "10"
+      ]
+    },
+    {
+      "question": "Welche zwei Hauptabzugspunkte gelten für Hou Sao Tui?",
+      "answer": "Abzüge werden vergeben, wenn: 1) Die Sohle des Schwungfußes verlässt nach dem Kontakt den Boden und 2) Das Schwungbein ist um 45° oder mehr gebeugt.",
+      "choices": [
+        "Abzüge werden vergeben, wenn: 1) Oberschenkel sind nicht horizontal, 2) Der Abstand zwischen den Innenseiten der beiden Füße ist kleiner als die Schulterbreite der ausführenden Person, 3) Ein Knie oder beide Knie knicken nach innen ein, 4) Eine oder beide Fersen sind vom Boden abgehoben, 5) Zehen eines Fußes oder beider Füße zeigen 45 Grad oder mehr nach außen.",
+        "Abzüge werden vergeben, wenn: 1) Gerades Schwert und Unterarm oder Handgelenk liegen auf einer Linie, 2) Es wird kein klar erkennbarer vertikaler Kreis gebildet.",
+        "Abzüge werden vergeben, wenn: 1) Die Sohle des Schwungfußes verlässt nach dem Kontakt den Boden und 2) Das Schwungbein ist um 45° oder mehr gebeugt.",
+        "Der Spann des angehobenen gebeugten Beins soll flach gestreckt sein und eine klare Neigung zeigen."
+      ]
+    },
+    {
+      "question": "Was ist die korrekte Fußposition während eines Hou Sao Tui-Schwungs?",
+      "answer": "Die Sohle des Schwungfußes soll während der gesamten Schwungbewegung Bodenkontakt halten.",
+      "choices": [
+        "Abzüge werden vergeben, wenn: 1) Der Speer rotiert nicht in einer deutlich erkennbaren vertikalen Ebene.",
+        "Abzüge werden vergeben, wenn: 1) Faustfläche ist uneben und 2) Der Daumen drückt nicht auf das zweite Glied von Zeige- und Mittelfinger.",
+        "Weil der Körper nach hinten geneigt ist, während mit einem nach vorn angehobenen Bein das Gleichgewicht gehalten wird.",
+        "Die Sohle des Schwungfußes soll während der gesamten Schwungbewegung Bodenkontakt halten."
+      ]
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "category": "Sprünge",
+  "technique_name": "Téng Kōng Bǎi Lián (gesprungener Lotus-Schlagtritt)",
+  "deduction_content": [
+    "Zehen des geschlagenen Fußes sind nicht über Schulterhöhe",
+    "Der Schlag wird verfehlt und/oder ist nicht hörbar"
+  ],
+  "code": "30",
+  "questions": [
+    {
+      "question": "Wie lautet der Fehlercode für Téng Kōng Bǎi Lián (gesprungener Lotus-Schlagtritt)?",
+      "answer": "30",
+      "choices": [
+        "34",
+        "26",
+        "31",
+        "30"
+      ]
+    },
+    {
+      "question": "Welche Abzugspunkte gelten für Téng Kōng Bǎi Lián (gesprungener Lotus-Schlagtritt)?",
+      "answer": "Abzüge werden vergeben, wenn: 1) Zehen des geschlagenen Fußes sind nicht über Schulterhöhe, 2) Der Schlag wird verfehlt und/oder ist nicht hörbar.",
+      "choices": [
+        "Abzüge werden vergeben, wenn: 1) Zehen des geschlagenen Fußes sind nicht über Schulterhöhe, 2) Der Schlag wird verfehlt und/oder ist nicht hörbar.",
+        "Abzüge werden vergeben, wenn: 1) Gerades Schwert und Unterarm oder Handgelenk liegen auf einer Linie, 2) Es wird kein klar erkennbarer vertikaler Kreis gebildet.",
+        "Abzüge werden vergeben, wenn: 1) Zehen des geschlagenen Fußes sind nicht über Schulterhöhe, 2) Der Schlag wird verfehlt und/oder ist nicht hörbar.",
+        "Weil der Körper nach hinten geneigt ist, während mit einem nach vorn angehobenen Bein das Gleichgewicht gehalten wird."
+      ]
+    },
+    {
+      "question": "Zu welcher Technikkategorie gehört Téng Kōng Bǎi Lián (gesprungener Lotus-Schlagtritt)?",
+      "answer": "Sprünge",
+      "choices": [
+        "Sprünge",
+        "Beintechniken",
+        "Stände",
+        "Waffentechniken"
+      ]
+    }
+  ]
+}

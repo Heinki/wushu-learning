@@ -1,0 +1,42 @@
+{
+  "category": "Waffentechniken",
+  "technique_name": "Zhā Qiāng (Speerstoß)",
+  "deduction_content": [
+    "Die Speerspitze bewegt sich nicht in einem klar definierten Bogen",
+    "Das hintere Ende des Speers ragt aus dem Griff heraus",
+    "Stoßarm und Speerschaft bilden keine horizontale gerade Linie"
+  ],
+  "code": "63",
+  "questions": [
+    {
+      "question": "Wie lautet der Fehlercode für Zhā Qiāng (Speerstoß)?",
+      "answer": "63",
+      "choices": [
+        "63",
+        "26",
+        "24",
+        "25"
+      ]
+    },
+    {
+      "question": "Welche Abzugspunkte gelten für Zhā Qiāng (Speerstoß)?",
+      "answer": "Abzüge werden vergeben, wenn: 1) Die Speerspitze bewegt sich nicht in einem klar definierten Bogen, 2) Das hintere Ende des Speers ragt aus dem Griff heraus, 3) Stoßarm und Speerschaft bilden keine horizontale gerade Linie.",
+      "choices": [
+        "Abzüge werden vergeben, wenn: 1) Der Rücken der Säbelklinge wird beim Wickeln oder Umwinden nicht nah am Körper geführt.",
+        "Abzüge werden vergeben, wenn: 1) Der angehobene Unterschenkel dreht nicht schräg nach innen und 2) Die Zehen des angehobenen Fußes sind nicht gestreckt und nach innen gehakt.",
+        "Abzüge werden vergeben, wenn: 1) Gerades Schwert und Unterarm oder Handgelenk liegen auf einer Linie, 2) Es wird kein klar erkennbarer vertikaler Kreis gebildet.",
+        "Abzüge werden vergeben, wenn: 1) Die Speerspitze bewegt sich nicht in einem klar definierten Bogen, 2) Das hintere Ende des Speers ragt aus dem Griff heraus, 3) Stoßarm und Speerschaft bilden keine horizontale gerade Linie."
+      ]
+    },
+    {
+      "question": "Zu welcher Technikkategorie gehört Zhā Qiāng (Speerstoß)?",
+      "answer": "Waffentechniken",
+      "choices": [
+        "Beintechniken",
+        "Waffentechniken",
+        "Sprünge",
+        "Stände"
+      ]
+    }
+  ]
+}

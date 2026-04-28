@@ -1,0 +1,41 @@
+{
+  "category": "Waffentechniken",
+  "technique_name": "Qì Xiè Pāo Jiē (Waffe werfen und fangen)",
+  "deduction_content": [
+    "Die Waffe wird umklammernd gefangen",
+    "Das gerade Schwert oder der Säbel wird nicht am Griff gefangen, oder Stock beziehungsweise Speerschaft werden nicht mit einer Hand gefangen"
+  ],
+  "code": "66",
+  "questions": [
+    {
+      "question": "Wie lautet der Fehlercode für Qì Xiè Pāo Jiē (Waffe werfen und fangen)?",
+      "answer": "66",
+      "choices": [
+        "16",
+        "14",
+        "15",
+        "66"
+      ]
+    },
+    {
+      "question": "Welche Abzugspunkte gelten für Qì Xiè Pāo Jiē (Waffe werfen und fangen)?",
+      "answer": "Abzüge werden vergeben, wenn: 1) Die Waffe wird umklammernd gefangen, 2) Das gerade Schwert oder der Säbel wird nicht am Griff gefangen, oder Stock beziehungsweise Speerschaft werden nicht mit einer Hand gefangen.",
+      "choices": [
+        "Abzüge werden vergeben, wenn: 1) Die Waffe wird umklammernd gefangen, 2) Das gerade Schwert oder der Säbel wird nicht am Griff gefangen, oder Stock beziehungsweise Speerschaft werden nicht mit einer Hand gefangen.",
+        "Abzüge werden vergeben, wenn: 1) Ein Bein oder beide Beine sind in der Luft um 45 Grad oder mehr gebeugt.",
+        "Die fünf Finger sollen zusammengefasst sein, und das Handgelenk soll vollständig gehakt sein.",
+        "Abzüge werden vergeben, wenn: 1) Das hängende Bein ist gebeugt, wenn die Zehen des tretenden Beins die Stirn oder höher erreichen, 2) Der Winkel zwischen Oberkörper und hängendem Bein beträgt in diesem Moment weniger als 135 Grad."
+      ]
+    },
+    {
+      "question": "Zu welcher Technikkategorie gehört Qì Xiè Pāo Jiē (Waffe werfen und fangen)?",
+      "answer": "Waffentechniken",
+      "choices": [
+        "Sprünge",
+        "Stände",
+        "Waffentechniken",
+        "Beintechniken"
+      ]
+    }
+  ]
+}

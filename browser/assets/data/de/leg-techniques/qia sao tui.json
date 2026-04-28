@@ -1,0 +1,52 @@
+{
+  "category": "Beintechniken",
+  "technique_name": "Qian Sao Tui (Vorwärtsschwung)",
+  "deduction_content": [
+    "Der Oberschenkel des Standbeins ist über horizontaler Höhe",
+    "Die Sohle des Schwungfußes verlässt nach dem Kontakt für die Schwungbewegung den Boden",
+    "Schwungbein ist um 45° oder mehr gebeugt"
+  ],
+  "code": "20",
+  "questions": [
+    {
+      "question": "Wie lautet der Fehlercode für Qian Sao Tui (Vorwärtsschwung)?",
+      "answer": "20",
+      "choices": [
+        "66",
+        "20",
+        "16",
+        "64"
+      ]
+    },
+    {
+      "question": "Welcher Abzug erfolgt, wenn der Oberschenkel des Standbeins über horizontaler Höhe ist?",
+      "answer": "Ein Abzug wird vergeben, wenn Der Oberschenkel des Standbeins ist über horizontaler Höhe.",
+      "choices": [
+        "Ein Abzug wird vergeben, wenn Der Oberschenkel des Standbeins ist über horizontaler Höhe.",
+        "Das Standbein muss vollständig gestreckt sein, ohne jede Beugung.",
+        "Abzüge werden vergeben, wenn: 1) Oberschenkel sind nicht horizontal, 2) Der Abstand zwischen den Innenseiten der beiden Füße ist kleiner als die Schulterbreite der ausführenden Person, 3) Ein Knie oder beide Knie knicken nach innen ein, 4) Eine oder beide Fersen sind vom Boden abgehoben, 5) Zehen eines Fußes oder beider Füße zeigen 45 Grad oder mehr nach außen.",
+        "Die fünf Finger sollen zusammengefasst sein, und das Handgelenk soll vollständig gehakt sein."
+      ]
+    },
+    {
+      "question": "Ab welcher Beugung des Schwungbeins gibt es einen Abzug?",
+      "answer": "Ein Abzug wird vergeben, wenn Das Schwungbein ist um 45° oder mehr gebeugt.",
+      "choices": [
+        "Die vier Finger sollen gerade und geschlossen gehalten werden, während der Daumen gebeugt und eng am Tigermaul-Bereich angelegt ist.",
+        "Ein Abzug wird vergeben, wenn Das Schwungbein ist um 45° oder mehr gebeugt.",
+        "Abzüge werden vergeben, wenn: 1) Der Speer rotiert nicht in einer deutlich erkennbaren vertikalen Ebene.",
+        "Das Standbein muss vollständig gestreckt sein, ohne jede Beugung."
+      ]
+    },
+    {
+      "question": "Was ist die korrekte Fußposition während des Schwungs?",
+      "answer": "Die Sohle des Schwungfußes soll während der gesamten Schwungbewegung Bodenkontakt halten und den Boden nach dem Kontakt nicht verlassen.",
+      "choices": [
+        "Die Sohle des Schwungfußes soll während der gesamten Schwungbewegung Bodenkontakt halten und den Boden nach dem Kontakt nicht verlassen.",
+        "Ein Abzug wird vergeben, wenn Das Schwungbein ist um 45° oder mehr gebeugt.",
+        "Das Trittbein muss mindestens 45° oder mehr gebeugt sein, bevor es vollständig gestreckt wird.",
+        "Ein Abzug wird vergeben, wenn Das Trittbein geht nicht aus einer deutlichen Beugung von 45° oder mehr in eine vollständig gestreckte Position über."
+      ]
+    }
+  ]
+}

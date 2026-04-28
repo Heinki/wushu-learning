@@ -1,0 +1,41 @@
+{
+  "category": "Gleichgewichtstechniken",
+  "technique_name": "Cé Shèn Píng Héng (seitlich geneigtes Gleichgewicht)",
+  "deduction_content": [
+    "Standbein gebeugt",
+    "Angehobenes Bein ist gebeugt"
+  ],
+  "code": "15",
+  "questions": [
+    {
+      "question": "Wie lautet der Fehlercode für Cé Shèn Píng Héng (seitlich geneigtes Gleichgewicht)?",
+      "answer": "15",
+      "choices": [
+        "15",
+        "50",
+        "66",
+        "64"
+      ]
+    },
+    {
+      "question": "Welche zwei Hauptabzugspunkte gelten für Cé Shèn Píng Héng?",
+      "answer": "Abzüge werden vergeben, wenn: 1) Standbein ist gebeugt und 2) Angehobenes Bein ist gebeugt.",
+      "choices": [
+        "Abzüge werden vergeben, wenn: 1) Standbein ist gebeugt und 2) Angehobenes Bein ist gebeugt.",
+        "Abzüge werden vergeben, wenn: 1) Zehen des geschlagenen Fußes sind nicht über Schulterhöhe, 2) Der Schlag wird verfehlt und/oder ist nicht hörbar.",
+        "Die Ferse des Standbeins soll während des gesamten Tritts auf dem Boden bleiben.",
+        "Der Daumen soll auf das zweite Glied von Zeige- und Mittelfinger drücken."
+      ]
+    },
+    {
+      "question": "Wie sollen beide Beine bei einer korrekten Cé Shèn Píng Héng-Gleichgewichtstechnik positioniert sein?",
+      "answer": "Sowohl das Standbein als auch das angehobene Bein sollen vollständig gestreckt sein, ohne Beugung in den Knien.",
+      "choices": [
+        "Abzüge werden vergeben, wenn: 1) Keine Gesäßhälfte berührt den Boden, 2) Einer der Füße hat keinen Bodenkontakt.",
+        "Sowohl das Standbein als auch das angehobene Bein sollen vollständig gestreckt sein, ohne Beugung in den Knien.",
+        "Abzüge werden vergeben, wenn: 1) Ein Knie oder beide Knie sind am höchsten Punkt des Tritts gebeugt und 2) Ferse des Standbeins ist vom Boden abgehoben.",
+        "Abzüge werden vergeben, wenn: 1) Das Knie des vorderen Beins befindet sich nicht über dem Spann, 2) Der Oberschenkel des gebeugten vorderen Beins ist nicht parallel zum Boden, 3) Ein Teil der Sohle des hinteren Beins ist deutlich vom Boden abgehoben, 4) Der hintere Fuß ist nicht nach innen gehakt, wobei die Zehen schräg nach vorn zeigen."
+      ]
+    }
+  ]
+}

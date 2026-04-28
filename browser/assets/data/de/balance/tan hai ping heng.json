@@ -1,0 +1,41 @@
+{
+  "category": "Gleichgewichtstechniken",
+  "technique_name": "Tân Hải Píng Héng (Meer-erkundendes Gleichgewicht)",
+  "deduction_content": [
+    "Standbein gebeugt",
+    "Angehobenes Bein ist gebeugt"
+  ],
+  "code": "15",
+  "questions": [
+    {
+      "question": "Wie lautet der Fehlercode für Tân Hải Píng Héng (Meer-erkundendes Gleichgewicht)?",
+      "answer": "15",
+      "choices": [
+        "20",
+        "15",
+        "58",
+        "21"
+      ]
+    },
+    {
+      "question": "Welche zwei Hauptabzugspunkte gelten für Tân Hải Píng Héng?",
+      "answer": "Abzüge werden vergeben, wenn: 1) Standbein ist gebeugt und 2) Angehobenes Bein ist gebeugt.",
+      "choices": [
+        "Abzüge werden vergeben, wenn: 1) Das Knie des vorderen Beins befindet sich nicht über dem Spann, 2) Der Oberschenkel des gebeugten vorderen Beins ist nicht parallel zum Boden, 3) Ein Teil der Sohle des hinteren Beins ist deutlich vom Boden abgehoben, 4) Der hintere Fuß ist nicht nach innen gehakt, wobei die Zehen schräg nach vorn zeigen.",
+        "Abzüge werden vergeben, wenn: 1) Standbein ist gebeugt und 2) Angehobenes Bein ist gebeugt.",
+        "Abzüge werden vergeben, wenn: 1) Die Speerspitze bewegt sich nicht in einem klar definierten Bogen, 2) Das hintere Ende des Speers ragt aus dem Griff heraus, 3) Stoßarm und Speerschaft bilden keine horizontale gerade Linie.",
+        "Die Sohle des Schwungfußes soll während der gesamten Schwungbewegung Bodenkontakt halten und den Boden nach dem Kontakt nicht verlassen."
+      ]
+    },
+    {
+      "question": "Wie sollen beide Beine bei einer korrekten Tân Hải Píng Héng-Gleichgewichtstechnik positioniert sein?",
+      "answer": "Sowohl das Standbein als auch das angehobene Bein sollen vollständig gestreckt sein, ohne Beugung in den Knien.",
+      "choices": [
+        "Sowohl das Standbein als auch das angehobene Bein sollen vollständig gestreckt sein, ohne Beugung in den Knien.",
+        "Die Zehen des geschlagenen Fußes sollen über Schulterhöhe sein und der Schlag soll hörbar sein.",
+        "Vorderes und hinteres Bein sollen zwei parallele gerade Linien bilden.",
+        "Abzüge werden vergeben, wenn: 1) Das schiebende Bein geht nicht aus einer deutlichen Beugung von 45 Grad oder mehr in eine vollständig gestreckte Position über, 2) Das schiebende Bein ist unter horizontaler Höhe."
+      ]
+    }
+  ]
+}

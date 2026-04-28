@@ -1,0 +1,40 @@
+{
+  "category": "Beintechniken",
+  "technique_name": "Dēng Tuí (Fersenschubtritt)",
+  "deduction_content": [
+    "Das Trittbein geht nicht aus einer deutlichen Beugung von 45° oder mehr in eine vollständig gestreckte Position über"
+  ],
+  "code": "23",
+  "questions": [
+    {
+      "question": "Wie lautet der Fehlercode für Dēng Tuí (Fersenschubtritt)?",
+      "answer": "23",
+      "choices": [
+        "61",
+        "62",
+        "23",
+        "60"
+      ]
+    },
+    {
+      "question": "Was ist der wichtigste Abzugspunkt für Dēng Tuí (Fersenschubtritt)?",
+      "answer": "Ein Abzug wird vergeben, wenn Das Trittbein geht nicht aus einer deutlichen Beugung von 45° oder mehr in eine vollständig gestreckte Position über.",
+      "choices": [
+        "Der Oberkörper soll auf oder über horizontaler Höhe sein.",
+        "Ein Abzug wird vergeben, wenn Das Trittbein geht nicht aus einer deutlichen Beugung von 45° oder mehr in eine vollständig gestreckte Position über.",
+        "Die Ferse des Standbeins soll während des gesamten Tritts auf dem Boden bleiben.",
+        "Ein Abzug wird vergeben, wenn Der Oberschenkel des Standbeins ist nicht auf horizontaler Höhe."
+      ]
+    },
+    {
+      "question": "Welcher Mindestwinkel gilt für das gebeugte Bein, bevor es bei Dēng Tuí gestreckt wird?",
+      "answer": "Das Trittbein muss mindestens 45° oder mehr gebeugt sein, bevor es vollständig gestreckt wird.",
+      "choices": [
+        "Weil ein Bein vor dem Standbein gekreuzt wird, während das Gleichgewicht auf dem Standbein gehalten wird.",
+        "Der Oberkörper soll auf oder über horizontaler Höhe sein.",
+        "Das Trittbein muss mindestens 45° oder mehr gebeugt sein, bevor es vollständig gestreckt wird.",
+        "Die Ferse des Standbeins soll während des gesamten Tritts auf dem Boden bleiben."
+      ]
+    }
+  ]
+}

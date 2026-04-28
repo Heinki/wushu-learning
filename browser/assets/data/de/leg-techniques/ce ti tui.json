@@ -1,0 +1,41 @@
+{
+  "category": "Beintechniken",
+  "technique_name": "Cè Ti Tuí (seitlicher Strecktritt)",
+  "deduction_content": [
+    "Ein Knie oder beide Knie sind am höchsten Punkt des Tritts gebeugt",
+    "Ferse des Standbeins ist vom Boden abgehoben"
+  ],
+  "code": "24",
+  "questions": [
+    {
+      "question": "Wie lautet der Fehlercode für Cè Ti Tuí (seitlicher Strecktritt)?",
+      "answer": "24",
+      "choices": [
+        "33",
+        "32",
+        "24",
+        "34"
+      ]
+    },
+    {
+      "question": "Welche zwei Hauptabzugspunkte gelten für Cè Ti Tuí (seitlicher Strecktritt)?",
+      "answer": "Abzüge werden vergeben, wenn: 1) Ein Knie oder beide Knie sind am höchsten Punkt des Tritts gebeugt und 2) Ferse des Standbeins ist vom Boden abgehoben.",
+      "choices": [
+        "Abzüge werden vergeben, wenn: 1) Standbein ist gebeugt und 2) Angehobenes Bein ist gebeugt.",
+        "Abzüge werden vergeben, wenn: 1) Zehen des geschlagenen Fußes sind nicht über Schulterhöhe, 2) Der Schlag wird verfehlt und/oder ist nicht hörbar.",
+        "Abzüge werden vergeben, wenn: 1) Ein Knie oder beide Knie sind am höchsten Punkt des Tritts gebeugt und 2) Ferse des Standbeins ist vom Boden abgehoben.",
+        "Abzüge werden vergeben, wenn: 1) Die Sohle des vorderen Fußes dreht nach innen und berührt den Boden und 2) Vorderes und hinteres Bein bilden keine zwei parallelen geraden Linien."
+      ]
+    },
+    {
+      "question": "Wie soll das Standbein bei einem korrekten Cè Ti Tuí (seitlicher Strecktritt) positioniert sein?",
+      "answer": "Die Ferse des Standbeins soll während des gesamten Tritts auf dem Boden bleiben.",
+      "choices": [
+        "Die Zehen des angehobenen Fußes sollen gestreckt sein und nach innen haken.",
+        "Ein Abzug wird vergeben, wenn Der Oberschenkel des Standbeins ist über horizontaler Höhe.",
+        "Die vier Finger sollen gerade und geschlossen gehalten werden, während der Daumen gebeugt und eng am Tigermaul-Bereich angelegt ist.",
+        "Die Ferse des Standbeins soll während des gesamten Tritts auf dem Boden bleiben."
+      ]
+    }
+  ]
+}

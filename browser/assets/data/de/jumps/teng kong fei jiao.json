@@ -1,0 +1,41 @@
+{
+  "category": "Sprünge",
+  "technique_name": "Téng Kōng Fēi Jiǎo (gesprungener vorderer Schlagtritt)",
+  "deduction_content": [
+    "Zehen des geschlagenen Fußes sind nicht über Schulterhöhe",
+    "Der Schlag wird verfehlt und/oder ist nicht hörbar"
+  ],
+  "code": "30",
+  "questions": [
+    {
+      "question": "Wie lautet der Fehlercode für Téng Kōng Fēi Jiǎo (gesprungener vorderer Schlagtritt)?",
+      "answer": "30",
+      "choices": [
+        "13",
+        "12",
+        "30",
+        "10"
+      ]
+    },
+    {
+      "question": "Welche Abzugspunkte gelten für Téng Kōng Fēi Jiǎo (gesprungener vorderer Schlagtritt)?",
+      "answer": "Abzüge werden vergeben, wenn: 1) Zehen des geschlagenen Fußes sind nicht über Schulterhöhe, 2) Der Schlag wird verfehlt und/oder ist nicht hörbar.",
+      "choices": [
+        "Abzüge werden vergeben, wenn: 1) Die Waffe wird umklammernd gefangen, 2) Das gerade Schwert oder der Säbel wird nicht am Griff gefangen, oder Stock beziehungsweise Speerschaft werden nicht mit einer Hand gefangen.",
+        "Abzüge werden vergeben, wenn: 1) Zehen des geschlagenen Fußes sind nicht über Schulterhöhe, 2) Der Schlag wird verfehlt und/oder ist nicht hörbar.",
+        "Abzüge werden vergeben, wenn: 1) Das Knie des vorderen Beins befindet sich nicht über dem Spann, 2) Der Oberschenkel des gebeugten vorderen Beins ist nicht parallel zum Boden, 3) Ein Teil der Sohle des hinteren Beins ist deutlich vom Boden abgehoben, 4) Der hintere Fuß ist nicht nach innen gehakt, wobei die Zehen schräg nach vorn zeigen.",
+        "Die Sohle des Schwungfußes soll während der gesamten Schwungbewegung Bodenkontakt halten und den Boden nach dem Kontakt nicht verlassen."
+      ]
+    },
+    {
+      "question": "Zu welcher Technikkategorie gehört Téng Kōng Fēi Jiǎo (gesprungener vorderer Schlagtritt)?",
+      "answer": "Sprünge",
+      "choices": [
+        "Stände",
+        "Beintechniken",
+        "Waffentechniken",
+        "Sprünge"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,62 @@
+{
+  "category": "Gleichgewichtstechniken",
+  "technique_name": "Wàng Yuè Píng Héng (Mondbetrachtungs-Gleichgewicht)",
+  "deduction_content": [
+    "Oberkörper wird 45° oder mehr über horizontaler Höhe gehalten",
+    "Die Taille ist nicht nach hinten in Richtung des Standbeins gedreht",
+    "Der Spann des angehobenen gebeugten Beins ist nicht flach gestreckt"
+  ],
+  "code": "16",
+  "questions": [
+    {
+      "question": "Wie lautet der Fehlercode für Wàng Yuè Píng Héng (Mondbetrachtungs-Gleichgewicht)?",
+      "answer": "16",
+      "choices": [
+        "34",
+        "30",
+        "26",
+        "16"
+      ]
+    },
+    {
+      "question": "Welche drei Hauptabzugspunkte gelten für Wàng Yuè Píng Héng?",
+      "answer": "Abzüge werden vergeben, wenn: 1) Der Oberkörper wird 45° oder mehr über horizontaler Höhe gehalten, 2) Die Taille ist nicht nach hinten in Richtung des Standbeins gedreht und 3) Der Spann des angehobenen gebeugten Beins ist nicht flach gestreckt.",
+      "choices": [
+        "Abzüge werden vergeben, wenn: 1) Zehen des geschlagenen Fußes sind nicht über Schulterhöhe, 2) Der Schlag wird verfehlt und/oder ist nicht hörbar.",
+        "Abzüge werden vergeben, wenn: 1) Der Oberkörper wird 45° oder mehr über horizontaler Höhe gehalten, 2) Die Taille ist nicht nach hinten in Richtung des Standbeins gedreht und 3) Der Spann des angehobenen gebeugten Beins ist nicht flach gestreckt.",
+        "Abzüge werden vergeben, wenn: 1) Die Sohle des Schwungfußes verlässt nach dem Kontakt den Boden und 2) Das Schwungbein ist um 45° oder mehr gebeugt.",
+        "Die Taille soll nach hinten in Richtung des Standbeins gedreht sein."
+      ]
+    },
+    {
+      "question": "Was ist die korrekte Oberkörperposition bei Wàng Yuè Píng Héng?",
+      "answer": "Der Oberkörper soll unter 45° zur Horizontalen gehalten werden.",
+      "choices": [
+        "Abzüge werden vergeben, wenn: 1) Gerades Schwert und Unterarm oder Handgelenk liegen auf einer Linie, 2) Es wird kein klar erkennbarer vertikaler Kreis gebildet.",
+        "Abzüge werden vergeben, wenn: 1) Faustfläche ist uneben und 2) Der Daumen drückt nicht auf das zweite Glied von Zeige- und Mittelfinger.",
+        "Der Oberkörper soll unter 45° zur Horizontalen gehalten werden.",
+        "Abzüge werden vergeben, wenn: 1) Standbein ist gebeugt und 2) Angehobenes Bein ist gebeugt."
+      ]
+    },
+    {
+      "question": "Wie soll die Taille bei einer korrekten Wàng Yuè Píng Héng-Gleichgewichtstechnik positioniert sein?",
+      "answer": "Die Taille soll nach hinten in Richtung des Standbeins gedreht sein.",
+      "choices": [
+        "Ein Abzug wird vergeben, wenn Das angehobene Bein wird unter horizontaler Höhe gehalten.",
+        "Abzüge werden vergeben, wenn: 1) Standbein ist gebeugt und 2) Angehobenes Bein ist gebeugt.",
+        "Abzüge werden vergeben, wenn: 1) Faustfläche ist uneben und 2) Der Daumen drückt nicht auf das zweite Glied von Zeige- und Mittelfinger.",
+        "Die Taille soll nach hinten in Richtung des Standbeins gedreht sein."
+      ]
+    },
+    {
+      "question": "Was ist die korrekte Position des angehobenen Beins bei Wàng Yuè Píng Héng?",
+      "answer": "Der Spann des angehobenen gebeugten Beins soll flach gestreckt sein und eine klare Neigung zeigen.",
+      "choices": [
+        "Abzüge werden vergeben, wenn: 1) Ein Bein oder beide Beine sind in der Luft deutlich um 45 Grad oder mehr gebeugt, 2) Der Oberkörper ist während der Drehung 45 Grad oder mehr über der Horizontalen.",
+        "Der Spann des angehobenen gebeugten Beins soll flach gestreckt sein und eine klare Neigung zeigen.",
+        "Der Oberkörper soll auf oder über horizontaler Höhe sein.",
+        "Abzüge werden vergeben, wenn: 1) Die Waffe wird umklammernd gefangen, 2) Das gerade Schwert oder der Säbel wird nicht am Griff gefangen, oder Stock beziehungsweise Speerschaft werden nicht mit einer Hand gefangen."
+      ]
+    }
+  ]
+}

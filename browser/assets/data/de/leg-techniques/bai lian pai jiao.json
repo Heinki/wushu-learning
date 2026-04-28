@@ -1,0 +1,41 @@
+{
+  "category": "Beintechniken",
+  "technique_name": "Bǎi Lián Pāi Jiǎo (Lotus-Schlagtritt)",
+  "deduction_content": [
+    "Zehen des geschlagenen Fußes sind nicht über Schulterhöhe",
+    "Der Schlag wird verfehlt und/oder ist nicht hörbar"
+  ],
+  "code": "25",
+  "questions": [
+    {
+      "question": "Wie lautet der Fehlercode für Bǎi Lián Pāi Jiǎo (Lotus-Schlagtritt)?",
+      "answer": "25",
+      "choices": [
+        "25",
+        "01",
+        "02",
+        "62"
+      ]
+    },
+    {
+      "question": "Welche Abzugspunkte gelten für Bǎi Lián Pāi Jiǎo (Lotus-Schlagtritt)?",
+      "answer": "Abzüge werden vergeben, wenn: 1) Zehen des geschlagenen Fußes sind nicht über Schulterhöhe, 2) Der Schlag wird verfehlt und/oder ist nicht hörbar.",
+      "choices": [
+        "Der Oberschenkel des Standbeins muss auf horizontaler Höhe sein.",
+        "Abzüge werden vergeben, wenn: 1) Zehen des geschlagenen Fußes sind nicht über Schulterhöhe, 2) Der Schlag wird verfehlt und/oder ist nicht hörbar.",
+        "Das Standbein muss vollständig gestreckt sein, ohne jede Beugung.",
+        "Abzüge werden vergeben, wenn: 1) Der Oberkörper wird 45° oder mehr über horizontaler Höhe gehalten, 2) Die Taille ist nicht nach hinten in Richtung des Standbeins gedreht und 3) Der Spann des angehobenen gebeugten Beins ist nicht flach gestreckt."
+      ]
+    },
+    {
+      "question": "Zu welcher Technikkategorie gehört Bǎi Lián Pāi Jiǎo (Lotus-Schlagtritt)?",
+      "answer": "Beintechniken",
+      "choices": [
+        "Sprünge",
+        "Waffentechniken",
+        "Stände",
+        "Beintechniken"
+      ]
+    }
+  ]
+}

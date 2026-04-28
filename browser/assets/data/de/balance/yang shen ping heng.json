@@ -1,0 +1,50 @@
+{
+  "category": "Gleichgewichtstechniken",
+  "technique_name": "Yáng Shèn Píng Héng (rückwärts geneigtes Gleichgewicht)",
+  "deduction_content": [
+    "Das angehobene Bein wird unter horizontaler Höhe gehalten"
+  ],
+  "code": "12",
+  "questions": [
+    {
+      "question": "Wie lautet der Fehlercode für Yáng Shèn Píng Héng (rückwärts geneigtes Gleichgewicht)?",
+      "answer": "12",
+      "choices": [
+        "63",
+        "13",
+        "62",
+        "12"
+      ]
+    },
+    {
+      "question": "Was ist der wichtigste Abzugspunkt für Yáng Shèn Píng Héng?",
+      "answer": "Ein Abzug wird vergeben, wenn Das angehobene Bein wird unter horizontaler Höhe gehalten.",
+      "choices": [
+        "Ein Abzug wird vergeben, wenn Das angehobene Bein wird unter horizontaler Höhe gehalten.",
+        "Die Sohle des Schwungfußes soll während der gesamten Schwungbewegung Bodenkontakt halten und den Boden nach dem Kontakt nicht verlassen.",
+        "Abzüge werden vergeben, wenn: 1) Oberschenkel sind nicht horizontal, 2) Der Abstand zwischen den Innenseiten der beiden Füße ist kleiner als die Schulterbreite der ausführenden Person, 3) Ein Knie oder beide Knie knicken nach innen ein, 4) Eine oder beide Fersen sind vom Boden abgehoben, 5) Zehen eines Fußes oder beider Füße zeigen 45 Grad oder mehr nach außen.",
+        "Die Sohle des Schwungfußes soll während der gesamten Schwungbewegung Bodenkontakt halten."
+      ]
+    },
+    {
+      "question": "Was ist die korrekte Position des angehobenen Beins bei Yáng Shèn Píng Héng?",
+      "answer": "Das angehobene Bein soll auf oder über horizontaler Höhe gehalten werden.",
+      "choices": [
+        "Abzüge werden vergeben, wenn: 1) Vier Finger sind nicht gerade und geschlossen gehalten und 2) Der Daumen ist nicht gebeugt und eng angelegt.",
+        "Das angehobene Bein soll auf oder über horizontaler Höhe gehalten werden.",
+        "Der Daumen soll auf das zweite Glied von Zeige- und Mittelfinger drücken.",
+        "Ein Abzug wird vergeben, wenn Das Trittbein geht nicht aus einer deutlichen Beugung von 45° oder mehr in eine vollständig gestreckte Position über."
+      ]
+    },
+    {
+      "question": "Warum heißt diese Technik 'rückwärts geneigtes Gleichgewicht'?",
+      "answer": "Weil der Körper nach hinten geneigt ist, während mit einem nach vorn angehobenen Bein das Gleichgewicht gehalten wird.",
+      "choices": [
+        "Ein Abzug wird vergeben, wenn Der Oberschenkel des Standbeins ist nicht auf horizontaler Höhe.",
+        "Der Oberschenkel des Standbeins muss auf horizontaler Höhe sein.",
+        "Weil der Körper nach hinten geneigt ist, während mit einem nach vorn angehobenen Bein das Gleichgewicht gehalten wird.",
+        "Abzüge werden vergeben, wenn: 1) Standbein ist gebeugt und 2) Angehobenes Bein ist gebeugt."
+      ]
+    }
+  ]
+}

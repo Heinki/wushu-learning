@@ -1,0 +1,40 @@
+{
+  "category": "Waffentechniken",
+  "technique_name": "Píng Lūn Gùn (horizontales Windmühlen-Schwingen des Stocks mit einer Hand)",
+  "deduction_content": [
+    "Es wird kein klar erkennbarer horizontaler Kreis gebildet"
+  ],
+  "code": "64",
+  "questions": [
+    {
+      "question": "Wie lautet der Fehlercode für Píng Lūn Gùn (horizontales Windmühlen-Schwingen des Stocks mit einer Hand)?",
+      "answer": "64",
+      "choices": [
+        "64",
+        "58",
+        "54",
+        "53"
+      ]
+    },
+    {
+      "question": "Welche Abzugspunkte gelten für Píng Lūn Gùn (horizontales Windmühlen-Schwingen des Stocks mit einer Hand)?",
+      "answer": "Abzüge werden vergeben, wenn: 1) Es wird kein klar erkennbarer horizontaler Kreis gebildet.",
+      "choices": [
+        "Ein Abzug wird vergeben, wenn Der Oberschenkel des Standbeins ist über horizontaler Höhe.",
+        "Der Oberschenkel des Standbeins muss auf horizontaler Höhe sein.",
+        "Abzüge werden vergeben, wenn: 1) Zehen des geschlagenen Fußes sind nicht über Schulterhöhe und 2) Der Schlag wird verfehlt und/oder ist nicht hörbar.",
+        "Abzüge werden vergeben, wenn: 1) Es wird kein klar erkennbarer horizontaler Kreis gebildet."
+      ]
+    },
+    {
+      "question": "Zu welcher Technikkategorie gehört Píng Lūn Gùn (horizontales Windmühlen-Schwingen des Stocks mit einer Hand)?",
+      "answer": "Waffentechniken",
+      "choices": [
+        "Stände",
+        "Waffentechniken",
+        "Sprünge",
+        "Beintechniken"
+      ]
+    }
+  ]
+}

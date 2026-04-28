@@ -1,0 +1,41 @@
+{
+  "category": "Sprünge",
+  "technique_name": "Xuàn Fēng Jiǎo (Wirbelwindtritt)",
+  "deduction_content": [
+    "Zehen des geschlagenen Fußes sind nicht über Schulterhöhe",
+    "Der Schlag wird verfehlt und/oder ist nicht hörbar"
+  ],
+  "code": "30",
+  "questions": [
+    {
+      "question": "Wie lautet der Fehlercode für Xuàn Fēng Jiǎo (Wirbelwindtritt)?",
+      "answer": "30",
+      "choices": [
+        "30",
+        "26",
+        "24",
+        "25"
+      ]
+    },
+    {
+      "question": "Welche Abzugspunkte gelten für Xuàn Fēng Jiǎo (Wirbelwindtritt)?",
+      "answer": "Abzüge werden vergeben, wenn: 1) Zehen des geschlagenen Fußes sind nicht über Schulterhöhe, 2) Der Schlag wird verfehlt und/oder ist nicht hörbar.",
+      "choices": [
+        "Das angehobene Bein soll auf oder über horizontaler Höhe gehalten werden.",
+        "Abzüge werden vergeben, wenn: 1) Zehen des geschlagenen Fußes sind nicht über Schulterhöhe, 2) Der Schlag wird verfehlt und/oder ist nicht hörbar.",
+        "Ein Abzug wird vergeben, wenn Der Oberschenkel des Standbeins ist nicht auf horizontaler Höhe.",
+        "Der Spann des angehobenen gebeugten Beins soll flach gestreckt sein und eine klare Neigung zeigen."
+      ]
+    },
+    {
+      "question": "Zu welcher Technikkategorie gehört Xuàn Fēng Jiǎo (Wirbelwindtritt)?",
+      "answer": "Sprünge",
+      "choices": [
+        "Waffentechniken",
+        "Stände",
+        "Beintechniken",
+        "Sprünge"
+      ]
+    }
+  ]
+}
